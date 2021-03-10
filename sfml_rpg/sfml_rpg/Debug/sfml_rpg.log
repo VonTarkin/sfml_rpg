@@ -1,2 +1,3 @@
-﻿  Button.cpp
+﻿  main.cpp
+C:\Users\jakla\OneDrive\Dokumenty\GitHub\sfml_rpg\sfml_rpg\sfml_rpg\Stats.h(11,2): warning C4091: "typedef ": zignorowano na lewo od "Stats" podczas gdy brak deklaracji zmiennej
   sfml_rpg.vcxproj -> C:\Users\jakla\OneDrive\Dokumenty\GitHub\sfml_rpg\sfml_rpg\Debug\sfml_rpg.exe

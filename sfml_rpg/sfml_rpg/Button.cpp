@@ -7,16 +7,11 @@ Button::Button(float x, float y, std::string type)
 
 	if (type == "skill")
 	{
-		this->xSize = 38;
-		this->ySize = 38;
-		if (!normalTexture.loadFromFile("SkillSquare.png"))
+		if (!normalTexture.loadFromFile("./assets/SkillSquare.png"))
 			std::cout << "SkillSquare texture load error!" << std::endl;
-		if (!triggeredTexture.loadFromFile("SkillSquareTriggered.png"))
+		if (!triggeredTexture.loadFromFile("./assets/SkillSquareTriggered.png"))
 			std::cout << "SkillSquare texture load error!" << std::endl;
 		
-		this->shape.setPosition(sf::Vector2f(x, y));
-		this->shape.setSize(sf::Vector2f(xSize, ySize));
-		this->shape.setFillColor(sf::Color(0,0,0));
 
 
 		this->sprite.setPosition(sf::Vector2f(x, y));
@@ -26,7 +21,7 @@ Button::Button(float x, float y, std::string type)
 
 void Button::Render(sf::RenderTarget* target)
 {
-	target->draw(this->shape);
+
 	target->draw(this->sprite);
 }
 
@@ -34,7 +29,7 @@ void Button::Update(const sf::Vector2f mousePos)
 {
 	if(this->buttonState != BTN_ACTIVE)
 	this->buttonState = BTN_IDLE;
-	if (this->shape.getGlobalBounds().contains(mousePos) && this->buttonState != BTN_ACTIVE)
+	if (this->sprite.getGlobalBounds().contains(mousePos) && this->buttonState != BTN_ACTIVE)
 	{
 		this->buttonState = BTN_HOVER;
 		
@@ -56,7 +51,7 @@ void Button::Update(const sf::Vector2f mousePos)
 		this->sprite.setTexture(triggeredTexture);
 		break;
 	default:
-		std::cout << "SkillSquare default case load error!" << std::endl;
+		std::cout << "SkillSquare default casec error!" << std::endl;
 	}
 }
 
