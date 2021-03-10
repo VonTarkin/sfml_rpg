@@ -1,24 +1,18 @@
 #pragma once
 #include "enums.h"
-#include"SFML/System.hpp"
-#include"SFML/Window.hpp"
-#include"SFML/Graphics.hpp"
-#include <iostream>
-class UnitFrame
+#include "Clickable.h"
+
+class UnitFrame : public Clickable
 {
 public:
 	void Render(sf::RenderTarget* target);
-	void Update(const sf::Vector2f mousePos);
-	const bool isPressed();
-
+	//sf::Vector2f offset;
 	UnitFrame(float x, float y);
 	~UnitFrame();
 
 private:
-	short unsigned buttonState;
-	sf::Sprite unitFrameSprite;
+
 	sf::Sprite characterSprite;
-	sf::Texture normalTexture;
-	sf::Texture triggeredTexture;
+	sf::Texture characterTexture;
 };
 

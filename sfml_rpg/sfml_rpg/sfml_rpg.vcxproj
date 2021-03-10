@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Clickable.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Event.cpp" />
     <ClCompile Include="gameFunctions.cpp" />
@@ -144,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="Animation.h" />
     <ClInclude Include="Button.h" />
+    <ClInclude Include="Clickable.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="enums.h" />
     <ClInclude Include="Event.h" />
