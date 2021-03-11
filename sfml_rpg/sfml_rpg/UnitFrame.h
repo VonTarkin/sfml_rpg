@@ -6,8 +6,8 @@ class UnitFrame : public Clickable
 {
 public:
 	void Render(sf::RenderTarget* target);
-	//sf::Vector2f offset;
-	UnitFrame(float x, float y);
+	UnitFrame(float x, float y, std::string charSpritePath);
+	UnitFrame();
 	~UnitFrame();
 
 private:
