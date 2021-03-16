@@ -1,5 +1,7 @@
 #pragma once
 #include "Entity.h"
+#include "gameFunctions.h"
+#include <array>
 
 class Player : public Entity
 {
@@ -8,6 +10,8 @@ public:
 	~Player();
 	void Render(sf::RenderTarget* renderTarget);
 	void Update(const sf::Vector2f mousePos);
+	void UpdateButtons();
+	int activeButtonIndex;
 
 private:
 	int buttonsAmount = 0;

@@ -17,14 +17,17 @@ Entity::Entity(float x, float y, std::string name)
 	else
 		std::cout << name << textSuffix <<" not opened properly!" << std::endl;
 	this->unitFrame = new UnitFrame(x, y, path + name + spriteSuffix);
+	this->healthBar = new HealthBar(x, y - 50);
 }
 
 void Entity::Render(sf::RenderTarget* renderTarget)
 {
+	this->healthBar->Render(renderTarget);
 	this->unitFrame->Render(renderTarget);
 }
 
 void Entity::Update(const sf::Vector2f mousePos)
 {
+	this->healthBar->Update(float(stats.health / stats.maxHealth));
 	this->unitFrame->Update(mousePos);
 }

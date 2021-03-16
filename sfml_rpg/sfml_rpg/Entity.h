@@ -4,18 +4,21 @@
 #include <fstream>
 #include "Button.h"
 #include "UnitFrame.h";
+#include "HealthBar.h"
+
 class Entity
 {
 public:
 	 Entity(float x, float y, std::string name);
 	 Entity();
 	 UnitFrame* unitFrame;
+	 HealthBar* healthBar;
 	 Stats stats;
 
 	 void Render(sf::RenderTarget* renderTarget);
 	 void Update(const sf::Vector2f mousePos);
-
 protected:
+	
 	std::string path = "./assets/";
 	std::string textSuffix = "Stats.txt";
 	std::fstream file;

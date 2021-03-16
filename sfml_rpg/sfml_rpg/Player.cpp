@@ -29,7 +29,11 @@ void Player::Update(const sf::Vector2f mousePos)
 	for (int i = 0; i < buttonsAmount; i++)
 		nowPressed[i] = buttons[i]->isPressed();
 	
-	//TODO; TURN INTO SEPARATE FUNCTION
+	this->UpdateButtons();
+}
+
+void Player::UpdateButtons()
+{
 	bool changed = false;
 	for (int i = 0; i < buttonsAmount; i++)
 	{
@@ -39,10 +43,8 @@ void Player::Update(const sf::Vector2f mousePos)
 			break;
 		}
 	}
-
 	if (changed)
 	{
-
 		for (int i = 0; i < buttonsAmount; i++)
 		{
 			if (nowPressed[i] == prevPressed[i])
@@ -50,9 +52,10 @@ void Player::Update(const sf::Vector2f mousePos)
 				nowPressed[i] = false;
 				buttons[i]->SetButtonState(nowPressed[i]);
 			}
+			if (nowPressed[i])
+				activeButtonIndex = i;
 			prevPressed[i] = nowPressed[i];
+			
 		}
-
-		
 	}
 }
