@@ -10,7 +10,7 @@ public:
 
 	//void Render(sf::RenderTarget* target);
 	//const bool isPressed();
-
+	Button();
 	Button(float x, float y, std::string type);
 	~Button();
 

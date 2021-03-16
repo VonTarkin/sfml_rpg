@@ -14,7 +14,7 @@ class Clickable
 	void Render(sf::RenderTarget* target);
 	void Update(const sf::Vector2f mousePos);
 	const bool isPressed();
-
+	void SetButtonState(bool state);
 	Clickable() = delete;
 	Clickable(float x, float y);
 

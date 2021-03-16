@@ -9,8 +9,9 @@ public:
 	UnitFrame(float x, float y, std::string charSpritePath);
 	UnitFrame();
 	~UnitFrame();
-
-private:
+	int width = 171;
+	int height = 384;
+protected:
 
 	sf::Sprite characterSprite;
 	sf::Texture characterTexture;

@@ -2,8 +2,7 @@
 #include "Stats.h"
 #include "UnitFrame.h"
 #include <fstream>
-#include <string>
-
+#include "Button.h"
 #include "UnitFrame.h";
 class Entity
 {
@@ -21,6 +20,5 @@ protected:
 	std::string textSuffix = "Stats.txt";
 	std::fstream file;
 	std::string spriteSuffix = "Trans.png";
-
 };
 

@@ -1,7 +1,6 @@
 #include <SFML/Graphics.hpp>
+
 #include "Player.h"
-#include "Button.h"
-#include "Entity.h"
 
 
 
@@ -13,9 +12,8 @@ int main()
 {
 	sf::RenderWindow window(sf::VideoMode(900, 500), "RPG");
 
-	//Button* gamestate_btn = new Button(0, 0, "skill");
-	//UnitFrame* unitFrame_test = new UnitFrame(38, 38);
-	Entity * testEnt = new Entity(20, 80, "Thorne");
+
+	Player* testP = new Player(20, 80, "Thorne");
 	while (window.isOpen())
 	{
 		sf::Event event;
@@ -27,12 +25,9 @@ int main()
 
 		window.clear(sf::Color::White);
 		auto MousePos = sf::Mouse::getPosition(window);
-		testEnt->Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
-		testEnt->Render(&window);
-		/*gamestate_btn->Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
-		gamestate_btn->Render(&window);
-		unitFrame_test->Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
-		unitFrame_test->Render(&window);*/
+
+		testP->Update({static_cast<float>(MousePos.x), static_cast<float>(MousePos.y)});
+		testP->Render(&window);
 
 		window.display();
 

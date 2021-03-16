@@ -43,11 +43,18 @@ void Clickable::Update(const sf::Vector2f mousePos)
 	}
 }
 
-
 const bool Clickable::isPressed()
 {
 	if (this->buttonState == BTN_ACTIVE)
 		return true;
 
 	return false;
+}
+
+void Clickable::SetButtonState(bool state)
+{
+	if (state)
+		this->buttonState = BTN_ACTIVE;
+	else if (!state)
+		this->buttonState = BTN_IDLE;
 }
