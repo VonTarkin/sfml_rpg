@@ -20,5 +20,5 @@ void HealthBar::Render(sf::RenderTarget* target)
 
 void HealthBar::Update(float percentage)
 {
-	barSprite.setScale({percentage, 1});
+	barSprite.setScale({percentage, 1.0f});
 }

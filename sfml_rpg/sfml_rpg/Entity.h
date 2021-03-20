@@ -6,11 +6,15 @@
 #include "UnitFrame.h";
 #include "HealthBar.h"
 
+//skills
+//
+
 class Entity
 {
 public:
 	 Entity(float x, float y, std::string name);
 	 Entity();
+	 ~Entity();
 	 UnitFrame* unitFrame;
 	 HealthBar* healthBar;
 	 Stats stats;

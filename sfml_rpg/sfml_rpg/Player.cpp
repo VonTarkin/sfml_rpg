@@ -11,7 +11,22 @@ Player::Player(float x, float y, std::string name) : Entity(x, y, name)
 		prevPressed[i] = false;
 		nowPressed[i] = false;
 	}
+	this->initializeSkills();
+}
 
+Player::~Player()
+{
+	delete[] prevPressed;
+	delete[] nowPressed;
+	for (int i = 0; i < this->buttonsAmount; i++)
+		delete this->buttons[i];
+}
+
+void Player::initializeSkills()
+{
+	this->skills = new Skill*[buttonsAmount];
+	this->skills[0] = new MeleeAttack();
+	//TODO FREE THIS UP LATER
 }
 
 void Player::Render(sf::RenderTarget* renderTarget)

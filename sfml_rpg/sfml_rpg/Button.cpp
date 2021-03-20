@@ -15,3 +15,8 @@ Button::Button(float x, float y, std::string type) : Clickable(x, y)
 		this->sprite.setTexture(normalTexture);
 	}
 }
+
+Button::~Button()
+{
+
+}

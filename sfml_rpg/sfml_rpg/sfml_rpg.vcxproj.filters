@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pliki nagłówkowe\Skills">
+      <UniqueIdentifier>{1f41f6a7-b936-4fba-8f0c-b016b4ec3ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Skill">
+      <UniqueIdentifier>{89d1c5cc-73dc-47a9-8ea0-679e515c4e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Clickables">
+      <UniqueIdentifier>{ca6c2583-0302-4484-9be0-c2ccb2dea397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Clickables">
+      <UniqueIdentifier>{0121e889-3195-40ad-83e5-d3834dbf30e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,19 +45,7 @@
     <ClCompile Include="GameInstance.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="Button.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="Animation.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="UnitFrame.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="Clickable.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="FightScreen.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="CharacterClass.cpp">
@@ -56,6 +56,21 @@
     </ClCompile>
     <ClCompile Include="HealthBar.cpp">
       <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Pliki źródłowe\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Clickable.cpp">
+      <Filter>Pliki źródłowe\Clickables</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Pliki źródłowe\Clickables</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitFrame.cpp">
+      <Filter>Pliki źródłowe\Clickables</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeAttack.cpp">
+      <Filter>Pliki źródłowe\Skill</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -77,22 +92,10 @@
     <ClInclude Include="GameInstance.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="Button.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
     <ClInclude Include="Animation.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="UnitFrame.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
     <ClInclude Include="enums.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="Clickable.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="FightScreen.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
     <ClInclude Include="CharacterClass.h">
@@ -103,6 +106,21 @@
     </ClInclude>
     <ClInclude Include="HealthBar.h">
       <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Pliki nagłówkowe\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Clickable.h">
+      <Filter>Pliki nagłówkowe\Clickables</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitFrame.h">
+      <Filter>Pliki nagłówkowe\Clickables</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Pliki nagłówkowe\Clickables</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeAttack.h">
+      <Filter>Pliki nagłówkowe\Skills</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

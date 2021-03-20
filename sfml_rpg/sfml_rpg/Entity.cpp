@@ -20,6 +20,18 @@ Entity::Entity(float x, float y, std::string name)
 	this->healthBar = new HealthBar(x, y - 50);
 }
 
+Entity::Entity()
+{
+	this->stats.maxHealth = 1;
+	this->stats.health = 1;
+}
+
+Entity::~Entity()
+{
+	delete this->unitFrame;
+	delete this->healthBar;
+}
+
 void Entity::Render(sf::RenderTarget* renderTarget)
 {
 	this->healthBar->Render(renderTarget);
@@ -28,6 +40,8 @@ void Entity::Render(sf::RenderTarget* renderTarget)
 
 void Entity::Update(const sf::Vector2f mousePos)
 {
-	this->healthBar->Update(float(stats.health / stats.maxHealth));
+	float h = this->stats.health;
+
+	this->healthBar->Update(float(h / stats.maxHealth));
 	this->unitFrame->Update(mousePos);
 }

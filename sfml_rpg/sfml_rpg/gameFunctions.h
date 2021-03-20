@@ -1,4 +1,5 @@
-#pragma once
-#include "Clickable.h"
-void initializeGame();
-void UpdateClickables(int size, bool* prevPressed, bool* nowPressed, Clickable** clickables);
+#pragma 
+#include "Enemy.h"
+#include "Player.h"
+void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies);
+void UpdateUnitFrames(int amount);

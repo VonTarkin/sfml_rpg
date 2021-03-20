@@ -12,6 +12,11 @@ UnitFrame::UnitFrame(float x, float y, std::string charSpritePath) : Clickable(x
 	this->characterSprite.setTexture(characterTexture);
 }
 
+UnitFrame::~UnitFrame()
+{
+
+}
+
 void UnitFrame::Render(sf::RenderTarget* target)
 {
 	Clickable::Render(target);

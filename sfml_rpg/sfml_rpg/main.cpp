@@ -1,7 +1,5 @@
 #include <SFML/Graphics.hpp>
-
-#include "Player.h"
-#include "Enemy.h"
+#include "gameFunctions.h"
 
 
 
@@ -12,17 +10,18 @@
 int main()
 {
 	sf::RenderWindow window(sf::VideoMode(900, 500), "RPG");
-	window.setFramerateLimit(1);
+	window.setFramerateLimit(60);
 
 	Player* testP = new Player(20, 80, "Thorne");
 	Enemy* testE = new Enemy(400, 80, "Xotrios");
-	while (window.isOpen())
+	Fight(window, testP, testE);
+	/*while (window.isOpen())
 	{
 		sf::Event event;
 		while (window.pollEvent(event))
 		{
 			if (event.type == sf::Event::Closed)
-				window.close();
+				window.close();-
 		}
 
 		window.clear(sf::Color::White);
@@ -35,7 +34,7 @@ int main()
 
 		window.display();
 
-	}
+	} */
 
 	return 0;
 }
