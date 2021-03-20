@@ -19,14 +19,17 @@ Player::~Player()
 	delete[] prevPressed;
 	delete[] nowPressed;
 	for (int i = 0; i < this->buttonsAmount; i++)
+	{
 		delete this->buttons[i];
+		delete this->skills[i];
+	}
+	delete skills;
 }
 
 void Player::initializeSkills()
 {
 	this->skills = new Skill*[buttonsAmount];
 	this->skills[0] = new MeleeAttack();
-	//TODO FREE THIS UP LATER
 }
 
 void Player::Render(sf::RenderTarget* renderTarget)

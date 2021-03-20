@@ -25,15 +25,15 @@
     <Filter Include="Pliki źródłowe\Clickables">
       <UniqueIdentifier>{0121e889-3195-40ad-83e5-d3834dbf30e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki nagłówkowe\Entities">
+      <UniqueIdentifier>{3d39a3b6-2a30-4255-ae95-90cffff9d9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Entities">
+      <UniqueIdentifier>{7badb5bc-c08b-4798-b6d2-0b3424f5c7fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="Event.cpp">
@@ -49,9 +49,6 @@
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="CharacterClass.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="HealthBar.cpp">
@@ -72,14 +69,17 @@
     <ClCompile Include="MeleeAttack.cpp">
       <Filter>Pliki źródłowe\Skill</Filter>
     </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Pliki źródłowe\Entities</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Entity.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
     <ClInclude Include="Stats.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
@@ -101,9 +101,6 @@
     <ClInclude Include="CharacterClass.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="Enemy.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
     <ClInclude Include="HealthBar.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
@@ -121,6 +118,15 @@
     </ClInclude>
     <ClInclude Include="MeleeAttack.h">
       <Filter>Pliki nagłówkowe\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -3,6 +3,8 @@
 
 void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies)
 {
+	int turn = 1;
+	Button* attackButton = new Button(191, 200, "function");
 	int activeTargetIndex = -1;
 	int enemiesAmount = sizeof(*enemies) / sizeof(enemies[0]);
 	Entity** entities = new Entity * [enemiesAmount + 1];
@@ -38,6 +40,9 @@ void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies)
 				enemies[i].Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
 				enemies[i].Render(&window);
 			}
+
+			attackButton->Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
+			attackButton->Render(&window);
 			window.display();
 			
 
@@ -62,12 +67,20 @@ void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies)
 						entities[i]->unitFrame->SetButtonState(nowPressed[i]);
 					}
 					if (nowPressed[i])
-					{
 						activeTargetIndex = i;
-					}
+
 					prevPressed[i] = nowPressed[i];
 				}
-			} 
+			}
+
+			if (attackButton->isPressed())
+			{
+				player->skills[player->activeButtonIndex]->function(entities[activeTargetIndex], player->stats.minDMG);
+				attackButton->SetButtonState(false);
+				std::cout << "ATT " << activeTargetIndex << std::endl;
+
+				//attack;
+			}
 			
 
 		}
@@ -75,31 +88,3 @@ void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies)
 		delete[] prevPressed;
 		delete[] nowPressed;
 }
-
-/*void Player::UpdateButtons()
-{
-	bool changed = false;
-	for (int i = 0; i < buttonsAmount; i++)
-	{
-		if (nowPressed[i] != prevPressed[i])
-		{
-			changed = true;
-			break;
-		}
-	}
-	if (changed)
-	{
-		for (int i = 0; i < buttonsAmount; i++)
-		{
-			if (nowPressed[i] == prevPressed[i])
-			{
-				nowPressed[i] = false;
-				buttons[i]->SetButtonState(nowPressed[i]);
-			}
-			if (nowPressed[i])
-				activeButtonIndex = i;
-			prevPressed[i] = nowPressed[i];
-			
-		}
-	}
-}*/

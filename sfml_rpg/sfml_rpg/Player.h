@@ -13,9 +13,9 @@ public:
 	void UpdateButtons();
 	int activeButtonIndex;
 	void initializeSkills();
-
-private:
 	Skill** skills;
+private:
+
 	int buttonsAmount = 0;
 	int selected = NULL;
 	int buttonOffset = 38;
