@@ -5,13 +5,17 @@ Player::Player(float x, float y, std::string name) : Entity(x, y, name)
 	buttonsAmount = sizeof(this->buttons) / sizeof(this->buttons[0]);
 	prevPressed = new bool[buttonsAmount];
 	nowPressed = new bool[buttonsAmount];
+	cooldowns = new int[buttonsAmount];
 	for (int i = 0; i < buttonsAmount; i++)
 	{
 		this->buttons[i] = new Button(this->unitFrame->width + x + buttonOffset * i, y, "skill");
 		prevPressed[i] = false;
 		nowPressed[i] = false;
+		cooldowns[i] = 0;
 	}
 	this->initializeSkills();
+
+
 }
 
 Player::~Player()
@@ -30,7 +34,9 @@ void Player::initializeSkills()
 {
 	this->skills = new Skill*[buttonsAmount];
 	this->skills[0] = new MeleeAttack();
-	this->buttons[0]->SetAdditionalTexture("SkillMeeleAttack");
+	this->buttons[0]->SetAdditionalTexture(this->skills[0]->name);
+	this->skills[1] = new VampireAttack();
+	this->buttons[1]->SetAdditionalTexture(this->skills[1]->name);
 }
 
 void Player::Render(sf::RenderTarget* renderTarget)
@@ -77,4 +83,23 @@ void Player::UpdateButtons()
 			
 		}
 	}
+}
+
+int Player::CheckCooldown(int index)
+{
+	return cooldowns[index];
+}
+
+void Player::DecrementCooldowns()
+{
+	for (int i = 0; i < buttonsAmount; i++)
+	{
+		if (cooldowns[i] > 0)
+			cooldowns[i]--;
+	}
+}
+
+void Player::SetCooldown(int index, int cooldown)
+{
+	cooldowns[index] = cooldown;
 }

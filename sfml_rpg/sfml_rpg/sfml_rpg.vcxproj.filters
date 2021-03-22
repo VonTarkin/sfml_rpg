@@ -81,6 +81,9 @@
     <ClCompile Include="Random.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="VampireAttack.cpp">
+      <Filter>Pliki źródłowe\Skill</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Event.h">
@@ -133,6 +136,9 @@
     </ClInclude>
     <ClInclude Include="Random.h">
       <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="VampireAttack.h">
+      <Filter>Pliki nagłówkowe\Skills</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

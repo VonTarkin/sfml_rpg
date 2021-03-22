@@ -79,16 +79,25 @@ void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies, Random* ran
 			{
 				if (clock.getElapsedTime() > attackCooldown)
 				{
-					player->skills[player->activeButtonIndex]->function(entities[activeTargetIndex], player, random);
-					attackButton->SetButtonState(false);
-					clock.restart();
-					std::cout << "ATT " << activeTargetIndex << std::endl;
+					if (player->CheckCooldown(player->activeButtonIndex) == 0)
+					{
+						player->skills[player->activeButtonIndex]->Function(entities[activeTargetIndex], player, random);
+						player->SetCooldown(player->activeButtonIndex, player->skills[player->activeButtonIndex]->cooldown);
+
+						clock.restart();
+						std::cout << "ATT " << activeTargetIndex << std::endl;
+					}
+					else
+					{
+						std::cout << "Skill Cooldown" << std::endl;
+					}
 				}
 				else
 				{
-					attackButton->SetButtonState(false);
+				//	std::cout << "Delay" << std::endl;
 				}
-
+				attackButton->SetButtonState(false);
+				player->DecrementCooldowns();
 			}
 			
 

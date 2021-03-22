@@ -2,6 +2,7 @@
 #include "Entity.h"
 #include <array>
 #include "MeleeAttack.h"
+#include "VampireAttack.h"
 
 class Player : public Entity
 {
@@ -13,7 +14,11 @@ public:
 	void UpdateButtons();
 	int activeButtonIndex;
 	void initializeSkills();
+	int CheckCooldown(int index);
+	void DecrementCooldowns();
+	void SetCooldown(int index, int cooldown);
 	Skill** skills;
+	int* cooldowns;
 private:
 
 	int buttonsAmount = 0;

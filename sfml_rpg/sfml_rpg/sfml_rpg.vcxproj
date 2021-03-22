@@ -147,6 +147,7 @@
     <ClCompile Include="Random.cpp" />
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="UnitFrame.cpp" />
+    <ClCompile Include="VampireAttack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h" />
@@ -166,6 +167,7 @@
     <ClInclude Include="Skill.h" />
     <ClInclude Include="Stats.h" />
     <ClInclude Include="UnitFrame.h" />
+    <ClInclude Include="VampireAttack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

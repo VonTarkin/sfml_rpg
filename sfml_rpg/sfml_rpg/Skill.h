@@ -7,10 +7,12 @@ class Skill
 {
 public:  
 	Skill();
-	virtual void function(Entity* target, int dmg);
-	virtual void function(Entity* target, Entity* attacker, Random* random);
-protected:
+	virtual void Function(Entity* target, int dmg);
+	virtual void Function(Entity* target, Entity* attacker, Random* random);
+	int cooldown;
 	std::string name;
+protected:
+
 
 };
 

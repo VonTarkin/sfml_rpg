@@ -6,11 +6,11 @@ Skill::Skill()
 
 }
 
-void Skill::function(Entity* target, int dmg)
+void Skill::Function(Entity* target, int dmg)
 {
 }
 
-void Skill::function(Entity* target, Entity* attacker, Random* random)
+void Skill::Function(Entity* target, Entity* attacker, Random* random)
 {
 
 }

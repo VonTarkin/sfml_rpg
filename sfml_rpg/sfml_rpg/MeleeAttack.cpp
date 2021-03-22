@@ -2,9 +2,11 @@
 
 MeleeAttack::MeleeAttack()
 {
+	this->cooldown = 0;
+	this->name = "SkillMeleeAttack";
 }
 
-void MeleeAttack::function(Entity* target, Entity* attacker, Random* random)
+void MeleeAttack::Function(Entity* target, Entity* attacker, Random* random)
 {
 	int dmg = random->RandomInt(attacker->stats.minDMG, attacker->stats.maxDMG);
 

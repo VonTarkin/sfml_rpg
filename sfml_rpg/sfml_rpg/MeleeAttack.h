@@ -5,6 +5,6 @@ class MeleeAttack : public virtual Skill
 {
 public:
 	MeleeAttack();
-	virtual void function(Entity* target, Entity* attacker, Random* random) override;
+	virtual void Function(Entity* target, Entity* attacker, Random* random) override;
 };
 
