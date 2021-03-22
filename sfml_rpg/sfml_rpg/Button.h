@@ -12,11 +12,16 @@ public:
 	//const bool isPressed();
 	Button();
 	Button(float x, float y, std::string type);
+	void SetAdditionalTexture(std::string name);
+	void Render(sf::RenderTarget* target);
 	~Button();
 
 protected:
-
+	bool additionalTextureSet;
+	int offset;
 	std::string type;
+	sf::Sprite additionalSprite;
+	sf::Texture additionalTexture;
 
 
 };

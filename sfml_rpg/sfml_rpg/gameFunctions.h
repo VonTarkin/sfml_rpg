@@ -1,5 +1,6 @@
 #pragma 
 #include "Enemy.h"
 #include "Player.h"
-void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies);
+#include "Random.h"
+void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies, Random* random);
 void UpdateUnitFrames(int amount);

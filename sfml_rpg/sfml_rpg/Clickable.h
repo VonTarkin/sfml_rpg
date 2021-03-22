@@ -20,7 +20,7 @@ class Clickable
 
 
 	protected:
-
+	std::string pngSuffix = ".png";
 	short unsigned buttonState;
 	sf::Sprite sprite;	
 	sf::Texture normalTexture;

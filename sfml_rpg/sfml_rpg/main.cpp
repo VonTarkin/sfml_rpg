@@ -9,12 +9,13 @@
 
 int main()
 {
+	Random* random = new Random();
 	sf::RenderWindow window(sf::VideoMode(900, 500), "RPG");
 	window.setFramerateLimit(60);
 
 	Player* testP = new Player(20, 80, "Thorne");
 	Enemy* testE = new Enemy(400, 80, "Xotrios");
-	Fight(window, testP, testE);
+	Fight(window, testP, testE, random);
 	/*while (window.isOpen())
 	{
 		sf::Event event;

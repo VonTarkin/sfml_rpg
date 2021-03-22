@@ -1,8 +1,10 @@
 #include "gameFunctions.h"
 
 
-void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies)
+void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies, Random* random)
 {
+	sf::Clock clock;
+	sf::Time attackCooldown = sf::seconds(2);
 	int turn = 1;
 	Button* attackButton = new Button(191, 200, "function");
 	int activeTargetIndex = -1;
@@ -75,11 +77,18 @@ void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies)
 
 			if (attackButton->isPressed())
 			{
-				player->skills[player->activeButtonIndex]->function(entities[activeTargetIndex], player->stats.minDMG);
-				attackButton->SetButtonState(false);
-				std::cout << "ATT " << activeTargetIndex << std::endl;
+				if (clock.getElapsedTime() > attackCooldown)
+				{
+					player->skills[player->activeButtonIndex]->function(entities[activeTargetIndex], player, random);
+					attackButton->SetButtonState(false);
+					clock.restart();
+					std::cout << "ATT " << activeTargetIndex << std::endl;
+				}
+				else
+				{
+					attackButton->SetButtonState(false);
+				}
 
-				//attack;
 			}
 			
 

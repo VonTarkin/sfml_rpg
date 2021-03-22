@@ -30,6 +30,7 @@ void Player::initializeSkills()
 {
 	this->skills = new Skill*[buttonsAmount];
 	this->skills[0] = new MeleeAttack();
+	this->buttons[0]->SetAdditionalTexture("SkillMeeleAttack");
 }
 
 void Player::Render(sf::RenderTarget* renderTarget)

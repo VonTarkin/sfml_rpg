@@ -144,6 +144,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MeleeAttack.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Random.cpp" />
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="UnitFrame.cpp" />
   </ItemGroup>
@@ -161,6 +162,7 @@
     <ClInclude Include="HealthBar.h" />
     <ClInclude Include="MeleeAttack.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Random.h" />
     <ClInclude Include="Skill.h" />
     <ClInclude Include="Stats.h" />
     <ClInclude Include="UnitFrame.h" />
