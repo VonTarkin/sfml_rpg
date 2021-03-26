@@ -124,8 +124,10 @@ void FightInstance::CounterAttack()
 {
 	for (int i = 0; i < enemiesAmount; i++)
 	{
-		Enemy* a = &enemies[i];
-		a->skill(player, enemies[i], random);
+		std::cout << "ENEMYSTART" << std::endl;
+		enemies[i].skill->Function(player, &enemies[i], random);
+		std::cout << "ENEMYEND" << std::endl;
+
 	}
 }
 
