@@ -1,9 +1,10 @@
 #pragma once
 #include "Entity.h"
 #include <array>
+
 #include "MeleeAttack.h"
 #include "VampireAttack.h"
-
+#include "BleedAttack.h"
 class Player : public Entity
 {
 public:

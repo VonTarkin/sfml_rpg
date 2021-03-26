@@ -37,6 +37,8 @@ void Player::initializeSkills()
 	this->buttons[0]->SetAdditionalTexture(this->skills[0]->name);
 	this->skills[1] = new VampireAttack();
 	this->buttons[1]->SetAdditionalTexture(this->skills[1]->name);
+	this->skills[2] = new BleedAttack();
+	this->buttons[2]->SetAdditionalTexture(this->skills[2]->name);
 }
 
 void Player::Render(sf::RenderTarget* renderTarget)

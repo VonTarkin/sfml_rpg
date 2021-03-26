@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include "gameFunctions.h"
+#include "FightInstance.h"
 
 
 
@@ -15,7 +16,8 @@ int main()
 
 	Player* testP = new Player(20, 80, "Thorne");
 	Enemy* testE = new Enemy(400, 80, "Xotrios");
-	Fight(window, testP, testE, random);
+	FightInstance* fightInstance = new FightInstance(window, testP, testE, random);
+	fightInstance->Fight();
 	/*while (window.isOpen())
 	{
 		sf::Event event;

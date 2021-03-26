@@ -45,3 +45,39 @@ void Entity::Update(const sf::Vector2f mousePos)
 	this->healthBar->Update(float(h / stats.maxHealth));
 	this->unitFrame->Update(mousePos);
 }
+
+void Entity::ProcessStatuses()
+{
+	int blightDMGSum = 0;
+	int bleedDMGSum = 0;
+	for (int i = 0; i < statuses.size(); i++)
+	{
+		if (statuses[i].duration < 0)
+			statuses.erase(statuses.begin() + i);
+
+		this->stats.health -= statuses[i].dmg;
+		
+		if (statuses[i].type == "Blight")
+			blightDMGSum += statuses[i].dmg;
+		else if (statuses[i].type == "Bleed")
+			bleedDMGSum += statuses[i].dmg;
+	}
+	
+	if (bleedDMGSum > 0)
+	{
+		std::cout << bleedDMGSum << " DMG TO BLEED" << std::endl;
+	}
+	if (blightDMGSum > 0)
+	{
+		std::cout << blightDMGSum << " DMG TO BLIGHT" << std::endl;
+	}
+}
+
+void Entity::AddStatus(int dmg, int duration, std::string type)
+{
+	Status status;
+	status.dmg = dmg;
+	status.duration = duration;
+	status.type = type;
+	this->statuses.push_back(status);
+}

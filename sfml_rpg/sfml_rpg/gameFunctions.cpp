@@ -86,6 +86,12 @@ void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies, Random* ran
 
 						clock.restart();
 						std::cout << "ATT " << activeTargetIndex << std::endl;
+						player->DecrementCooldowns();
+						
+						for (int i = 0; i < enemiesAmount; i++)
+							enemies[i].ProcessStatuses();
+						player->ProcessStatuses();
+
 					}
 					else
 					{
@@ -97,7 +103,6 @@ void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies, Random* ran
 				//	std::cout << "Delay" << std::endl;
 				}
 				attackButton->SetButtonState(false);
-				player->DecrementCooldowns();
 			}
 			
 

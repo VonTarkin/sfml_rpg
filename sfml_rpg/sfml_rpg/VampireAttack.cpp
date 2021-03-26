@@ -16,7 +16,7 @@ void VampireAttack::Function(Entity* target, Entity* attacker, Random* random)
 	if (random->IfHitLanded(effectiveAcc))
 	{
 		target->stats.health -= dmg;
-		std::cout << "DMG AND HEALED FOR :" << dmg << std::endl;
+		std::cout << "DMG AND HEALED FOR : " << dmg << std::endl;
 		attacker->stats.health += dmg;
 		if (attacker->stats.health > attacker->stats.maxHealth)
 		{

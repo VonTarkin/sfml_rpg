@@ -5,9 +5,13 @@
 #include "Button.h"
 #include "UnitFrame.h";
 #include "HealthBar.h"
-
+#include "Status.h"
+#include <vector>
 //skills
-//
+
+
+
+
 
 class Entity
 {
@@ -18,9 +22,13 @@ public:
 	 UnitFrame* unitFrame;
 	 HealthBar* healthBar;
 	 Stats stats;
+	 std::vector <Status> statuses;
+
 
 	 void Render(sf::RenderTarget* renderTarget);
 	 void Update(const sf::Vector2f mousePos);
+	 void ProcessStatuses();
+	 void AddStatus(int dmg, int duration, std::string type);
 protected:
 	
 	std::string path = "./assets/";

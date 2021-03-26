@@ -2,7 +2,18 @@
 
 Enemy::Enemy(float x, float y, std::string name) : Entity(x, y, name)
 {
+	this->InitializeSkill();
+}
 
+Enemy::~Enemy()
+{
+	delete skill;
+}
+
+void Enemy::InitializeSkill()
+{
+	if (stats.Name == "Xotrios")
+		this->skill = new MeleeAttack();
 }
 
 void Enemy::Render(sf::RenderTarget* renderTarget)

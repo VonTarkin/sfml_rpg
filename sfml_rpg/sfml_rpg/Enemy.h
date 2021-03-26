@@ -1,5 +1,8 @@
 #pragma once
 #include "Entity.h"
+#include "MeleeAttack.h"
+#include "VampireAttack.h"
+#include "BleedAttack.h"
 class Enemy : public Entity
 {
 public:
@@ -7,5 +10,9 @@ public:
 	~Enemy();
 	void Render(sf::RenderTarget* renderTarget);
 	void Update(const sf::Vector2f mousePos);
+	void InitializeSkill();
+	Skill* skill;
+private:
+
 };
 

@@ -42,9 +42,6 @@
     <ClCompile Include="gameFunctions.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="GameInstance.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="Animation.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
@@ -84,15 +81,18 @@
     <ClCompile Include="VampireAttack.cpp">
       <Filter>Pliki źródłowe\Skill</Filter>
     </ClCompile>
+    <ClCompile Include="BleedAttack.cpp">
+      <Filter>Pliki źródłowe\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="FightInstance.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Event.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
     <ClInclude Include="gameFunctions.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="GameInstance.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
     <ClInclude Include="Animation.h">
@@ -139,6 +139,15 @@
     </ClInclude>
     <ClInclude Include="VampireAttack.h">
       <Filter>Pliki nagłówkowe\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="BleedAttack.h">
+      <Filter>Pliki nagłówkowe\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>Pliki nagłówkowe\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="FightInstance.h">
+      <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
