@@ -25,7 +25,7 @@ private:
 	int buttonsAmount = 0;
 	int selected = NULL;
 	int buttonOffset = 38;
-	Button*  buttons[4];
+	Button*  buttons[3];
 	bool* prevPressed;
 	bool* nowPressed;
 };

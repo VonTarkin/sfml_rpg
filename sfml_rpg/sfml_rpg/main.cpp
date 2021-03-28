@@ -10,6 +10,13 @@
 
 int main()
 {
+	sf::Music music;
+	if (!music.openFromFile("./assets/heaven.wav"))
+	{
+		std::cout << "MUSIC LOAD ERROR" << std::endl;
+	}
+	music.play();
+
 	Random* random = new Random();
 	sf::RenderWindow window(sf::VideoMode(900, 500), "RPG");
 	window.setFramerateLimit(60);

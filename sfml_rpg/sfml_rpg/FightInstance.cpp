@@ -99,7 +99,9 @@ void FightInstance::OnPressedAttackButton()
 			clock.restart();
 			std::cout << "ATT " << activeTargetIndex << std::endl;
 
-
+			//Comment out for Sounds
+			this->sound.setBuffer(player->skills[player->activeButtonIndex]->soundBuffer);
+			this->sound.play();
 			this->CounterAttack();
 
 			player->DecrementCooldowns();

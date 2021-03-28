@@ -4,6 +4,10 @@ MeleeAttack::MeleeAttack()
 {
 	this->cooldown = 0;
 	this->name = "SkillMeleeAttack";
+	if (!this->soundBuffer.loadFromFile("./assets/" + name + ".wav"))
+	{
+		std::cout << "MELEE SOUND ATTACK LOAD ERROR" << std::endl;
+	}
 }
 
 void MeleeAttack::Function(Entity* target, Entity* attacker, Random* random)

@@ -5,6 +5,11 @@ VampireAttack::VampireAttack()
 	this->name = "SkillVampireAttack";
 	this->cooldown = 2;
 	this->dmgDec = 2;
+
+	if (!this->soundBuffer.loadFromFile("./assets/" + name + ".wav"))
+	{
+		std::cout << "VAMPIRE SOUND ATTACK LOAD ERROR" << std::endl;
+	}
 }
 
 void VampireAttack::Function(Entity* target, Entity* attacker, Random* random)

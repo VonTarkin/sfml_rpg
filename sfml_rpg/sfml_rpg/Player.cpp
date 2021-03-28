@@ -27,6 +27,8 @@ Player::~Player()
 		delete this->buttons[i];
 		delete this->skills[i];
 	}
+	delete[] buttons;
+	delete[] skills;
 	delete skills;
 }
 

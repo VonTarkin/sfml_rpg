@@ -10,6 +10,7 @@ public:
 	virtual void Function(Entity* target, Entity* attacker, Random* random);
 	int cooldown;
 	std::string name;
+	sf::SoundBuffer soundBuffer;
 protected:
 
 

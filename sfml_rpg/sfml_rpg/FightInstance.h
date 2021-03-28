@@ -19,6 +19,7 @@ public:
 	 void OnPressedAttackButton();
 	 void CounterAttack();
 private:
+	sf::Sound sound;
 	sf::RenderWindow& window;
 	Player* player;
 	Enemy* enemies;

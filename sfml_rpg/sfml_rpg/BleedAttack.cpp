@@ -7,6 +7,11 @@ BleedAttack::BleedAttack()
 	this->dmgDec = 4;
 	this->bleedDMG = 3;
 	this->bleedDur = 3;
+
+	if (!this->soundBuffer.loadFromFile("./assets/" + name + ".wav"))
+	{
+		std::cout << "BLEED SOUND ATTACK LOAD ERROR" << std::endl;
+	}
 }
 
 void BleedAttack::Function(Entity* target, Entity* attacker, Random* random)
@@ -19,7 +24,6 @@ void BleedAttack::Function(Entity* target, Entity* attacker, Random* random)
 	{
 		target->stats.health -= dmg;
 		std::cout << "DMG FOR : " << dmg << std::endl;
-		attacker->stats.health += dmg;
 		
 		target->AddStatus(bleedDMG, bleedDur, "Bleed");
 	}
