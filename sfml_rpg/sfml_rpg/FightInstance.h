@@ -18,6 +18,8 @@ public:
 	 void UpdateEntities();
 	 void OnPressedAttackButton();
 	 void CounterAttack();
+	 bool CheckIfFinished();
+	 void createEnemy();
 private:
 	sf::Sound sound;
 	sf::RenderWindow& window;

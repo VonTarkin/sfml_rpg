@@ -17,6 +17,7 @@ class Clickable
 	void SetButtonState(bool state);
 	Clickable() = delete;
 	Clickable(float x, float y);
+	~Clickable();
 
 
 	protected:

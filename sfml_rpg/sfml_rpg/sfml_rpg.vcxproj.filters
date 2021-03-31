@@ -31,12 +31,21 @@
     <Filter Include="Pliki źródłowe\Entities">
       <UniqueIdentifier>{7badb5bc-c08b-4798-b6d2-0b3424f5c7fb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki nagłówkowe\Events">
+      <UniqueIdentifier>{ac0f866a-e8a5-4641-9e09-1da04d35db6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Events">
+      <UniqueIdentifier>{ad6dde94-51da-44e7-94c9-dc8baa2a782d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Instances">
+      <UniqueIdentifier>{cb7b4d8a-8bbc-4e7d-9f59-14de30fabcfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Instances">
+      <UniqueIdentifier>{9b662c2c-6f59-4bc6-a960-64d6c4d0790e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="Event.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="gameFunctions.cpp">
@@ -84,14 +93,20 @@
     <ClCompile Include="BleedAttack.cpp">
       <Filter>Pliki źródłowe\Skill</Filter>
     </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Pliki źródłowe\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="GenDMGUpgrade.cpp">
+      <Filter>Pliki źródłowe\Events</Filter>
+    </ClCompile>
     <ClCompile Include="FightInstance.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>Pliki źródłowe\Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="EventInstance.cpp">
+      <Filter>Pliki źródłowe\Instances</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Event.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
     <ClInclude Include="gameFunctions.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
@@ -146,8 +161,17 @@
     <ClInclude Include="Status.h">
       <Filter>Pliki nagłówkowe\Entities</Filter>
     </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Pliki nagłówkowe\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GenDMGUpgrade.h">
+      <Filter>Pliki nagłówkowe\Events</Filter>
+    </ClInclude>
     <ClInclude Include="FightInstance.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>Pliki nagłówkowe\Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="EventInstance.h">
+      <Filter>Pliki nagłówkowe\Instances</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

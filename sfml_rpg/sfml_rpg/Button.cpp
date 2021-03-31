@@ -4,6 +4,7 @@
 Button::Button(float x, float y, std::string type) : Clickable(x, y)
 {
 	additionalTextureSet = false;
+	offset = 0;
 	if (type == "skill")
 	{
 		if (!normalTexture.loadFromFile("./assets/SkillSquare.png"))
@@ -18,6 +19,7 @@ Button::Button(float x, float y, std::string type) : Clickable(x, y)
 			std::cout << "SkillSquare texture load error!" << std::endl;
 		if (!triggeredTexture.loadFromFile("./assets/FunctionButtonTriggered.png"))
 			std::cout << "SkillSquare texture load error!" << std::endl;
+		this->offset = 0;
 	}
 
 	this->sprite.setTexture(normalTexture);

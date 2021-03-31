@@ -23,14 +23,15 @@ FightInstance::FightInstance(sf::RenderWindow& _window, Player* player, Enemy* e
 		nowPressed[i] = false;
 		prevPressed[i] = false;
 	}
+
 }
 
 FightInstance::~FightInstance()
 {
-	delete[] attackButton;
-	delete[] entities;
-	delete[] prevPressed;
-	delete[] nowPressed;
+	delete attackButton;
+	delete entities;
+	delete prevPressed;
+	delete nowPressed;
 }
 
 void FightInstance::Update()
@@ -109,6 +110,7 @@ void FightInstance::OnPressedAttackButton()
 				enemies[i].ProcessStatuses();
 			player->ProcessStatuses();
 
+			turn++;
 		}
 		else
 		{
@@ -133,6 +135,14 @@ void FightInstance::CounterAttack()
 	}
 }
 
+bool FightInstance::CheckIfFinished()
+{
+	if (this->player->stats.health <= 0 || this->enemies[0].stats.health <= 0)
+	{
+		return true;
+	}
+	return false;
+}
 void FightInstance::Fight()
 {
 	while (window.isOpen())
@@ -153,6 +163,10 @@ void FightInstance::Fight()
 
 			if(attackButton->isPressed())
 				this->OnPressedAttackButton();
+			if (this->CheckIfFinished())
+			{
+				return;
+			}
 		}
 	}
 }

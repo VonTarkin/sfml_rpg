@@ -139,8 +139,10 @@
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Event.cpp" />
+    <ClCompile Include="EventInstance.cpp" />
     <ClCompile Include="FightInstance.cpp" />
     <ClCompile Include="gameFunctions.cpp" />
+    <ClCompile Include="GenDMGUpgrade.cpp" />
     <ClCompile Include="HealthBar.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MeleeAttack.cpp" />
@@ -160,8 +162,10 @@
     <ClInclude Include="Entity.h" />
     <ClInclude Include="enums.h" />
     <ClInclude Include="Event.h" />
+    <ClInclude Include="EventInstance.h" />
     <ClInclude Include="FightInstance.h" />
     <ClInclude Include="gameFunctions.h" />
+    <ClInclude Include="GenDMGUpgrade.h" />
     <ClInclude Include="HealthBar.h" />
     <ClInclude Include="MeleeAttack.h" />
     <ClInclude Include="Player.h" />

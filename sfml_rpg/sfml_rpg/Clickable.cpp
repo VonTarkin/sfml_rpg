@@ -8,6 +8,11 @@ Clickable::Clickable(float x, float y)
 		this->sprite.setPosition(sf::Vector2f(x, y));
 }
 
+Clickable::~Clickable()
+{
+
+}
+
 void Clickable::Render(sf::RenderTarget* target)
 {
 	target->draw(this->sprite);
