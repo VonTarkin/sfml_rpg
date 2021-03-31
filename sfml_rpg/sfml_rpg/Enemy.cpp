@@ -13,7 +13,8 @@ Enemy::~Enemy()
 void Enemy::InitializeSkill()
 {
 	if (stats.Name == "Xotrios")
-		this->skill = new MeleeAttack();
+		skill = new MeleeAttack();
+
 }
 
 void Enemy::Render(sf::RenderTarget* renderTarget)

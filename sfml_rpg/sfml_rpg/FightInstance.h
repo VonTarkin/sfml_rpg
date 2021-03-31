@@ -10,7 +10,7 @@ class FightInstance
 {
 public:
 
-	 FightInstance(sf::RenderWindow& window, Player* player, Enemy* enemies, Random* random);
+	 FightInstance(sf::RenderWindow& window, Player* player, Random* random);
 	 ~FightInstance();
 	 void Update();
 	 void Render();
@@ -19,8 +19,10 @@ public:
 	 void OnPressedAttackButton();
 	 void CounterAttack();
 	 bool CheckIfFinished();
-	 void createEnemy();
+	 void GenerateEnemy();
 private:
+	Enemy* enemy;
+	int enemyAmount;
 	sf::Sound sound;
 	sf::RenderWindow& window;
 	Player* player;

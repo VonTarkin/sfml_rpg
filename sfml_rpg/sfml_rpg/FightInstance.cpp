@@ -1,37 +1,48 @@
 #include "FightInstance.h"
 
-FightInstance::FightInstance(sf::RenderWindow& _window, Player* player, Enemy* enemies, Random* random) : window(_window)
+FightInstance::FightInstance(sf::RenderWindow& _window, Player* player, Random* random) : window(_window)
 {
 	this->random = random;
-	this->player = player;
-	this->enemies = enemies;
+	this->player = player;;
 	attackCooldown = sf::seconds(1);
 	turn = 1;
 	attackButton = new Button(191, 200, "function");
 	activeTargetIndex = -1;
-	enemiesAmount = sizeof(*enemies) / sizeof(enemies[0]);
-	entities = new Entity * [enemiesAmount + 1];
-	prevPressed = new bool[enemiesAmount + 1];
-	nowPressed = new bool[enemiesAmount + 1];
+	enemyAmount = 1;
+	entities = new Entity * [enemyAmount + 1];
+	prevPressed = new bool[enemyAmount + 1];
+	nowPressed = new bool[enemyAmount + 1];
 	changed = false;
 
 	entities[0] = player;
-	for (int i = 1; i < enemiesAmount + 1; i++)
-		entities[i] = &enemies[i - 1];
-	for (int i = 0; i < enemiesAmount; i++)
+
+	for (int i = 0; i < enemyAmount; i++)
 	{
 		nowPressed[i] = false;
 		prevPressed[i] = false;
 	}
-
+	this->GenerateEnemy();
 }
 
 FightInstance::~FightInstance()
 {
 	delete attackButton;
-	delete entities;
+	delete enemy;
+	delete[] entities;
 	delete prevPressed;
 	delete nowPressed;
+
+}
+
+void FightInstance::GenerateEnemy()
+{
+	int choice = this->random->RandomInt(1, 1);
+	
+	if (choice == 1)
+	{
+		enemy = new Enemy(400, 80, "Xotrios");
+	}
+	entities[1] = enemy;
 }
 
 void FightInstance::Update()
@@ -39,20 +50,17 @@ void FightInstance::Update()
 	auto MousePos = sf::Mouse::getPosition(window);
 	player->Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
 
-	for (int i = 0; i < enemiesAmount; i++)
-	{
-		enemies[i].Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
-	}
+
+		enemy->Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
 	attackButton->Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
 }
 
 void FightInstance::Render()
 {
 	player->Render(&window);
-	for (int i = 0; i < enemiesAmount; i++)
-	{
-		enemies[i].Render(&window);
-	}
+
+		enemy->Render(&window);
+
 	attackButton->Render(&window);
 	window.display();
 }
@@ -61,7 +69,7 @@ void FightInstance::UpdateEntities()
 {
 	changed = false;
 
-	for (int i = 0; i < enemiesAmount + 1; i++)
+	for (int i = 0; i < 2; i++)
 	{
 		nowPressed[i] = entities[i]->unitFrame->isPressed();
 		if (prevPressed[i] != nowPressed[i])
@@ -73,7 +81,7 @@ void FightInstance::UpdateEntities()
 
 	if (changed)
 	{
-		for (int i = 0; i < enemiesAmount + 1; i++)
+		for (int i = 0; i < enemyAmount + 1; i++)
 		{
 			if (nowPressed[i] == prevPressed[i])
 			{
@@ -106,8 +114,8 @@ void FightInstance::OnPressedAttackButton()
 			this->CounterAttack();
 
 			player->DecrementCooldowns();
-			for (int i = 0; i < enemiesAmount; i++)
-				enemies[i].ProcessStatuses();
+
+			enemy->ProcessStatuses();
 			player->ProcessStatuses();
 
 			turn++;
@@ -126,22 +134,20 @@ void FightInstance::OnPressedAttackButton()
 
 void FightInstance::CounterAttack()
 {
-	for (int i = 0; i < enemiesAmount; i++)
-	{
 		std::cout << "ENEMYSTART" << std::endl;
-		enemies[i].skill->Function(player, &enemies[i], random);
+		enemy->skill->Function(player, enemy, random);
 		std::cout << "ENEMYEND" << std::endl;
 
-	}
 }
 
 bool FightInstance::CheckIfFinished()
 {
-	if (this->player->stats.health <= 0 || this->enemies[0].stats.health <= 0)
+	if (this->player->stats.health <= 0 || this->enemy->stats.health <= 0)
 	{
 		return true;
 	}
 	return false;
+
 }
 void FightInstance::Fight()
 {

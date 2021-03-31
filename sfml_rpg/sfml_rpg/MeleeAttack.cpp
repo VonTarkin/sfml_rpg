@@ -10,6 +10,11 @@ MeleeAttack::MeleeAttack()
 	}
 }
 
+MeleeAttack::~MeleeAttack()
+{
+
+}
+
 void MeleeAttack::Function(Entity* target, Entity* attacker, Random* random)
 {
 	int dmg = random->RandomInt(attacker->stats.minDMG, attacker->stats.maxDMG);

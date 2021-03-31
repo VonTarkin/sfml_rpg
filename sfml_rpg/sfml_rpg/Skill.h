@@ -7,6 +7,7 @@ class Skill
 {
 public:  
 	Skill();
+	virtual ~Skill();
 	virtual void Function(Entity* target, Entity* attacker, Random* random);
 	int cooldown;
 	std::string name;
