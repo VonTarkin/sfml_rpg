@@ -62,6 +62,8 @@ void FightInstance::Render()
 		enemy->Render(&window);
 
 	attackButton->Render(&window);
+	window.draw(player->statsText);
+	window.draw(enemy->statsText);
 	window.display();
 }
 

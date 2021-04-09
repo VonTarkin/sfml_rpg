@@ -1,6 +1,8 @@
-﻿  Enemy.cpp
+﻿  Entity.cpp
 C:\Users\jakla\OneDrive\Dokumenty\GitHub\sfml_rpg\sfml_rpg\sfml_rpg\Stats.h(13,2): warning C4091: "typedef ": zignorowano na lewo od "Stats" podczas gdy brak deklaracji zmiennej
 C:\Users\jakla\OneDrive\Dokumenty\GitHub\sfml_rpg\sfml_rpg\sfml_rpg\Entity.h(6,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
 C:\Users\jakla\OneDrive\Dokumenty\GitHub\sfml_rpg\sfml_rpg\sfml_rpg\HealthBar.h(5,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
 C:\Users\jakla\OneDrive\Dokumenty\GitHub\sfml_rpg\sfml_rpg\sfml_rpg\Status.h(10,2): warning C4091: "typedef ": zignorowano na lewo od "Status" podczas gdy brak deklaracji zmiennej
+C:\Users\jakla\OneDrive\Dokumenty\GitHub\sfml_rpg\sfml_rpg\sfml_rpg\Entity.cpp(58,10): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\jakla\OneDrive\Dokumenty\GitHub\sfml_rpg\sfml_rpg\sfml_rpg\Entity.cpp(68,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
   sfml_rpg.vcxproj -> C:\Users\jakla\OneDrive\Dokumenty\GitHub\sfml_rpg\sfml_rpg\Debug\sfml_rpg.exe

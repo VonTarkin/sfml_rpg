@@ -16,8 +16,23 @@ Entity::Entity(float x, float y, std::string name)
 	}
 	else
 		std::cout << name << textSuffix <<" not opened properly!" << std::endl;
+
+	if (!font.loadFromFile("./assets/arcade.ttf"))
+	{
+		std::cout << "FONT LOAD ERROR" << std::endl;
+	}
+
 	this->unitFrame = new UnitFrame(x, y, path + name + spriteSuffix);
 	this->healthBar = new HealthBar(x, y - 50);
+
+	this->textOffsetX = 171;
+	this->textOffsetY = 171;
+
+	this->statsText.setFillColor(sf::Color::Black);
+	this->statsText.setString("DMG: " + std::to_string(this->stats.minDMG) +  "-" + std::to_string(this->stats.maxDMG) + "\n" + "DODGE: " + std::to_string(this->stats.dodge) + "\n" + "ACC: " + std::to_string(this->stats.accuracy));
+	this->statsText.setFont(font);
+	this->statsText.setCharacterSize(40);
+	this->statsText.setPosition(x + textOffsetX, y + textOffsetY);
 }
 
 Entity::Entity()

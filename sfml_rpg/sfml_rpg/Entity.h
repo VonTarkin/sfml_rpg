@@ -29,8 +29,10 @@ public:
 	 void Update(const sf::Vector2f mousePos);
 	 void ProcessStatuses();
 	 void AddStatus(int dmg, int duration, std::string type);
+	 sf::Text statsText;
 protected:
-	
+	int textOffsetY, textOffsetX;
+	sf::Font font;
 	std::string path = "./assets/";
 	std::string textSuffix = "Stats.txt";
 	std::fstream file;
