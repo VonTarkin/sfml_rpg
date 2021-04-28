@@ -31,6 +31,12 @@ int main()
 		delete eventInstance;
 		FightInstance* fightInstance = new FightInstance(window, testP, random);
 		fightInstance->Fight();
+		
+		if (testP->stats.health <= 0)
+		{
+			return 0;
+		}
+
 		if (!window.isOpen())
 			return 0;
 		delete fightInstance;

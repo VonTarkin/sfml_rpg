@@ -7,14 +7,15 @@ Enemy::Enemy(float x, float y, std::string name) : Entity(x, y, name)
 
 Enemy::~Enemy()
 {
-	delete skill;
+
 }
 
 void Enemy::InitializeSkill()
 {
 	if (stats.Name == "Xotrios")
-		skill = new MeleeAttack();
-
+		skill = std::unique_ptr<Skill>(new MeleeAttack);
+	if (stats.Name == "Nazg")
+		skill = std::unique_ptr<Skill>(new MeleeAttack);
 }
 
 void Enemy::Render(sf::RenderTarget* renderTarget)

@@ -18,16 +18,21 @@ public:
 	int CheckCooldown(int index);
 	void DecrementCooldowns();
 	void SetCooldown(int index, int cooldown);
-	Skill** skills;
-	int* cooldowns;
+	//Skill** skills;
+	std::vector<std::unique_ptr<Skill>> skills;
+	//std::unique_ptr<Skill[]> skills;
+	//int* cooldowns
+	std::vector<int> cooldowns;
 private:
 
 	int buttonsAmount = 0;
 	int selected = NULL;
 	int buttonOffset = 38;
-	Button*  buttons[3];
-	bool* prevPressed;
-	bool* nowPressed;
+	std::vector<std::unique_ptr<Button>> buttons;
+	std::vector<bool> prevPressed;
+	std::vector<bool> nowPressed;
+	//bool* prevPressed;
+	//bool* nowPressed;
 };
 
 

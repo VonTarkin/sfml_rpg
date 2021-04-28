@@ -131,7 +131,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Animation.cpp" />
     <ClCompile Include="BleedAttack.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="CharacterClass.cpp" />
@@ -153,7 +152,6 @@
     <ClCompile Include="VampireAttack.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Animation.h" />
     <ClInclude Include="BleedAttack.h" />
     <ClInclude Include="Button.h" />
     <ClInclude Include="CharacterClass.h" />

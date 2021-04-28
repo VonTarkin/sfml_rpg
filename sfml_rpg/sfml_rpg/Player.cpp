@@ -2,16 +2,19 @@
 
 Player::Player(float x, float y, std::string name) : Entity(x, y, name)
 {
-	buttonsAmount = sizeof(this->buttons) / sizeof(this->buttons[0]);
-	prevPressed = new bool[buttonsAmount];
-	nowPressed = new bool[buttonsAmount];
-	cooldowns = new int[buttonsAmount];
+	buttonsAmount = 3;
+	//prevPressed = new bool[buttonsAmount];
+	//nowPressed = new bool[buttonsAmount];
+	//cooldowns = new int[buttonsAmount];
 	for (int i = 0; i < buttonsAmount; i++)
 	{
-		this->buttons[i] = new Button(this->unitFrame->width + x + buttonOffset * i, y, "skill");
-		prevPressed[i] = false;
-		nowPressed[i] = false;
-		cooldowns[i] = 0;
+		std::unique_ptr<Button> button(new Button(this->unitFrame->width + x + buttonOffset * i, y, "skill"));
+		buttons.push_back(std::move(button));
+		//this->buttons[i] = new Button(this->unitFrame->width + x + buttonOffset * i, y, "skill");
+		prevPressed.push_back(false);
+		nowPressed.push_back(false);
+		//cooldowns[i] = 0;
+		cooldowns.push_back(0);
 	}
 	this->initializeSkills();
 
@@ -20,26 +23,29 @@ Player::Player(float x, float y, std::string name) : Entity(x, y, name)
 
 Player::~Player()
 {
-	delete[] prevPressed;
-	delete[] nowPressed;
-	for (int i = 0; i < this->buttonsAmount; i++)
-	{
-		delete this->buttons[i];
-		delete this->skills[i];
-	}
-	delete[] buttons;
-	delete[] skills;
-	delete skills;
+	//delete[] prevPressed;
+	//delete[] nowPressed;
+//	for (int i = 0; i < this->buttonsAmount; i++)
+//	{
+		//delete this->buttons[i];
+		//delete this->skills[i];
+//	}
+	//delete[] buttons;
+	//delete[] skills;
+	//delete skills;
 }
 
 void Player::initializeSkills()
 {
-	this->skills = new Skill*[buttonsAmount];
-	this->skills[0] = new MeleeAttack();
+	std::unique_ptr<Skill> skill1(new MeleeAttack);
+	std::unique_ptr<Skill> skill2(new VampireAttack);
+	std::unique_ptr<Skill> skill3(new BleedAttack);
+	//this->skills = new Skill*[buttonsAmount];
+	skills.push_back(std::move(skill1));
 	this->buttons[0]->SetAdditionalTexture(this->skills[0]->name);
-	this->skills[1] = new VampireAttack();
+	skills.push_back(std::move(skill2));
 	this->buttons[1]->SetAdditionalTexture(this->skills[1]->name);
-	this->skills[2] = new BleedAttack();
+	skills.push_back(std::move(skill3));
 	this->buttons[2]->SetAdditionalTexture(this->skills[2]->name);
 }
 

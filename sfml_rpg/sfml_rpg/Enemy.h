@@ -11,7 +11,8 @@ public:
 	void Render(sf::RenderTarget* renderTarget);
 	void Update(const sf::Vector2f mousePos);
 	void InitializeSkill();
-	Skill* skill;
+	std::unique_ptr<Skill> skill;
+	//Skill* skill;
 private:
 
 };

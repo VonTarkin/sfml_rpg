@@ -7,7 +7,7 @@ FightInstance::FightInstance(sf::RenderWindow& _window, Player* player, Random* 
 	attackCooldown = sf::seconds(1);
 	turn = 1;
 	attackButton = new Button(191, 200, "function");
-	activeTargetIndex = -1;
+	activeTargetIndex = 1;
 	enemyAmount = 1;
 	entities = new Entity * [enemyAmount + 1];
 	prevPressed = new bool[enemyAmount + 1];
@@ -36,11 +36,15 @@ FightInstance::~FightInstance()
 
 void FightInstance::GenerateEnemy()
 {
-	int choice = this->random->RandomInt(1, 1);
+	int choice = this->random->RandomInt(1, 2);
 	
 	if (choice == 1)
 	{
 		enemy = new Enemy(400, 80, "Xotrios");
+	}
+	else if (choice == 2)
+	{
+		enemy = new Enemy(400, 80, "Nazg");
 	}
 	entities[1] = enemy;
 }
