@@ -102,6 +102,9 @@
     <ClCompile Include="EventInstance.cpp">
       <Filter>Pliki źródłowe\Instances</Filter>
     </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gameFunctions.h">
@@ -166,6 +169,9 @@
     </ClInclude>
     <ClInclude Include="EventInstance.h">
       <Filter>Pliki nagłówkowe\Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
