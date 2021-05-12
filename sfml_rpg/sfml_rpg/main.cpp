@@ -73,7 +73,9 @@ int main()
 	delete testP;
 	mainThreadRunning = false;
 
+	window.close();
 	countTime.join();
+
 	std::cout << "Game ended in " << secondsPassed << " seconds!";
 	char a = _getch();
 

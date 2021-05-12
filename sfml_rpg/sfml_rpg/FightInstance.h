@@ -20,6 +20,7 @@ public:
 	 void CounterAttack();
 	 bool CheckIfFinished();
 	 void GenerateEnemy();
+	 void InitializeText();
 private:
 	Enemy* enemy;
 	int enemyAmount;
@@ -38,5 +39,10 @@ private:
 	bool* prevPressed;
 	bool* nowPressed;
 	bool changed;
+	sf::Font font;
+	sf::Text text1;
+	sf::Text text2;
+	sf::Text text3;
+	std::vector<sf::Text> texts;
 };
 

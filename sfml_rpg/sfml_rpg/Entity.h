@@ -1,4 +1,5 @@
 #pragma once
+#include <algorithm>
 #include "Stats.h"
 #include "UnitFrame.h"
 #include <fstream>

@@ -52,15 +52,27 @@ void Player::initializeSkills()
 void Player::Render(sf::RenderTarget* renderTarget)
 {
 	Entity::Render(renderTarget);
-	for (int i = 0; i < buttonsAmount; i++)
-		buttons[i]->Render(renderTarget);
+//	for (int i = 0; i < buttonsAmount; i++)
+//		buttons[i]->Render(renderTarget);
+	for (std::vector<std::unique_ptr<Button>>::iterator it = buttons.begin(); it != buttons.end(); ++it)
+	{
+		(*it)->Render(renderTarget);
+	}
 }
 
 void Player::Update(const sf::Vector2f mousePos)
 {
 	Entity::Update(mousePos);
-	for (int i = 0; i < buttonsAmount; i++)
+	/*for (int i = 0; i < buttonsAmount; i++)
 		buttons[i]->Update(mousePos);
+	for (int i = 0; i < buttonsAmount; i++)
+		nowPressed[i] = buttons[i]->isPressed();
+	*/
+
+	for (std::vector<std::unique_ptr<Button>>::iterator it = buttons.begin(); it != buttons.end(); ++it)
+	{
+		(*it)->Update(mousePos);
+	}
 	for (int i = 0; i < buttonsAmount; i++)
 		nowPressed[i] = buttons[i]->isPressed();
 	

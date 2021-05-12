@@ -21,8 +21,38 @@ FightInstance::FightInstance(sf::RenderWindow& _window, Player* player, Random* 
 		nowPressed[i] = false;
 		prevPressed[i] = false;
 	}
+	this->InitializeText();
 	this->GenerateEnemy();
 }
+
+void FightInstance::InitializeText()
+{
+	if (!font.loadFromFile("./assets/arcade.ttf"))
+	{
+		std::cout << "FONT LOAD ERROR" << std::endl;
+	}
+
+	sf::Text ptext;
+	ptext.setFillColor(sf::Color::Black);
+	ptext.setString("YOUR SKILLS:");
+	ptext.setFont(font);
+	ptext.setCharacterSize(30);
+	ptext.setPosition(600, 0);
+	texts.push_back(ptext);
+
+	for (int i = 0; i < 3; i++)
+	{
+	sf::Text text;
+	text.setFillColor(sf::Color::Black);
+	text.setString(std::to_string(i + 1) + "." + player->skills[i]->name + "\n");
+	text.setFont(font);
+	text.setCharacterSize(30);
+	text.setPosition(600, 20 + 20 * i);
+	texts.push_back(text);
+	}
+
+}
+
 
 FightInstance::~FightInstance()
 {
@@ -68,6 +98,10 @@ void FightInstance::Render()
 	attackButton->Render(&window);
 	window.draw(player->statsText);
 	window.draw(enemy->statsText);
+	for (std::vector<sf::Text>::iterator it = texts.begin(); it != texts.end(); ++it)
+	{
+		window.draw(*it);
+	}
 	window.display();
 }
 
