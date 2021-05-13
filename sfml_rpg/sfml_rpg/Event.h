@@ -14,7 +14,7 @@ public:
 	virtual void Update(const sf::Vector2f mousePos);
 	virtual void Render(sf::RenderTarget* target);
 	sf::Text text;
-	Button* bFirst = nullptr;
+	std::unique_ptr<Button> bFirst;
 protected:
 	sf::Font font;
 };

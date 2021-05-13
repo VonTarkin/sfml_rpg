@@ -20,8 +20,10 @@ public:
 	 Entity(float x, float y, std::string name);
 	 Entity();
 	 ~Entity();
-	 UnitFrame* unitFrame;
-	 HealthBar* healthBar;
+	 std::unique_ptr<UnitFrame> unitFrame;
+	 std::unique_ptr<HealthBar> healthBar;
+	// UnitFrame* unitFrame;
+	// HealthBar* healthBar;
 	 Stats stats;
 	 std::vector <Status> statuses;
 

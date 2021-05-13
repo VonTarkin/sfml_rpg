@@ -6,20 +6,22 @@ FightInstance::FightInstance(sf::RenderWindow& _window, Player* player, Random* 
 	this->player = player;;
 	attackCooldown = sf::seconds(1);
 	turn = 1;
-	attackButton = new Button(191, 200, "function");
+	attackButton = std::unique_ptr<Button>(new Button(191, 200, "function"));
 	activeTargetIndex = 1;
 	enemyAmount = 1;
 	entities = new Entity * [enemyAmount + 1];
-	prevPressed = new bool[enemyAmount + 1];
-	nowPressed = new bool[enemyAmount + 1];
+	//prevPressed = new bool[enemyAmount + 1];
+	//nowPressed = new bool[enemyAmount + 1];
 	changed = false;
 
 	entities[0] = player;
 
-	for (int i = 0; i < enemyAmount; i++)
+	for (int i = 0; i < enemyAmount + 1; i++)
 	{
-		nowPressed[i] = false;
-		prevPressed[i] = false;
+		nowPressed.push_back(false);
+		prevPressed.push_back(false);
+		//nowPressed[i] = false;
+		//prevPressed[i] = false;
 	}
 	this->InitializeText();
 	this->GenerateEnemy();
@@ -56,11 +58,11 @@ void FightInstance::InitializeText()
 
 FightInstance::~FightInstance()
 {
-	delete attackButton;
-	delete enemy;
+	//delete attackButton;
+	//delete enemy;
 	delete[] entities;
-	delete prevPressed;
-	delete nowPressed;
+	//delete prevPressed;
+	//delete nowPressed;
 
 }
 
@@ -68,13 +70,17 @@ void FightInstance::GenerateEnemy()
 {
 	int choice = this->random->RandomInt(1, 2);
 	
+	//delete enemy;
+	
 	if (choice == 1)
 	{
-		enemy = new Enemy(400, 80, "Xotrios");
+		enemy = new Enemy(400, 80, "Nazg");
+		//enemy = std::unique_ptr<Enemy>(new Enemy(400, 80, "Xotrios"));
 	}
 	else if (choice == 2)
 	{
-		enemy = new Enemy(400, 80, "Nazg");
+		enemy = new Enemy(400, 80, "Xotrios");
+		//enemy = std::unique_ptr<Enemy>(new Enemy(400, 80, "Xotrios"))
 	}
 	entities[1] = enemy;
 }

@@ -22,8 +22,8 @@ Entity::Entity(float x, float y, std::string name)
 		std::cout << "FONT LOAD ERROR" << std::endl;
 	}
 
-	this->unitFrame = new UnitFrame(x, y, path + name + spriteSuffix);
-	this->healthBar = new HealthBar(x, y - 50);
+	this->unitFrame = std::unique_ptr<UnitFrame>(new UnitFrame(x, y, path + name + spriteSuffix));
+	this->healthBar = std::unique_ptr<HealthBar>(new HealthBar(x, y - 50));
 
 	this->textOffsetX = 171;
 	this->textOffsetY = 171;
@@ -43,8 +43,8 @@ Entity::Entity()
 
 Entity::~Entity()
 {
-	delete this->unitFrame;
-	delete this->healthBar;
+//	delete this->unitFrame;
+//	delete this->healthBar;
 }
 
 void Entity::Render(sf::RenderTarget* renderTarget)

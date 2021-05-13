@@ -12,12 +12,12 @@ GenDMGUpgrade::GenDMGUpgrade()
 	this->text.setFont(font);
 	this->text.setCharacterSize(40);
 	this->text.setPosition(1, 1);
-	this->bFirst = new Button(20, 140, "function");
+	this->bFirst = std::unique_ptr<Button>(new Button(20, 140, "function"));
 }
 
 GenDMGUpgrade::~GenDMGUpgrade()
 {
-	delete this->bFirst;
+	//delete this->bFirst;
 }
 
 void GenDMGUpgrade::Update(const sf::Vector2f mousePos)
