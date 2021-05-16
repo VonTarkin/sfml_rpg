@@ -1,5 +1,13 @@
 #include "Random.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy Random
+*
+* Plik definicyjny klasy Random.
+*/
+
+
 Random::Random()
 {
 	std::mt19937 gen(rand());

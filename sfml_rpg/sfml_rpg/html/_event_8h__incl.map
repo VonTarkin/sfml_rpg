@@ -1,0 +1,30 @@
+<map id="Event.h" name="Event.h">
+<area shape="rect" id="node1" title="Plik naglowkowy klasy Event." alt="" coords="864,7,929,33"/>
+<area shape="rect" id="node2" href="$_button_8h.html" title="Plik naglowkowy klasy Button." alt="" coords="406,455,477,481"/>
+<area shape="rect" id="node7" title=" " alt="" coords="488,604,619,631"/>
+<area shape="rect" id="node8" title=" " alt="" coords="644,604,776,631"/>
+<area shape="rect" id="node9" title=" " alt="" coords="800,604,939,631"/>
+<area shape="rect" id="node10" title=" " alt="" coords="964,604,1082,631"/>
+<area shape="rect" id="node11" href="$_player_8h.html" title="Plik naglowkowy klasy Player." alt="" coords="604,81,674,108"/>
+<area shape="rect" id="node3" href="$_clickable_8h.html" title="Plik naglowkowy klasy Clickable." alt="" coords="398,529,485,556"/>
+<area shape="rect" id="node4" href="$enums_8h.html" title="Plik z Enumem opisujacy Stan przyciskow." alt="" coords="287,604,359,631"/>
+<area shape="rect" id="node5" title=" " alt="" coords="141,604,196,631"/>
+<area shape="rect" id="node6" title=" " alt="" coords="392,604,464,631"/>
+<area shape="rect" id="node12" href="$_entity_8h.html" title="Plik naglowkowy klasy Entity." alt="" coords="259,305,326,332"/>
+<area shape="rect" id="node20" title=" " alt="" coords="783,156,834,183"/>
+<area shape="rect" id="node21" href="$_melee_attack_8h.html" title="Plik naglowkowy klasy MeleeAttack." alt="" coords="380,156,487,183"/>
+<area shape="rect" id="node27" href="$_vampire_attack_8h.html" title="Plik naglowkowy klasy VampireAttack." alt="" coords="512,156,630,183"/>
+<area shape="rect" id="node28" href="$_bleed_attack_8h.html" title="Plik naglowkowy klasy BleedAttack." alt="" coords="655,156,759,183"/>
+<area shape="rect" id="node13" title=" " alt="" coords="330,380,404,407"/>
+<area shape="rect" id="node14" href="$_stats_8h.html" title="Struktura opisujaca statystyki." alt="" coords="136,455,200,481"/>
+<area shape="rect" id="node15" href="$_unit_frame_8h.html" title="Plik naglowkowy klasy Unitframe." alt="" coords="266,455,359,481"/>
+<area shape="rect" id="node16" title=" " alt="" coords="480,380,545,407"/>
+<area shape="rect" id="node17" href="$_health_bar_8h.html" title="Plik naglowkowy klasy Healthbar." alt="" coords="164,380,255,407"/>
+<area shape="rect" id="node18" href="$_status_8h.html" title="Struktura opisujaca statusy." alt="" coords="10,529,81,556"/>
+<area shape="rect" id="node19" title=" " alt="" coords="34,380,90,407"/>
+<area shape="rect" id="node22" href="$_skill_8h.html" title="Plik naglowkowy klasy Skill." alt="" coords="536,231,595,257"/>
+<area shape="rect" id="node23" title=" " alt="" coords="454,305,514,332"/>
+<area shape="rect" id="node24" title=" " alt="" coords="538,305,593,332"/>
+<area shape="rect" id="node25" href="$_random_8h.html" title="Plik naglowkowy klasy Random." alt="" coords="617,305,698,332"/>
+<area shape="rect" id="node26" title=" " alt="" coords="625,380,690,407"/>
+</map>

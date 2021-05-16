@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_vampire_attack" kind="class" language="C++" prot="public">
+    <compoundname>VampireAttack</compoundname>
+    <basecompoundref refid="class_skill" prot="public" virt="non-virtual">Skill</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_vampire_attack_1ab424a136d6d8c5219c2db40c8917992c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VampireAttack::dmgDec</definition>
+        <argsstring></argsstring>
+        <name>dmgDec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VampireAttack.h" line="18" column="5" bodyfile="VampireAttack.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vampire_attack_1a3b69b3e8b75063a93c26c2e1971adbe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VampireAttack::VampireAttack</definition>
+        <argsstring>()</argsstring>
+        <name>VampireAttack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VampireAttack.h" line="15" column="1" bodyfile="VampireAttack.cpp" bodystart="10" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vampire_attack_1aa31a7db89ca53a4b75815811a13b948d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void VampireAttack::Function</definition>
+        <argsstring>(Entity *target, Entity *attacker, Random *random) override</argsstring>
+        <name>Function</name>
+        <reimplements refid="class_skill_1ada47b675d0667db0363626d0dc627d6c">Function</reimplements>
+        <param>
+          <type><ref refid="class_entity" kindref="compound">Entity</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type><ref refid="class_entity" kindref="compound">Entity</ref> *</type>
+          <declname>attacker</declname>
+        </param>
+        <param>
+          <type><ref refid="class_random" kindref="compound">Random</ref> *</type>
+          <declname>random</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VampireAttack.h" line="16" column="14" bodyfile="VampireAttack.cpp" bodystart="22" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>VampireAttack</label>
+        <link refid="class_vampire_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Skill</label>
+        <link refid="class_skill"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>VampireAttack</label>
+        <link refid="class_vampire_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Skill</label>
+        <link refid="class_skill"/>
+      </node>
+    </collaborationgraph>
+    <location file="VampireAttack.h" line="13" column="1" bodyfile="VampireAttack.h" bodystart="12" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_skill_1a06af60c23102fbb9dba9e5792c2f1991" prot="public" virt="non-virtual"><scope>VampireAttack</scope><name>cooldown</name></member>
+      <member refid="class_vampire_attack_1ab424a136d6d8c5219c2db40c8917992c" prot="private" virt="non-virtual"><scope>VampireAttack</scope><name>dmgDec</name></member>
+      <member refid="class_vampire_attack_1aa31a7db89ca53a4b75815811a13b948d" prot="public" virt="virtual"><scope>VampireAttack</scope><name>Function</name></member>
+      <member refid="class_skill_1a1271744546e69259d6ac31013900c49e" prot="public" virt="non-virtual"><scope>VampireAttack</scope><name>name</name></member>
+      <member refid="class_skill_1a09c4e7e78e10ea5bc4b4c0af85b4aa0a" prot="public" virt="non-virtual"><scope>VampireAttack</scope><name>Skill</name></member>
+      <member refid="class_skill_1ad3043527ea3fdfdd2ac88c12ef49ee2b" prot="public" virt="non-virtual"><scope>VampireAttack</scope><name>soundBuffer</name></member>
+      <member refid="class_vampire_attack_1a3b69b3e8b75063a93c26c2e1971adbe6" prot="public" virt="non-virtual"><scope>VampireAttack</scope><name>VampireAttack</name></member>
+      <member refid="class_skill_1a6525c1f0b7299ff447ee14f36b55967a" prot="public" virt="virtual"><scope>VampireAttack</scope><name>~Skill</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

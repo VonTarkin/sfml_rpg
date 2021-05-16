@@ -8,7 +8,12 @@
 #include "HealthBar.h"
 #include "Status.h"
 #include <vector>
-//skills
+/*!
+* \file
+* \brief Plik naglowkowy klasy Entity.
+*
+* Plik naglowkowy klasy Entity.
+*/
 
 
 

@@ -1,0 +1,112 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{}%
+\contentsline {chapter}{\numberline {3}File Index}{5}{}%
+\contentsline {section}{\numberline {3.1}File List}{5}{}%
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{}%
+\contentsline {section}{\numberline {4.1}Bleed\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attack Class Reference}{7}{}%
+\contentsline {section}{\numberline {4.2}Button Class Reference}{8}{}%
+\contentsline {section}{\numberline {4.3}Clickable Class Reference}{9}{}%
+\contentsline {section}{\numberline {4.4}Enemy Class Reference}{10}{}%
+\contentsline {section}{\numberline {4.5}Entity Class Reference}{11}{}%
+\contentsline {section}{\numberline {4.6}Event Class Reference}{12}{}%
+\contentsline {section}{\numberline {4.7}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Instance Class Reference}{13}{}%
+\contentsline {subsection}{\numberline {4.7.1}Member Function Documentation}{13}{}%
+\contentsline {subsubsection}{\numberline {4.7.1.1}ProcessEvent()}{13}{}%
+\contentsline {subsubsection}{\numberline {4.7.1.2}Render()}{14}{}%
+\contentsline {subsubsection}{\numberline {4.7.1.3}Update()}{14}{}%
+\contentsline {section}{\numberline {4.8}Fight\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Instance Class Reference}{14}{}%
+\contentsline {subsection}{\numberline {4.8.1}Member Function Documentation}{15}{}%
+\contentsline {subsubsection}{\numberline {4.8.1.1}CheckIfFinished()}{15}{}%
+\contentsline {subsubsection}{\numberline {4.8.1.2}CounterAttack()}{15}{}%
+\contentsline {subsubsection}{\numberline {4.8.1.3}Fight()}{15}{}%
+\contentsline {subsubsection}{\numberline {4.8.1.4}OnPressedAttackButton()}{16}{}%
+\contentsline {subsubsection}{\numberline {4.8.1.5}Render()}{17}{}%
+\contentsline {subsubsection}{\numberline {4.8.1.6}Update()}{17}{}%
+\contentsline {subsubsection}{\numberline {4.8.1.7}UpdateEntities()}{17}{}%
+\contentsline {section}{\numberline {4.9}Gen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Upgrade Class Reference}{18}{}%
+\contentsline {section}{\numberline {4.10}Health\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bar Class Reference}{19}{}%
+\contentsline {section}{\numberline {4.11}Interactive Class Reference}{19}{}%
+\contentsline {section}{\numberline {4.12}Melee\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attack Class Reference}{19}{}%
+\contentsline {section}{\numberline {4.13}Melee\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bleed\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Atttack Class Reference}{20}{}%
+\contentsline {section}{\numberline {4.14}Player Class Reference}{21}{}%
+\contentsline {section}{\numberline {4.15}Random Class Reference}{22}{}%
+\contentsline {section}{\numberline {4.16}Skill Class Reference}{22}{}%
+\contentsline {section}{\numberline {4.17}Stats Struct Reference}{23}{}%
+\contentsline {section}{\numberline {4.18}Status Struct Reference}{23}{}%
+\contentsline {section}{\numberline {4.19}Unit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frame Class Reference}{24}{}%
+\contentsline {section}{\numberline {4.20}Vampire\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attack Class Reference}{25}{}%
+\contentsline {chapter}{\numberline {5}File Documentation}{27}{}%
+\contentsline {section}{\numberline {5.1}Bleed\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attack.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{27}{}%
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{27}{}%
+\contentsline {section}{\numberline {5.2}Bleed\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attack.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{28}{}%
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{29}{}%
+\contentsline {section}{\numberline {5.3}Button.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{29}{}%
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{29}{}%
+\contentsline {section}{\numberline {5.4}Button.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{29}{}%
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{30}{}%
+\contentsline {section}{\numberline {5.5}Clickable.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{30}{}%
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{31}{}%
+\contentsline {section}{\numberline {5.6}Clickable.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{31}{}%
+\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{32}{}%
+\contentsline {section}{\numberline {5.7}Enemy.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{32}{}%
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{32}{}%
+\contentsline {section}{\numberline {5.8}Enemy.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{33}{}%
+\contentsline {subsection}{\numberline {5.8.1}Detailed Description}{34}{}%
+\contentsline {section}{\numberline {5.9}Entity.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{34}{}%
+\contentsline {subsection}{\numberline {5.9.1}Detailed Description}{34}{}%
+\contentsline {section}{\numberline {5.10}Entity.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{34}{}%
+\contentsline {subsection}{\numberline {5.10.1}Detailed Description}{35}{}%
+\contentsline {section}{\numberline {5.11}enums.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{36}{}%
+\contentsline {subsection}{\numberline {5.11.1}Detailed Description}{36}{}%
+\contentsline {section}{\numberline {5.12}Event.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{36}{}%
+\contentsline {subsection}{\numberline {5.12.1}Detailed Description}{37}{}%
+\contentsline {section}{\numberline {5.13}Event.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{37}{}%
+\contentsline {subsection}{\numberline {5.13.1}Detailed Description}{38}{}%
+\contentsline {section}{\numberline {5.14}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Instance.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{39}{}%
+\contentsline {subsection}{\numberline {5.14.1}Detailed Description}{39}{}%
+\contentsline {section}{\numberline {5.15}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Instance.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{39}{}%
+\contentsline {subsection}{\numberline {5.15.1}Detailed Description}{40}{}%
+\contentsline {section}{\numberline {5.16}Fight\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Instance.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{41}{}%
+\contentsline {subsection}{\numberline {5.16.1}Detailed Description}{41}{}%
+\contentsline {section}{\numberline {5.17}Fight\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Instance.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{41}{}%
+\contentsline {subsection}{\numberline {5.17.1}Detailed Description}{42}{}%
+\contentsline {section}{\numberline {5.18}Gen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Upgrade.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{43}{}%
+\contentsline {subsection}{\numberline {5.18.1}Detailed Description}{43}{}%
+\contentsline {section}{\numberline {5.19}Gen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Upgrade.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{43}{}%
+\contentsline {subsection}{\numberline {5.19.1}Detailed Description}{44}{}%
+\contentsline {section}{\numberline {5.20}Health\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bar.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{45}{}%
+\contentsline {subsection}{\numberline {5.20.1}Detailed Description}{45}{}%
+\contentsline {section}{\numberline {5.21}Health\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bar.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{45}{}%
+\contentsline {subsection}{\numberline {5.21.1}Detailed Description}{46}{}%
+\contentsline {section}{\numberline {5.22}Melee\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attack.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{46}{}%
+\contentsline {subsection}{\numberline {5.22.1}Detailed Description}{47}{}%
+\contentsline {section}{\numberline {5.23}Melee\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attack.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{47}{}%
+\contentsline {subsection}{\numberline {5.23.1}Detailed Description}{48}{}%
+\contentsline {section}{\numberline {5.24}Player.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{48}{}%
+\contentsline {subsection}{\numberline {5.24.1}Detailed Description}{49}{}%
+\contentsline {section}{\numberline {5.25}Player.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{49}{}%
+\contentsline {subsection}{\numberline {5.25.1}Detailed Description}{50}{}%
+\contentsline {section}{\numberline {5.26}Random.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{50}{}%
+\contentsline {subsection}{\numberline {5.26.1}Detailed Description}{51}{}%
+\contentsline {section}{\numberline {5.27}Random.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{51}{}%
+\contentsline {subsection}{\numberline {5.27.1}Detailed Description}{52}{}%
+\contentsline {section}{\numberline {5.28}Skill.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{52}{}%
+\contentsline {subsection}{\numberline {5.28.1}Detailed Description}{53}{}%
+\contentsline {section}{\numberline {5.29}Skill.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{53}{}%
+\contentsline {subsection}{\numberline {5.29.1}Detailed Description}{54}{}%
+\contentsline {section}{\numberline {5.30}Stats.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{54}{}%
+\contentsline {subsection}{\numberline {5.30.1}Detailed Description}{55}{}%
+\contentsline {section}{\numberline {5.31}Status.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{55}{}%
+\contentsline {subsection}{\numberline {5.31.1}Detailed Description}{56}{}%
+\contentsline {section}{\numberline {5.32}Unit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frame.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{57}{}%
+\contentsline {subsection}{\numberline {5.32.1}Detailed Description}{57}{}%
+\contentsline {section}{\numberline {5.33}Unit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frame.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{57}{}%
+\contentsline {subsection}{\numberline {5.33.1}Detailed Description}{58}{}%
+\contentsline {section}{\numberline {5.34}Vampire\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attack.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{58}{}%
+\contentsline {subsection}{\numberline {5.34.1}Detailed Description}{59}{}%
+\contentsline {section}{\numberline {5.35}Vampire\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attack.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{59}{}%
+\contentsline {subsection}{\numberline {5.35.1}Detailed Description}{60}{}%
+\contentsline {chapter}{Index}{61}{}%

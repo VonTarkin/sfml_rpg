@@ -4,6 +4,14 @@
 #include "Button.h"
 #include "UnitFrame.h";
 
+/*!
+* \file
+* \brief Plik naglowkowy klasy Healthbar
+*
+* Plik naglowkowy klasy Healthbar.
+*/
+
+
 class HealthBar
 {
 public:

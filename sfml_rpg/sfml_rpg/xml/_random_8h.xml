@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_random_8h" kind="file" language="C++">
+    <compoundname>Random.h</compoundname>
+    <includes local="no">random</includes>
+    <includedby refid="_skill_8h" local="yes">Skill.h</includedby>
+    <includedby refid="_event_instance_8h" local="yes">EventInstance.h</includedby>
+    <includedby refid="_fight_instance_8h" local="yes">FightInstance.h</includedby>
+    <includedby refid="_random_8cpp" local="yes">Random.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Random.h</label>
+        <link refid="_random_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>random</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8">
+        <label>FightInstance.cpp</label>
+        <link refid="_fight_instance_8cpp"/>
+      </node>
+      <node id="23">
+        <label>Random.cpp</label>
+        <link refid="_random_8cpp"/>
+      </node>
+      <node id="14">
+        <label>EventInstance.cpp</label>
+        <link refid="_event_instance_8cpp"/>
+      </node>
+      <node id="13">
+        <label>EventInstance.h</label>
+        <link refid="_event_instance_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MeleeAttack.h</label>
+        <link refid="_melee_attack_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>Skill.cpp</label>
+        <link refid="_skill_8cpp"/>
+      </node>
+      <node id="5">
+        <label>Enemy.h</label>
+        <link refid="_enemy_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>FightInstance.h</label>
+        <link refid="_fight_instance_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Skill.h</label>
+        <link refid="_skill_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Player.cpp</label>
+        <link refid="_player_8cpp"/>
+      </node>
+      <node id="10">
+        <label>Event.h</label>
+        <link refid="_event_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Random.h</label>
+        <link refid="_random_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>VampireAttack.cpp</label>
+        <link refid="_vampire_attack_8cpp"/>
+      </node>
+      <node id="12">
+        <label>GenDMGUpgrade.h</label>
+        <link refid="_gen_d_m_g_upgrade_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>VampireAttack.h</label>
+        <link refid="_vampire_attack_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BleedAttack.h</label>
+        <link refid="_bleed_attack_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MeleeAttack.cpp</label>
+        <link refid="_melee_attack_8cpp"/>
+      </node>
+      <node id="6">
+        <label>Enemy.cpp</label>
+        <link refid="_enemy_8cpp"/>
+      </node>
+      <node id="15">
+        <label>GenDMGUpgrade.cpp</label>
+        <link refid="_gen_d_m_g_upgrade_8cpp"/>
+      </node>
+      <node id="21">
+        <label>MeleeBleedAtttack.h</label>
+        <link refid="_melee_bleed_atttack_8h_source"/>
+      </node>
+      <node id="11">
+        <label>Event.cpp</label>
+        <link refid="_event_8cpp"/>
+      </node>
+      <node id="9">
+        <label>Player.h</label>
+        <link refid="_player_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>BleedAttack.cpp</label>
+        <link refid="_bleed_attack_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_random" prot="public">Random</innerclass>
+    <briefdescription>
+<para>Plik naglowkowy klasy <ref refid="class_random" kindref="compound">Random</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Plik naglowkowy klasy <ref refid="class_random" kindref="compound">Random</ref>. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;random&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_random" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_random" kindref="compound">Random</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_random" kindref="compound">Random</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RandomInt(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>min,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ma);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IfHitLanded(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>effectiveAcc);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>std::random_device<sp/>rand;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Random.h"/>
+  </compounddef>
+</doxygen>

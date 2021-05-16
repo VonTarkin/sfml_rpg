@@ -1,0 +1,77 @@
+.TH "Entity" 3 "Sun May 16 2021" "SFML_RPG" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Entity
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBEnemy\fP, and \fBPlayer\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEntity\fP (float x, float y, std::string name)"
+.br
+.ti -1c
+.RI "void \fBRender\fP (sf::RenderTarget *renderTarget)"
+.br
+.ti -1c
+.RI "void \fBUpdate\fP (const sf::Vector2f mousePos)"
+.br
+.ti -1c
+.RI "void \fBProcessStatuses\fP ()"
+.br
+.ti -1c
+.RI "void \fBAddStatus\fP (int dmg, int duration, std::string type)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::unique_ptr< \fBUnitFrame\fP > \fBunitFrame\fP"
+.br
+.ti -1c
+.RI "std::unique_ptr< \fBHealthBar\fP > \fBhealthBar\fP"
+.br
+.ti -1c
+.RI "\fBStats\fP \fBstats\fP"
+.br
+.ti -1c
+.RI "std::vector< \fBStatus\fP > \fBstatuses\fP"
+.br
+.ti -1c
+.RI "sf::Text \fBstatsText\fP"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBtextOffsetY\fP"
+.br
+.ti -1c
+.RI "int \fBtextOffsetX\fP"
+.br
+.ti -1c
+.RI "sf::Font \fBfont\fP"
+.br
+.ti -1c
+.RI "std::string \fBpath\fP = '\&./assets/'"
+.br
+.ti -1c
+.RI "std::string \fBtextSuffix\fP = 'Stats\&.txt'"
+.br
+.ti -1c
+.RI "std::fstream \fBfile\fP"
+.br
+.ti -1c
+.RI "std::string \fBspriteSuffix\fP = 'Trans\&.png'"
+.br
+.in -1c
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SFML_RPG from the source code\&.

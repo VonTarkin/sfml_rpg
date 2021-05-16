@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_health_bar" kind="class" language="C++" prot="public">
+    <compoundname>HealthBar</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_health_bar_1a4b5006f526b38b4fc910e8e4021a2e49" prot="private" static="no" mutable="no">
+        <type>sf::Sprite</type>
+        <definition>sf::Sprite HealthBar::barSprite</definition>
+        <argsstring></argsstring>
+        <name>barSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="24" column="12" bodyfile="HealthBar.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_health_bar_1ade92731a7b8bceb3a9a99e7aa678f5b3" prot="private" static="no" mutable="no">
+        <type>sf::Texture</type>
+        <definition>sf::Texture HealthBar::barTexture</definition>
+        <argsstring></argsstring>
+        <name>barTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="25" column="13" bodyfile="HealthBar.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_health_bar_1a1e28ab222b040300a2ab6968ab67142f" prot="private" static="no" mutable="no">
+        <type>sf::Sprite</type>
+        <definition>sf::Sprite HealthBar::backgroundSprite</definition>
+        <argsstring></argsstring>
+        <name>backgroundSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="26" column="12" bodyfile="HealthBar.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_health_bar_1aaf8c27b3ccf251ba1e53f44c75184125" prot="private" static="no" mutable="no">
+        <type>sf::Texture</type>
+        <definition>sf::Texture HealthBar::backgroundTexture</definition>
+        <argsstring></argsstring>
+        <name>backgroundTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="27" column="13" bodyfile="HealthBar.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_health_bar_1ad5c36195fd9812e91f4c47385b036f74" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HealthBar::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="28" column="7" bodyfile="HealthBar.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_health_bar_1ae9bc5ea425f940c0ad12eecb057d4722" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string HealthBar::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <initializer>= &quot;./assets/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="30" column="13" bodyfile="HealthBar.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_health_bar_1aebb7f338e4e40b04852b673649560fc6" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string HealthBar::healthBar</definition>
+        <argsstring></argsstring>
+        <name>healthBar</name>
+        <initializer>= &quot;HealthBar.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="31" column="13" bodyfile="HealthBar.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_health_bar_1aec5cdd8f69854d08351da586f5e065bc" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string HealthBar::healthBackground</definition>
+        <argsstring></argsstring>
+        <name>healthBackground</name>
+        <initializer>= &quot;HealthBarBackground.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="32" column="13" bodyfile="HealthBar.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_health_bar_1a05f694deecdc0399d9c5fb230493df05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HealthBar::HealthBar</definition>
+        <argsstring>()</argsstring>
+        <name>HealthBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_health_bar_1aa742c89db64b385af57e3c635dbe0899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HealthBar::HealthBar</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>HealthBar</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="19" column="1" bodyfile="HealthBar.cpp" bodystart="11" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_health_bar_1ab4007a3f14f910ade7f43468859ad59b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HealthBar::Render</definition>
+        <argsstring>(sf::RenderTarget *target)</argsstring>
+        <name>Render</name>
+        <param>
+          <type>sf::RenderTarget *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="20" column="6" bodyfile="HealthBar.cpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_health_bar_1ac1a2a04a41b9020262b71ee7df62653b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HealthBar::Update</definition>
+        <argsstring>(float percentage)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>float</type>
+          <declname>percentage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HealthBar.h" line="21" column="6" bodyfile="HealthBar.cpp" bodystart="29" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="HealthBar.h" line="16" column="1" bodyfile="HealthBar.h" bodystart="15" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_health_bar_1a1e28ab222b040300a2ab6968ab67142f" prot="private" virt="non-virtual"><scope>HealthBar</scope><name>backgroundSprite</name></member>
+      <member refid="class_health_bar_1aaf8c27b3ccf251ba1e53f44c75184125" prot="private" virt="non-virtual"><scope>HealthBar</scope><name>backgroundTexture</name></member>
+      <member refid="class_health_bar_1a4b5006f526b38b4fc910e8e4021a2e49" prot="private" virt="non-virtual"><scope>HealthBar</scope><name>barSprite</name></member>
+      <member refid="class_health_bar_1ade92731a7b8bceb3a9a99e7aa678f5b3" prot="private" virt="non-virtual"><scope>HealthBar</scope><name>barTexture</name></member>
+      <member refid="class_health_bar_1aec5cdd8f69854d08351da586f5e065bc" prot="private" virt="non-virtual"><scope>HealthBar</scope><name>healthBackground</name></member>
+      <member refid="class_health_bar_1a05f694deecdc0399d9c5fb230493df05" prot="public" virt="non-virtual"><scope>HealthBar</scope><name>HealthBar</name></member>
+      <member refid="class_health_bar_1aa742c89db64b385af57e3c635dbe0899" prot="public" virt="non-virtual"><scope>HealthBar</scope><name>HealthBar</name></member>
+      <member refid="class_health_bar_1aebb7f338e4e40b04852b673649560fc6" prot="private" virt="non-virtual"><scope>HealthBar</scope><name>healthBar</name></member>
+      <member refid="class_health_bar_1ad5c36195fd9812e91f4c47385b036f74" prot="private" virt="non-virtual"><scope>HealthBar</scope><name>offset</name></member>
+      <member refid="class_health_bar_1ae9bc5ea425f940c0ad12eecb057d4722" prot="private" virt="non-virtual"><scope>HealthBar</scope><name>path</name></member>
+      <member refid="class_health_bar_1ab4007a3f14f910ade7f43468859ad59b" prot="public" virt="non-virtual"><scope>HealthBar</scope><name>Render</name></member>
+      <member refid="class_health_bar_1ac1a2a04a41b9020262b71ee7df62653b" prot="public" virt="non-virtual"><scope>HealthBar</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

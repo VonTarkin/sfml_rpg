@@ -1,5 +1,12 @@
 #include "Player.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy Player.
+*
+* Plik definicyjny klasy Player.
+*/
+
 Player::Player(float x, float y, std::string name) : Entity(x, y, name)
 {
 	buttonsAmount = 3;

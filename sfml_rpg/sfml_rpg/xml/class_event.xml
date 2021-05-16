@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_event" kind="class" language="C++" prot="public">
+    <compoundname>Event</compoundname>
+    <derivedcompoundref refid="class_gen_d_m_g_upgrade" prot="public" virt="non-virtual">GenDMGUpgrade</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_event_1ac6b6b6372881bcbb863be7c9562e80d7" prot="public" static="no" mutable="no">
+        <type>sf::Text</type>
+        <definition>sf::Text Event::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Event.h" line="24" column="10" bodyfile="Event.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_1a0421c2749ea60f651152a0a65a5a76e0" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_button" kindref="compound">Button</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Button&gt; Event::bFirst</definition>
+        <argsstring></argsstring>
+        <name>bFirst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Event.h" line="25" column="17" bodyfile="Event.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_event_1aa2c79386fa627af2ef8ac97e826d1aab" prot="protected" static="no" mutable="no">
+        <type>sf::Font</type>
+        <definition>sf::Font Event::font</definition>
+        <argsstring></argsstring>
+        <name>font</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Event.h" line="27" column="10" bodyfile="Event.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_event_1a5a40dd4708297f7031e29b39e039ae10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Event::Event</definition>
+        <argsstring>()</argsstring>
+        <name>Event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Event.h" line="20" column="1" bodyfile="Event.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_event_1a52fc5fe79933ef725385032c48ddba57" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Event::Option1</definition>
+        <argsstring>(Player *player)</argsstring>
+        <name>Option1</name>
+        <reimplementedby refid="class_gen_d_m_g_upgrade_1a6480763a5988a8ceb3cb2721021218a1">Option1</reimplementedby>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref> *</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Event.h" line="21" column="14" bodyfile="Event.cpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_event_1a8423f92a33027e80dab845cd9c9e8043" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Event::Update</definition>
+        <argsstring>(const sf::Vector2f mousePos)</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_gen_d_m_g_upgrade_1a732931fc17e1f4ccaf3628ff397e1a9d">Update</reimplementedby>
+        <param>
+          <type>const sf::Vector2f</type>
+          <declname>mousePos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Event.h" line="22" column="14" bodyfile="Event.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_event_1a582195eb49741c586d455abc421e7d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Event::Render</definition>
+        <argsstring>(sf::RenderTarget *target)</argsstring>
+        <name>Render</name>
+        <reimplementedby refid="class_gen_d_m_g_upgrade_1a9082463b9990d2207063abffff233eca">Render</reimplementedby>
+        <param>
+          <type>sf::RenderTarget *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Event.h" line="23" column="14" bodyfile="Event.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Event</label>
+        <link refid="class_event"/>
+      </node>
+      <node id="2">
+        <label>GenDMGUpgrade</label>
+        <link refid="class_gen_d_m_g_upgrade"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Event.h" line="18" column="1" bodyfile="Event.h" bodystart="17" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_event_1a0421c2749ea60f651152a0a65a5a76e0" prot="public" virt="non-virtual"><scope>Event</scope><name>bFirst</name></member>
+      <member refid="class_event_1a5a40dd4708297f7031e29b39e039ae10" prot="public" virt="non-virtual"><scope>Event</scope><name>Event</name></member>
+      <member refid="class_event_1aa2c79386fa627af2ef8ac97e826d1aab" prot="protected" virt="non-virtual"><scope>Event</scope><name>font</name></member>
+      <member refid="class_event_1a52fc5fe79933ef725385032c48ddba57" prot="public" virt="virtual"><scope>Event</scope><name>Option1</name></member>
+      <member refid="class_event_1a582195eb49741c586d455abc421e7d8d" prot="public" virt="virtual"><scope>Event</scope><name>Render</name></member>
+      <member refid="class_event_1ac6b6b6372881bcbb863be7c9562e80d7" prot="public" virt="non-virtual"><scope>Event</scope><name>text</name></member>
+      <member refid="class_event_1a8423f92a33027e80dab845cd9c9e8043" prot="public" virt="virtual"><scope>Event</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

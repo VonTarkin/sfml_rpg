@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_melee_attack" kind="class" language="C++" prot="public">
+    <compoundname>MeleeAttack</compoundname>
+    <basecompoundref refid="class_skill" prot="public" virt="virtual">Skill</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_melee_attack_1ab307766326f3fa00163686a7aeb13983" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MeleeAttack::MeleeAttack</definition>
+        <argsstring>()</argsstring>
+        <name>MeleeAttack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MeleeAttack.h" line="14" column="1" bodyfile="MeleeAttack.cpp" bodystart="9" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_melee_attack_1a4f85d9f2500eebd78c6afbc8f4871b27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MeleeAttack::~MeleeAttack</definition>
+        <argsstring>()</argsstring>
+        <name>~MeleeAttack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MeleeAttack.h" line="15" column="1" bodyfile="MeleeAttack.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_melee_attack_1acbcc39a1ec715da51945785774631df2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MeleeAttack::Function</definition>
+        <argsstring>(Entity *target, Entity *attacker, Random *random) override</argsstring>
+        <name>Function</name>
+        <reimplements refid="class_skill_1ada47b675d0667db0363626d0dc627d6c">Function</reimplements>
+        <param>
+          <type><ref refid="class_entity" kindref="compound">Entity</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type><ref refid="class_entity" kindref="compound">Entity</ref> *</type>
+          <declname>attacker</declname>
+        </param>
+        <param>
+          <type><ref refid="class_random" kindref="compound">Random</ref> *</type>
+          <declname>random</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MeleeAttack.h" line="16" column="14" bodyfile="MeleeAttack.cpp" bodystart="24" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MeleeAttack</label>
+        <link refid="class_melee_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Skill</label>
+        <link refid="class_skill"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MeleeAttack</label>
+        <link refid="class_melee_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Skill</label>
+        <link refid="class_skill"/>
+      </node>
+    </collaborationgraph>
+    <location file="MeleeAttack.h" line="12" column="1" bodyfile="MeleeAttack.h" bodystart="11" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_skill_1a06af60c23102fbb9dba9e5792c2f1991" prot="public" virt="non-virtual"><scope>MeleeAttack</scope><name>cooldown</name></member>
+      <member refid="class_melee_attack_1acbcc39a1ec715da51945785774631df2" prot="public" virt="virtual"><scope>MeleeAttack</scope><name>Function</name></member>
+      <member refid="class_melee_attack_1ab307766326f3fa00163686a7aeb13983" prot="public" virt="non-virtual"><scope>MeleeAttack</scope><name>MeleeAttack</name></member>
+      <member refid="class_skill_1a1271744546e69259d6ac31013900c49e" prot="public" virt="non-virtual"><scope>MeleeAttack</scope><name>name</name></member>
+      <member refid="class_skill_1a09c4e7e78e10ea5bc4b4c0af85b4aa0a" prot="public" virt="non-virtual"><scope>MeleeAttack</scope><name>Skill</name></member>
+      <member refid="class_skill_1ad3043527ea3fdfdd2ac88c12ef49ee2b" prot="public" virt="non-virtual"><scope>MeleeAttack</scope><name>soundBuffer</name></member>
+      <member refid="class_melee_attack_1a4f85d9f2500eebd78c6afbc8f4871b27" prot="public" virt="non-virtual"><scope>MeleeAttack</scope><name>~MeleeAttack</name></member>
+      <member refid="class_skill_1a6525c1f0b7299ff447ee14f36b55967a" prot="public" virt="virtual"><scope>MeleeAttack</scope><name>~Skill</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

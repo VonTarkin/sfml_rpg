@@ -1,0 +1,39 @@
+.TH "Enemy" 3 "Sun May 16 2021" "SFML_RPG" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Enemy
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBEntity\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEnemy\fP (float x, float y, std::string name)"
+.br
+.ti -1c
+.RI "void \fBRender\fP (sf::RenderTarget *renderTarget)"
+.br
+.ti -1c
+.RI "void \fBUpdate\fP (const sf::Vector2f mousePos)"
+.br
+.ti -1c
+.RI "void \fBInitializeSkill\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::unique_ptr< \fBSkill\fP > \fBskill\fP"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SFML_RPG from the source code\&.

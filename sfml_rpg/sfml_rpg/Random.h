@@ -1,5 +1,14 @@
 #pragma once
 #include <random>
+
+/*!
+* \file
+* \brief Plik naglowkowy klasy Random
+*
+* Plik naglowkowy klasy Random.
+*/
+
+
 class Random
 {
 public:

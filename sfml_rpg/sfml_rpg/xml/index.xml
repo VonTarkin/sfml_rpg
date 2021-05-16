@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="class_bleed_attack" kind="class"><name>BleedAttack</name>
+    <member refid="class_bleed_attack_1a2381b6abd10774889e54cb12f02aa928" kind="variable"><name>dmgDec</name></member>
+    <member refid="class_bleed_attack_1a327ac9ac9d3d40dfddbd02cb206086bc" kind="variable"><name>bleedDMG</name></member>
+    <member refid="class_bleed_attack_1ab5134c5ed16cf55fe13442d33f0d9b95" kind="variable"><name>bleedDur</name></member>
+    <member refid="class_bleed_attack_1aa8df4391c1f15b4153403f289379280a" kind="function"><name>BleedAttack</name></member>
+    <member refid="class_bleed_attack_1a3114473f54c92f765b6f6508166be348" kind="function"><name>Function</name></member>
+  </compound>
+  <compound refid="class_button" kind="class"><name>Button</name>
+    <member refid="class_button_1ac7c9b0878018ecd017d186767b2114c5" kind="variable"><name>additionalTextureSet</name></member>
+    <member refid="class_button_1a2648fab34f7cdd168d29a2a58fc652a6" kind="variable"><name>offset</name></member>
+    <member refid="class_button_1a6ec69eef826a2d6eaf17bf177a5ddeee" kind="variable"><name>type</name></member>
+    <member refid="class_button_1afa723629beffbb730a2704847d46c5a1" kind="variable"><name>additionalSprite</name></member>
+    <member refid="class_button_1af6583f9112a2446ba975e34d6a5fe44b" kind="variable"><name>additionalTexture</name></member>
+    <member refid="class_button_1a3b36df1ae23c58aedb9e15a713159459" kind="function"><name>Button</name></member>
+    <member refid="class_button_1a6af5e408e938968831eed210a94a6150" kind="function"><name>Button</name></member>
+    <member refid="class_button_1adafb21373c2a2d401d9e21f8d5b72756" kind="function"><name>SetAdditionalTexture</name></member>
+    <member refid="class_button_1adf667aa67a1e79573fae05716937298b" kind="function"><name>Render</name></member>
+    <member refid="class_button_1a2a001eb9c3cc8ae54768a850dd345002" kind="function"><name>~Button</name></member>
+  </compound>
+  <compound refid="class_clickable" kind="class"><name>Clickable</name>
+    <member refid="class_clickable_1a821bae51842bb4339b6908e1ea826799" kind="variable"><name>pngSuffix</name></member>
+    <member refid="class_clickable_1ab69f9472269b07adbee24221bc802c7b" kind="variable"><name>buttonState</name></member>
+    <member refid="class_clickable_1a0d53574fc4e27a1be0ff295ab7e55eaa" kind="variable"><name>sprite</name></member>
+    <member refid="class_clickable_1a17af546e75857531106da4d834cb26db" kind="variable"><name>normalTexture</name></member>
+    <member refid="class_clickable_1ae3715ef83f2511e9b97dd035c69b139c" kind="variable"><name>triggeredTexture</name></member>
+    <member refid="class_clickable_1a92e44e02173609885f19134b7c5c0db0" kind="function"><name>Render</name></member>
+    <member refid="class_clickable_1a97a113afed40efb7cb9ec5ee5cc8b968" kind="function"><name>Update</name></member>
+    <member refid="class_clickable_1ad4a599b5010ed06483205f38968847bf" kind="function"><name>isPressed</name></member>
+    <member refid="class_clickable_1aeffc36d9dd6a510e96c1d67152981b06" kind="function"><name>SetButtonState</name></member>
+    <member refid="class_clickable_1a34f738d7e6a6d4597de8a25b218a7fc4" kind="function"><name>Clickable</name></member>
+    <member refid="class_clickable_1a4c49e35ff57a3d6c4589a2ac3e0a24de" kind="function"><name>Clickable</name></member>
+    <member refid="class_clickable_1ac534e76857fc4ff6dc079b0185ee076c" kind="function"><name>~Clickable</name></member>
+  </compound>
+  <compound refid="class_enemy" kind="class"><name>Enemy</name>
+    <member refid="class_enemy_1a63e2c792c1c1eccea3e5b07179b00432" kind="variable"><name>skill</name></member>
+    <member refid="class_enemy_1a9d352c9b85e5a84f85241a2081b310b8" kind="function"><name>Enemy</name></member>
+    <member refid="class_enemy_1ac0eec4755e28c02688065f9657150ac3" kind="function"><name>~Enemy</name></member>
+    <member refid="class_enemy_1ab3cf4b77ad3896f28a9d4c904dcb8546" kind="function"><name>Render</name></member>
+    <member refid="class_enemy_1a86e4f977e7f9880bf04d06c228f43d1b" kind="function"><name>Update</name></member>
+    <member refid="class_enemy_1a82e19adf35e4d8643f7ab4eae97e4c68" kind="function"><name>InitializeSkill</name></member>
+  </compound>
+  <compound refid="class_entity" kind="class"><name>Entity</name>
+    <member refid="class_entity_1ac55207fbce55a8f293d60e13d1d430de" kind="variable"><name>unitFrame</name></member>
+    <member refid="class_entity_1a4e9dc860dcbe0720fb166c0883eccb21" kind="variable"><name>healthBar</name></member>
+    <member refid="class_entity_1a679100a4f20bbf0fba4dfcbb40406d88" kind="variable"><name>stats</name></member>
+    <member refid="class_entity_1a6a73557f6e60a641079aaf13e5b33068" kind="variable"><name>statuses</name></member>
+    <member refid="class_entity_1a72abfd5a9bd0565b88e8dace82827ed5" kind="variable"><name>statsText</name></member>
+    <member refid="class_entity_1aa759a084ff899832a137d553b3efb2b0" kind="variable"><name>textOffsetY</name></member>
+    <member refid="class_entity_1a122969ceace30ccb36c601162df2163c" kind="variable"><name>textOffsetX</name></member>
+    <member refid="class_entity_1adee6a5fa59238d4161b8bc13653cfe0f" kind="variable"><name>font</name></member>
+    <member refid="class_entity_1ad6793ea736ae934804cc7ddf03936d6f" kind="variable"><name>path</name></member>
+    <member refid="class_entity_1a0c18cdc4d706547ba44c90c3e0757183" kind="variable"><name>textSuffix</name></member>
+    <member refid="class_entity_1aafe41cc85026601cf9de89c841343b0d" kind="variable"><name>file</name></member>
+    <member refid="class_entity_1a52b10db5d6b2f437fcdde6a3573da90b" kind="variable"><name>spriteSuffix</name></member>
+    <member refid="class_entity_1a5f6d8fd08f6f3b986596cb03bb8aff69" kind="function"><name>Entity</name></member>
+    <member refid="class_entity_1a980f368aa07ce358583982821533a54a" kind="function"><name>Entity</name></member>
+    <member refid="class_entity_1adf6d3f7cb1b2ba029b6b048a395cc8ae" kind="function"><name>~Entity</name></member>
+    <member refid="class_entity_1a891de5927b1e7162d16455ae54eddcdc" kind="function"><name>Render</name></member>
+    <member refid="class_entity_1a4a050d111fe6aaa2abdb44c69e590f5c" kind="function"><name>Update</name></member>
+    <member refid="class_entity_1adc93b033c0288577093dfd22409276d6" kind="function"><name>ProcessStatuses</name></member>
+    <member refid="class_entity_1a82901193b748378f23068d9eec33a635" kind="function"><name>AddStatus</name></member>
+  </compound>
+  <compound refid="class_event" kind="class"><name>Event</name>
+    <member refid="class_event_1ac6b6b6372881bcbb863be7c9562e80d7" kind="variable"><name>text</name></member>
+    <member refid="class_event_1a0421c2749ea60f651152a0a65a5a76e0" kind="variable"><name>bFirst</name></member>
+    <member refid="class_event_1aa2c79386fa627af2ef8ac97e826d1aab" kind="variable"><name>font</name></member>
+    <member refid="class_event_1a5a40dd4708297f7031e29b39e039ae10" kind="function"><name>Event</name></member>
+    <member refid="class_event_1a52fc5fe79933ef725385032c48ddba57" kind="function"><name>Option1</name></member>
+    <member refid="class_event_1a8423f92a33027e80dab845cd9c9e8043" kind="function"><name>Update</name></member>
+    <member refid="class_event_1a582195eb49741c586d455abc421e7d8d" kind="function"><name>Render</name></member>
+  </compound>
+  <compound refid="class_event_instance" kind="class"><name>EventInstance</name>
+    <member refid="class_event_instance_1a46af53c29d7e6e95af36fed0a5c90f11" kind="variable"><name>event</name></member>
+    <member refid="class_event_instance_1a9ca4d18c99664a84d99aafa0261a12f7" kind="variable"><name>sound</name></member>
+    <member refid="class_event_instance_1a668e740e9f55c3781fe6979ef3d603bb" kind="variable"><name>window</name></member>
+    <member refid="class_event_instance_1a1d996fb26ebe38284426ab70e700d0c5" kind="variable"><name>player</name></member>
+    <member refid="class_event_instance_1a047ef99d356a820ff20f54ecb5852973" kind="variable"><name>random</name></member>
+    <member refid="class_event_instance_1af5d1de9702071f8cd92b1f99e4992b75" kind="function"><name>EventInstance</name></member>
+    <member refid="class_event_instance_1ad084b8ccf870b9321e29e8df4a1f9ba9" kind="function"><name>~EventInstance</name></member>
+    <member refid="class_event_instance_1a2eedc9efdc6262041ac100cec0b307aa" kind="function"><name>GenerateNewEvent</name></member>
+    <member refid="class_event_instance_1adaf6ea00e9e6de95be9e369d03b87d3f" kind="function"><name>Render</name></member>
+    <member refid="class_event_instance_1a07578770d3b3b741f8a232399993bb54" kind="function"><name>Update</name></member>
+    <member refid="class_event_instance_1ad027785d582f4a9a1ff44c874c80c90a" kind="function"><name>ProcessEvent</name></member>
+  </compound>
+  <compound refid="class_fight_instance" kind="class"><name>FightInstance</name>
+    <member refid="class_fight_instance_1a44560d9af443d898daa44d12cb4b12b1" kind="variable"><name>enemy</name></member>
+    <member refid="class_fight_instance_1a87ff5d5dca88f5e26383c7c623e3629c" kind="variable"><name>enemyAmount</name></member>
+    <member refid="class_fight_instance_1aadde87800c638470c81d3cc3892c3095" kind="variable"><name>sound</name></member>
+    <member refid="class_fight_instance_1a04d3127c251fa022b8c86c0f3f9f048a" kind="variable"><name>window</name></member>
+    <member refid="class_fight_instance_1a91a4fa9e072b56da72954ea3a1e4f2df" kind="variable"><name>player</name></member>
+    <member refid="class_fight_instance_1a4a0d7420d83ad583916f1974a7db6dec" kind="variable"><name>random</name></member>
+    <member refid="class_fight_instance_1a6031b43b85cb62fa4a77b9e5557808a3" kind="variable"><name>clock</name></member>
+    <member refid="class_fight_instance_1aebf54950c2ef747cc88ae0b35a9cfe72" kind="variable"><name>attackCooldown</name></member>
+    <member refid="class_fight_instance_1a4f6b65a349df794981eb34ba413ac671" kind="variable"><name>turn</name></member>
+    <member refid="class_fight_instance_1a8d54d7609fbc0bc6d2535cf0691f1bdb" kind="variable"><name>attackButton</name></member>
+    <member refid="class_fight_instance_1a25147e64350be9d71cb752ed56d4675a" kind="variable"><name>activeTargetIndex</name></member>
+    <member refid="class_fight_instance_1a39e482ce183ff45e7cdba374002bd317" kind="variable"><name>enemiesAmount</name></member>
+    <member refid="class_fight_instance_1a1a3027553a2439d93fb0a56ee27b75f4" kind="variable"><name>entities</name></member>
+    <member refid="class_fight_instance_1aec715748e39dba4d594d986a23312d6e" kind="variable"><name>prevPressed</name></member>
+    <member refid="class_fight_instance_1ab208957bcbece5b65a458b8aa3490a45" kind="variable"><name>nowPressed</name></member>
+    <member refid="class_fight_instance_1aed808b1d0db440123865bacbc486de2c" kind="variable"><name>changed</name></member>
+    <member refid="class_fight_instance_1aafa550d517a3b4bff8b51513f2f8af40" kind="variable"><name>font</name></member>
+    <member refid="class_fight_instance_1a437f6d6c0f6038b3dd82fb76cabdc6a1" kind="variable"><name>text1</name></member>
+    <member refid="class_fight_instance_1afc31a404dca6d33e374f9bc90caf9a61" kind="variable"><name>text2</name></member>
+    <member refid="class_fight_instance_1aa2e3e6f9f66f591b27418dcd4a3e13fa" kind="variable"><name>text3</name></member>
+    <member refid="class_fight_instance_1af369c466fc1c994e786ac20e8750e192" kind="variable"><name>texts</name></member>
+    <member refid="class_fight_instance_1a315c42b6755bf949bc1ec994dfd2f2bd" kind="function"><name>FightInstance</name></member>
+    <member refid="class_fight_instance_1ac48e696ae0b888ec21832f50bd18238e" kind="function"><name>~FightInstance</name></member>
+    <member refid="class_fight_instance_1a679a565f34107eeae802c19e55f1ced0" kind="function"><name>Update</name></member>
+    <member refid="class_fight_instance_1a697fa05b5d176ffd44666a955b86708a" kind="function"><name>Render</name></member>
+    <member refid="class_fight_instance_1af3b5c3c97d239be0d2633cc00228dbae" kind="function"><name>Fight</name></member>
+    <member refid="class_fight_instance_1a901067b7ca48e7e98ece53ae444a07bb" kind="function"><name>UpdateEntities</name></member>
+    <member refid="class_fight_instance_1a9e74c4857430c27eebf80229b084c18f" kind="function"><name>OnPressedAttackButton</name></member>
+    <member refid="class_fight_instance_1ab48b31a4f9d18fa974063868552a0727" kind="function"><name>CounterAttack</name></member>
+    <member refid="class_fight_instance_1a5911b3ff1e1e3c4094629c8c1da59242" kind="function"><name>CheckIfFinished</name></member>
+    <member refid="class_fight_instance_1ab82a424191100e08001821393a4fc203" kind="function"><name>GenerateEnemy</name></member>
+    <member refid="class_fight_instance_1a79f2270966e1fb27d7181f6efdab3b0e" kind="function"><name>InitializeText</name></member>
+  </compound>
+  <compound refid="class_gen_d_m_g_upgrade" kind="class"><name>GenDMGUpgrade</name>
+    <member refid="class_gen_d_m_g_upgrade_1a1f63fcc725d6829ea7553019bf747e47" kind="function"><name>GenDMGUpgrade</name></member>
+    <member refid="class_gen_d_m_g_upgrade_1accc949dd597c977c856d10bd9602912b" kind="function"><name>~GenDMGUpgrade</name></member>
+    <member refid="class_gen_d_m_g_upgrade_1a9082463b9990d2207063abffff233eca" kind="function"><name>Render</name></member>
+    <member refid="class_gen_d_m_g_upgrade_1a732931fc17e1f4ccaf3628ff397e1a9d" kind="function"><name>Update</name></member>
+    <member refid="class_gen_d_m_g_upgrade_1a6480763a5988a8ceb3cb2721021218a1" kind="function"><name>Option1</name></member>
+  </compound>
+  <compound refid="class_health_bar" kind="class"><name>HealthBar</name>
+    <member refid="class_health_bar_1a4b5006f526b38b4fc910e8e4021a2e49" kind="variable"><name>barSprite</name></member>
+    <member refid="class_health_bar_1ade92731a7b8bceb3a9a99e7aa678f5b3" kind="variable"><name>barTexture</name></member>
+    <member refid="class_health_bar_1a1e28ab222b040300a2ab6968ab67142f" kind="variable"><name>backgroundSprite</name></member>
+    <member refid="class_health_bar_1aaf8c27b3ccf251ba1e53f44c75184125" kind="variable"><name>backgroundTexture</name></member>
+    <member refid="class_health_bar_1ad5c36195fd9812e91f4c47385b036f74" kind="variable"><name>offset</name></member>
+    <member refid="class_health_bar_1ae9bc5ea425f940c0ad12eecb057d4722" kind="variable"><name>path</name></member>
+    <member refid="class_health_bar_1aebb7f338e4e40b04852b673649560fc6" kind="variable"><name>healthBar</name></member>
+    <member refid="class_health_bar_1aec5cdd8f69854d08351da586f5e065bc" kind="variable"><name>healthBackground</name></member>
+    <member refid="class_health_bar_1a05f694deecdc0399d9c5fb230493df05" kind="function"><name>HealthBar</name></member>
+    <member refid="class_health_bar_1aa742c89db64b385af57e3c635dbe0899" kind="function"><name>HealthBar</name></member>
+    <member refid="class_health_bar_1ab4007a3f14f910ade7f43468859ad59b" kind="function"><name>Render</name></member>
+    <member refid="class_health_bar_1ac1a2a04a41b9020262b71ee7df62653b" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_interactive" kind="class"><name>Interactive</name>
+    <member refid="class_interactive_1ae539942866e9ceb0867071a00a49a618" kind="variable"><name>isHoveredOn</name></member>
+    <member refid="class_interactive_1a31c58ba847b422a8eefe2558991b883a" kind="function"><name>Interactive</name></member>
+    <member refid="class_interactive_1ac17d489d2d6a8635ad282ef16cba97ab" kind="function"><name>Trigger</name></member>
+  </compound>
+  <compound refid="class_melee_attack" kind="class"><name>MeleeAttack</name>
+    <member refid="class_melee_attack_1ab307766326f3fa00163686a7aeb13983" kind="function"><name>MeleeAttack</name></member>
+    <member refid="class_melee_attack_1a4f85d9f2500eebd78c6afbc8f4871b27" kind="function"><name>~MeleeAttack</name></member>
+    <member refid="class_melee_attack_1acbcc39a1ec715da51945785774631df2" kind="function"><name>Function</name></member>
+  </compound>
+  <compound refid="class_melee_bleed_atttack" kind="class"><name>MeleeBleedAtttack</name>
+    <member refid="class_melee_bleed_atttack_1a5d00be81b20c5637a73c9b654c249271" kind="function"><name>Function</name></member>
+  </compound>
+  <compound refid="class_player" kind="class"><name>Player</name>
+    <member refid="class_player_1aadecb1e23deaa3bb6ce55911ac12884c" kind="variable"><name>activeButtonIndex</name></member>
+    <member refid="class_player_1af937022c0ae2f1e2b3131c74df3720eb" kind="variable"><name>skills</name></member>
+    <member refid="class_player_1a06406dc7ea256d367bb4049afcf7d1cc" kind="variable"><name>cooldowns</name></member>
+    <member refid="class_player_1a7fd668673541e025104cefa4b97e4435" kind="variable"><name>buttonsAmount</name></member>
+    <member refid="class_player_1aaf99d92a0e5e145cb0b08d765f08bcfc" kind="variable"><name>selected</name></member>
+    <member refid="class_player_1a7d0ac3bb45f86a588f2229201a4046ff" kind="variable"><name>buttonOffset</name></member>
+    <member refid="class_player_1ac0eb10ba59426cb9a403016c00e4fc97" kind="variable"><name>buttons</name></member>
+    <member refid="class_player_1ab90e074dfd1ba8cb4d9f0e4bfd7730a3" kind="variable"><name>prevPressed</name></member>
+    <member refid="class_player_1adc57981055bd995623bfca953b02a54f" kind="variable"><name>nowPressed</name></member>
+    <member refid="class_player_1ada2363fd3244e33f48c711fbc6514a43" kind="function"><name>Player</name></member>
+    <member refid="class_player_1a749d2c00e1fe0f5c2746f7505a58c062" kind="function"><name>~Player</name></member>
+    <member refid="class_player_1a516cc1ee38b6a635fa11ef6b04a19ffc" kind="function"><name>Render</name></member>
+    <member refid="class_player_1a7dd205244b259e2a32d437892430e7be" kind="function"><name>Update</name></member>
+    <member refid="class_player_1a60e3f5032d9a59f7fe8d75ed9e434c46" kind="function"><name>UpdateButtons</name></member>
+    <member refid="class_player_1add4fbda5e3c850174499829c268306c4" kind="function"><name>initializeSkills</name></member>
+    <member refid="class_player_1a6d3cf20a23a434091e84980f5083c147" kind="function"><name>CheckCooldown</name></member>
+    <member refid="class_player_1a03be12299c0096e1d825d02cbebf8c39" kind="function"><name>DecrementCooldowns</name></member>
+    <member refid="class_player_1a0c5b1666c925fd8f15a154b4eb694ac9" kind="function"><name>SetCooldown</name></member>
+  </compound>
+  <compound refid="class_random" kind="class"><name>Random</name>
+    <member refid="class_random_1a9cdb0e541ae1db2d2bd86a872c1ebb22" kind="variable"><name>rand</name></member>
+    <member refid="class_random_1acb76b49c3903a3c4fb67fd216341f08d" kind="function"><name>Random</name></member>
+    <member refid="class_random_1a3244be058a331c4e0b90387d7808c32e" kind="function"><name>RandomInt</name></member>
+    <member refid="class_random_1a941c1bab82a5517183a9dce7e65e2f06" kind="function"><name>IfHitLanded</name></member>
+  </compound>
+  <compound refid="class_skill" kind="class"><name>Skill</name>
+    <member refid="class_skill_1a06af60c23102fbb9dba9e5792c2f1991" kind="variable"><name>cooldown</name></member>
+    <member refid="class_skill_1a1271744546e69259d6ac31013900c49e" kind="variable"><name>name</name></member>
+    <member refid="class_skill_1ad3043527ea3fdfdd2ac88c12ef49ee2b" kind="variable"><name>soundBuffer</name></member>
+    <member refid="class_skill_1a09c4e7e78e10ea5bc4b4c0af85b4aa0a" kind="function"><name>Skill</name></member>
+    <member refid="class_skill_1a6525c1f0b7299ff447ee14f36b55967a" kind="function"><name>~Skill</name></member>
+    <member refid="class_skill_1ada47b675d0667db0363626d0dc627d6c" kind="function"><name>Function</name></member>
+  </compound>
+  <compound refid="struct_stats" kind="struct"><name>Stats</name>
+    <member refid="struct_stats_1a26a21034c629650154081b004014f277" kind="variable"><name>Name</name></member>
+    <member refid="struct_stats_1a26301ce8db5c4a08e973234c5595fc4e" kind="variable"><name>health</name></member>
+    <member refid="struct_stats_1ae94ce850be50f946a67fabf9808bdd34" kind="variable"><name>maxHealth</name></member>
+    <member refid="struct_stats_1a3b652c3b2dc7cedbf088fdbf586280a0" kind="variable"><name>minDMG</name></member>
+    <member refid="struct_stats_1a6ef7ca24f916f630ab663ab52246276c" kind="variable"><name>maxDMG</name></member>
+    <member refid="struct_stats_1a22cf493c4ad603879f160ab456ae8c0a" kind="variable"><name>dodge</name></member>
+    <member refid="struct_stats_1a0cf50225e4238d1997be3717b1e28764" kind="variable"><name>accuracy</name></member>
+  </compound>
+  <compound refid="struct_status" kind="struct"><name>Status</name>
+    <member refid="struct_status_1a27cdc4a3ef2cc9de48b0f4bf3e96a9bd" kind="variable"><name>type</name></member>
+    <member refid="struct_status_1a22cc2ffe589ef3fda7033f5fdc4401da" kind="variable"><name>dmg</name></member>
+    <member refid="struct_status_1ab4e1dae6d047dddced8dc3523a3fa916" kind="variable"><name>duration</name></member>
+  </compound>
+  <compound refid="class_unit_frame" kind="class"><name>UnitFrame</name>
+    <member refid="class_unit_frame_1a1106297a8396fe394a423c61b0c50884" kind="variable"><name>width</name></member>
+    <member refid="class_unit_frame_1af1289c350f1f0b699a058510bc3a031c" kind="variable"><name>height</name></member>
+    <member refid="class_unit_frame_1a20214fb2e4d7a83686fe1b72adc61087" kind="variable"><name>characterSprite</name></member>
+    <member refid="class_unit_frame_1ad522e58ce43e3383ce25c149fba04ed2" kind="variable"><name>characterTexture</name></member>
+    <member refid="class_unit_frame_1a900a4c9ee6809c8c14da9cff1c46502e" kind="function"><name>Render</name></member>
+    <member refid="class_unit_frame_1afcbf2a8873bfe74f6ce3f9ddd8f3842e" kind="function"><name>UnitFrame</name></member>
+    <member refid="class_unit_frame_1a57a6d0e97a8a08e9067931b115edad49" kind="function"><name>UnitFrame</name></member>
+    <member refid="class_unit_frame_1a35e248d4d5928030d501822063958fab" kind="function"><name>~UnitFrame</name></member>
+  </compound>
+  <compound refid="class_vampire_attack" kind="class"><name>VampireAttack</name>
+    <member refid="class_vampire_attack_1ab424a136d6d8c5219c2db40c8917992c" kind="variable"><name>dmgDec</name></member>
+    <member refid="class_vampire_attack_1a3b69b3e8b75063a93c26c2e1971adbe6" kind="function"><name>VampireAttack</name></member>
+    <member refid="class_vampire_attack_1aa31a7db89ca53a4b75815811a13b948d" kind="function"><name>Function</name></member>
+  </compound>
+  <compound refid="_bleed_attack_8cpp" kind="file"><name>BleedAttack.cpp</name>
+  </compound>
+  <compound refid="_bleed_attack_8h" kind="file"><name>BleedAttack.h</name>
+  </compound>
+  <compound refid="_button_8cpp" kind="file"><name>Button.cpp</name>
+  </compound>
+  <compound refid="_button_8h" kind="file"><name>Button.h</name>
+  </compound>
+  <compound refid="_class_8cpp" kind="file"><name>Class.cpp</name>
+  </compound>
+  <compound refid="_clickable_8cpp" kind="file"><name>Clickable.cpp</name>
+  </compound>
+  <compound refid="_clickable_8h" kind="file"><name>Clickable.h</name>
+  </compound>
+  <compound refid="_enemy_8cpp" kind="file"><name>Enemy.cpp</name>
+  </compound>
+  <compound refid="_enemy_8h" kind="file"><name>Enemy.h</name>
+  </compound>
+  <compound refid="_entity_8cpp" kind="file"><name>Entity.cpp</name>
+  </compound>
+  <compound refid="_entity_8h" kind="file"><name>Entity.h</name>
+  </compound>
+  <compound refid="enums_8h" kind="file"><name>enums.h</name>
+    <member refid="enums_8h_1a11a6094191da43b6b4568e7736fb89ba" kind="enum"><name>button_states</name></member>
+    <member refid="enums_8h_1a11a6094191da43b6b4568e7736fb89baab07455a5cba7480564ccdf0225f8d082" kind="enumvalue"><name>BTN_IDLE</name></member>
+    <member refid="enums_8h_1a11a6094191da43b6b4568e7736fb89baad6fdb8a1568b56acfc5a2870feef75aa" kind="enumvalue"><name>BTN_HOVER</name></member>
+    <member refid="enums_8h_1a11a6094191da43b6b4568e7736fb89baaba1830557d2dc99efd3e5fc8a7dd64ab" kind="enumvalue"><name>BTN_ACTIVE</name></member>
+  </compound>
+  <compound refid="_event_8cpp" kind="file"><name>Event.cpp</name>
+  </compound>
+  <compound refid="_event_8h" kind="file"><name>Event.h</name>
+  </compound>
+  <compound refid="_event_instance_8cpp" kind="file"><name>EventInstance.cpp</name>
+  </compound>
+  <compound refid="_event_instance_8h" kind="file"><name>EventInstance.h</name>
+  </compound>
+  <compound refid="_fight_instance_8cpp" kind="file"><name>FightInstance.cpp</name>
+  </compound>
+  <compound refid="_fight_instance_8h" kind="file"><name>FightInstance.h</name>
+  </compound>
+  <compound refid="_gen_d_m_g_upgrade_8cpp" kind="file"><name>GenDMGUpgrade.cpp</name>
+  </compound>
+  <compound refid="_gen_d_m_g_upgrade_8h" kind="file"><name>GenDMGUpgrade.h</name>
+  </compound>
+  <compound refid="_health_bar_8cpp" kind="file"><name>HealthBar.cpp</name>
+  </compound>
+  <compound refid="_health_bar_8h" kind="file"><name>HealthBar.h</name>
+  </compound>
+  <compound refid="_interactive_8cpp" kind="file"><name>Interactive.cpp</name>
+  </compound>
+  <compound refid="_interactive_8h" kind="file"><name>Interactive.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a63923b7455b928ca4d0e8553e1e48843" kind="variable"><name>mainThreadRunning</name></member>
+    <member refid="main_8cpp_1a05cf98000a13c5d41a1d8050b641f493" kind="variable"><name>secondsPassed</name></member>
+    <member refid="main_8cpp_1aab7f48c50751eafd814f1e37af7618ab" kind="function"><name>timeCounter</name></member>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_melee_attack_8cpp" kind="file"><name>MeleeAttack.cpp</name>
+  </compound>
+  <compound refid="_melee_attack_8h" kind="file"><name>MeleeAttack.h</name>
+  </compound>
+  <compound refid="_melee_bleed_atttack_8cpp" kind="file"><name>MeleeBleedAtttack.cpp</name>
+  </compound>
+  <compound refid="_melee_bleed_atttack_8h" kind="file"><name>MeleeBleedAtttack.h</name>
+  </compound>
+  <compound refid="_player_8cpp" kind="file"><name>Player.cpp</name>
+  </compound>
+  <compound refid="_player_8h" kind="file"><name>Player.h</name>
+  </compound>
+  <compound refid="_random_8cpp" kind="file"><name>Random.cpp</name>
+  </compound>
+  <compound refid="_random_8h" kind="file"><name>Random.h</name>
+  </compound>
+  <compound refid="_skill_8cpp" kind="file"><name>Skill.cpp</name>
+  </compound>
+  <compound refid="_skill_8h" kind="file"><name>Skill.h</name>
+  </compound>
+  <compound refid="_stats_8h" kind="file"><name>Stats.h</name>
+  </compound>
+  <compound refid="_status_8h" kind="file"><name>Status.h</name>
+  </compound>
+  <compound refid="_unit_frame_8cpp" kind="file"><name>UnitFrame.cpp</name>
+  </compound>
+  <compound refid="_unit_frame_8h" kind="file"><name>UnitFrame.h</name>
+  </compound>
+  <compound refid="_vampire_attack_8cpp" kind="file"><name>VampireAttack.cpp</name>
+  </compound>
+  <compound refid="_vampire_attack_8h" kind="file"><name>VampireAttack.h</name>
+  </compound>
+</doxygenindex>

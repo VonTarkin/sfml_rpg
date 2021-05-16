@@ -1,5 +1,12 @@
 #include "Enemy.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy Enemy.
+*
+* Plik definicyjny klasy Enemy.
+*/
+
 Enemy::Enemy(float x, float y, std::string name) : Entity(x, y, name)
 {
 	this->InitializeSkill();

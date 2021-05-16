@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_button" kind="class" language="C++" prot="public">
+    <compoundname>Button</compoundname>
+    <basecompoundref refid="class_clickable" prot="public" virt="non-virtual">Clickable</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_button_1ac7c9b0878018ecd017d186767b2114c5" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Button::additionalTextureSet</definition>
+        <argsstring></argsstring>
+        <name>additionalTextureSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Button.h" line="25" column="6" bodyfile="Button.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_1a2648fab34f7cdd168d29a2a58fc652a6" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Button::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Button.h" line="26" column="5" bodyfile="Button.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_1a6ec69eef826a2d6eaf17bf177a5ddeee" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Button::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Button.h" line="27" column="13" bodyfile="Button.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_1afa723629beffbb730a2704847d46c5a1" prot="protected" static="no" mutable="no">
+        <type>sf::Sprite</type>
+        <definition>sf::Sprite Button::additionalSprite</definition>
+        <argsstring></argsstring>
+        <name>additionalSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Button.h" line="28" column="12" bodyfile="Button.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_1af6583f9112a2446ba975e34d6a5fe44b" prot="protected" static="no" mutable="no">
+        <type>sf::Texture</type>
+        <definition>sf::Texture Button::additionalTexture</definition>
+        <argsstring></argsstring>
+        <name>additionalTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Button.h" line="29" column="13" bodyfile="Button.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_button_1a3b36df1ae23c58aedb9e15a713159459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Button::Button</definition>
+        <argsstring>()</argsstring>
+        <name>Button</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Button.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_1a6af5e408e938968831eed210a94a6150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Button::Button</definition>
+        <argsstring>(float x, float y, std::string type)</argsstring>
+        <name>Button</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Button.h" line="19" column="1" bodyfile="Button.cpp" bodystart="10" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_1adafb21373c2a2d401d9e21f8d5b72756" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Button::SetAdditionalTexture</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>SetAdditionalTexture</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Button.h" line="20" column="6" bodyfile="Button.cpp" bodystart="47" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_1adf667aa67a1e79573fae05716937298b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Button::Render</definition>
+        <argsstring>(sf::RenderTarget *target)</argsstring>
+        <name>Render</name>
+        <param>
+          <type>sf::RenderTarget *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Button.h" line="21" column="6" bodyfile="Button.cpp" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_1a2a001eb9c3cc8ae54768a850dd345002" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Button::~Button</definition>
+        <argsstring>()</argsstring>
+        <name>~Button</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Button.h" line="22" column="1" bodyfile="Button.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Button</label>
+        <link refid="class_button"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Clickable</label>
+        <link refid="class_clickable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Button</label>
+        <link refid="class_button"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Clickable</label>
+        <link refid="class_clickable"/>
+      </node>
+    </collaborationgraph>
+    <location file="Button.h" line="13" column="1" bodyfile="Button.h" bodystart="12" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_button_1afa723629beffbb730a2704847d46c5a1" prot="protected" virt="non-virtual"><scope>Button</scope><name>additionalSprite</name></member>
+      <member refid="class_button_1af6583f9112a2446ba975e34d6a5fe44b" prot="protected" virt="non-virtual"><scope>Button</scope><name>additionalTexture</name></member>
+      <member refid="class_button_1ac7c9b0878018ecd017d186767b2114c5" prot="protected" virt="non-virtual"><scope>Button</scope><name>additionalTextureSet</name></member>
+      <member refid="class_button_1a3b36df1ae23c58aedb9e15a713159459" prot="public" virt="non-virtual"><scope>Button</scope><name>Button</name></member>
+      <member refid="class_button_1a6af5e408e938968831eed210a94a6150" prot="public" virt="non-virtual"><scope>Button</scope><name>Button</name></member>
+      <member refid="class_clickable_1ab69f9472269b07adbee24221bc802c7b" prot="protected" virt="non-virtual"><scope>Button</scope><name>buttonState</name></member>
+      <member refid="class_clickable_1a34f738d7e6a6d4597de8a25b218a7fc4" prot="public" virt="non-virtual"><scope>Button</scope><name>Clickable</name></member>
+      <member refid="class_clickable_1a4c49e35ff57a3d6c4589a2ac3e0a24de" prot="public" virt="non-virtual"><scope>Button</scope><name>Clickable</name></member>
+      <member refid="class_clickable_1ad4a599b5010ed06483205f38968847bf" prot="public" virt="non-virtual"><scope>Button</scope><name>isPressed</name></member>
+      <member refid="class_clickable_1a17af546e75857531106da4d834cb26db" prot="protected" virt="non-virtual"><scope>Button</scope><name>normalTexture</name></member>
+      <member refid="class_button_1a2648fab34f7cdd168d29a2a58fc652a6" prot="protected" virt="non-virtual"><scope>Button</scope><name>offset</name></member>
+      <member refid="class_clickable_1a821bae51842bb4339b6908e1ea826799" prot="protected" virt="non-virtual"><scope>Button</scope><name>pngSuffix</name></member>
+      <member refid="class_button_1adf667aa67a1e79573fae05716937298b" prot="public" virt="non-virtual"><scope>Button</scope><name>Render</name></member>
+      <member refid="class_button_1adafb21373c2a2d401d9e21f8d5b72756" prot="public" virt="non-virtual"><scope>Button</scope><name>SetAdditionalTexture</name></member>
+      <member refid="class_clickable_1aeffc36d9dd6a510e96c1d67152981b06" prot="public" virt="non-virtual"><scope>Button</scope><name>SetButtonState</name></member>
+      <member refid="class_clickable_1a0d53574fc4e27a1be0ff295ab7e55eaa" prot="protected" virt="non-virtual"><scope>Button</scope><name>sprite</name></member>
+      <member refid="class_clickable_1ae3715ef83f2511e9b97dd035c69b139c" prot="protected" virt="non-virtual"><scope>Button</scope><name>triggeredTexture</name></member>
+      <member refid="class_button_1a6ec69eef826a2d6eaf17bf177a5ddeee" prot="protected" virt="non-virtual"><scope>Button</scope><name>type</name></member>
+      <member refid="class_clickable_1a97a113afed40efb7cb9ec5ee5cc8b968" prot="public" virt="non-virtual"><scope>Button</scope><name>Update</name></member>
+      <member refid="class_button_1a2a001eb9c3cc8ae54768a850dd345002" prot="public" virt="non-virtual"><scope>Button</scope><name>~Button</name></member>
+      <member refid="class_clickable_1ac534e76857fc4ff6dc079b0185ee076c" prot="public" virt="non-virtual"><scope>Button</scope><name>~Clickable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

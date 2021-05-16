@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_clickable" kind="class" language="C++" prot="public">
+    <compoundname>Clickable</compoundname>
+    <derivedcompoundref refid="class_button" prot="public" virt="non-virtual">Button</derivedcompoundref>
+    <derivedcompoundref refid="class_unit_frame" prot="public" virt="non-virtual">UnitFrame</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_clickable_1a821bae51842bb4339b6908e1ea826799" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Clickable::pngSuffix</definition>
+        <argsstring></argsstring>
+        <name>pngSuffix</name>
+        <initializer>= &quot;.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="32" column="13" bodyfile="Clickable.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_clickable_1ab69f9472269b07adbee24221bc802c7b" prot="protected" static="no" mutable="no">
+        <type>short unsigned</type>
+        <definition>short unsigned Clickable::buttonState</definition>
+        <argsstring></argsstring>
+        <name>buttonState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="33" column="16" bodyfile="Clickable.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_clickable_1a0d53574fc4e27a1be0ff295ab7e55eaa" prot="protected" static="no" mutable="no">
+        <type>sf::Sprite</type>
+        <definition>sf::Sprite Clickable::sprite</definition>
+        <argsstring></argsstring>
+        <name>sprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="34" column="12" bodyfile="Clickable.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_clickable_1a17af546e75857531106da4d834cb26db" prot="protected" static="no" mutable="no">
+        <type>sf::Texture</type>
+        <definition>sf::Texture Clickable::normalTexture</definition>
+        <argsstring></argsstring>
+        <name>normalTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="35" column="13" bodyfile="Clickable.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_clickable_1ae3715ef83f2511e9b97dd035c69b139c" prot="protected" static="no" mutable="no">
+        <type>sf::Texture</type>
+        <definition>sf::Texture Clickable::triggeredTexture</definition>
+        <argsstring></argsstring>
+        <name>triggeredTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="36" column="13" bodyfile="Clickable.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_clickable_1a92e44e02173609885f19134b7c5c0db0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Clickable::Render</definition>
+        <argsstring>(sf::RenderTarget *target)</argsstring>
+        <name>Render</name>
+        <param>
+          <type>sf::RenderTarget *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="22" column="6" bodyfile="Clickable.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clickable_1a97a113afed40efb7cb9ec5ee5cc8b968" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Clickable::Update</definition>
+        <argsstring>(const sf::Vector2f mousePos)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>const sf::Vector2f</type>
+          <declname>mousePos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="23" column="6" bodyfile="Clickable.cpp" bodystart="28" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clickable_1ad4a599b5010ed06483205f38968847bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool Clickable::isPressed</definition>
+        <argsstring>()</argsstring>
+        <name>isPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="24" column="12" bodyfile="Clickable.cpp" bodystart="58" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clickable_1aeffc36d9dd6a510e96c1d67152981b06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Clickable::SetButtonState</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>SetButtonState</name>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="25" column="6" bodyfile="Clickable.cpp" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clickable_1a34f738d7e6a6d4597de8a25b218a7fc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Clickable::Clickable</definition>
+        <argsstring>()=delete</argsstring>
+        <name>Clickable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clickable_1a4c49e35ff57a3d6c4589a2ac3e0a24de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Clickable::Clickable</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>Clickable</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="27" column="1" bodyfile="Clickable.cpp" bodystart="11" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clickable_1ac534e76857fc4ff6dc079b0185ee076c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Clickable::~Clickable</definition>
+        <argsstring>()</argsstring>
+        <name>~Clickable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Clickable.h" line="28" column="1" bodyfile="Clickable.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>UnitFrame</label>
+        <link refid="class_unit_frame"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Button</label>
+        <link refid="class_button"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Clickable</label>
+        <link refid="class_clickable"/>
+      </node>
+    </inheritancegraph>
+    <location file="Clickable.h" line="18" column="1" bodyfile="Clickable.h" bodystart="17" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_clickable_1ab69f9472269b07adbee24221bc802c7b" prot="protected" virt="non-virtual"><scope>Clickable</scope><name>buttonState</name></member>
+      <member refid="class_clickable_1a34f738d7e6a6d4597de8a25b218a7fc4" prot="public" virt="non-virtual"><scope>Clickable</scope><name>Clickable</name></member>
+      <member refid="class_clickable_1a4c49e35ff57a3d6c4589a2ac3e0a24de" prot="public" virt="non-virtual"><scope>Clickable</scope><name>Clickable</name></member>
+      <member refid="class_clickable_1ad4a599b5010ed06483205f38968847bf" prot="public" virt="non-virtual"><scope>Clickable</scope><name>isPressed</name></member>
+      <member refid="class_clickable_1a17af546e75857531106da4d834cb26db" prot="protected" virt="non-virtual"><scope>Clickable</scope><name>normalTexture</name></member>
+      <member refid="class_clickable_1a821bae51842bb4339b6908e1ea826799" prot="protected" virt="non-virtual"><scope>Clickable</scope><name>pngSuffix</name></member>
+      <member refid="class_clickable_1a92e44e02173609885f19134b7c5c0db0" prot="public" virt="non-virtual"><scope>Clickable</scope><name>Render</name></member>
+      <member refid="class_clickable_1aeffc36d9dd6a510e96c1d67152981b06" prot="public" virt="non-virtual"><scope>Clickable</scope><name>SetButtonState</name></member>
+      <member refid="class_clickable_1a0d53574fc4e27a1be0ff295ab7e55eaa" prot="protected" virt="non-virtual"><scope>Clickable</scope><name>sprite</name></member>
+      <member refid="class_clickable_1ae3715ef83f2511e9b97dd035c69b139c" prot="protected" virt="non-virtual"><scope>Clickable</scope><name>triggeredTexture</name></member>
+      <member refid="class_clickable_1a97a113afed40efb7cb9ec5ee5cc8b968" prot="public" virt="non-virtual"><scope>Clickable</scope><name>Update</name></member>
+      <member refid="class_clickable_1ac534e76857fc4ff6dc079b0185ee076c" prot="public" virt="non-virtual"><scope>Clickable</scope><name>~Clickable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

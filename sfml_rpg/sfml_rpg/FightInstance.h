@@ -3,8 +3,13 @@
 #include "Enemy.h"
 #include "Player.h"
 #include "Random.h"
-/*void Fight(sf::RenderWindow& window, Player* player, Enemy* enemies, Random* random);
-void UpdateUnitFrames(int amount);*/
+
+/*!
+* \file
+* \brief Plik naglowkowy klasy FightInstance.
+*
+* Plik naglowkowy klasy FightInstance.
+*/
 
 class FightInstance
 {

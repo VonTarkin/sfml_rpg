@@ -1,5 +1,11 @@
 #include "MeleeAttack.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy MeleeAttack
+*
+* Plik Definicyjny klasy MeleeAttack.
+*/
 MeleeAttack::MeleeAttack()
 {
 	this->cooldown = 0;

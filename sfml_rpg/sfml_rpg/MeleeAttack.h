@@ -1,5 +1,12 @@
 #pragma once
 #include "Skill.h"
+/*!
+* \file
+* \brief Plik naglowkowy klasy MeleeAttack
+*
+* Plik naglowkowy klasy MeleeAttack.
+*/
+
 
 class MeleeAttack : public virtual Skill
 {

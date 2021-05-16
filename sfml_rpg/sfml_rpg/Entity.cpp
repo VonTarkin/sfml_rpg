@@ -1,5 +1,12 @@
 #include "Entity.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy Entity.
+*
+* Plik definicyjny klasy Entity.
+*/
+
 Entity::Entity(float x, float y, std::string name)
 {
 	file.open(path + name + textSuffix);

@@ -1,5 +1,13 @@
 #include "BleedAttack.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy BleedAttack
+*
+* Plik Definicyjny klasy BleedAttack.
+*/
+
+
 BleedAttack::BleedAttack()
 {
 	this->name = "SkillBleedAttack";

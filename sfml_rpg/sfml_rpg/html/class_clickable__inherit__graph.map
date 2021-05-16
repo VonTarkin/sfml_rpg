@@ -1,0 +1,5 @@
+<map id="Clickable" name="Clickable">
+<area shape="rect" id="node1" title=" " alt="" coords="46,5,121,32"/>
+<area shape="rect" id="node2" href="$class_button.html" title=" " alt="" coords="5,80,65,107"/>
+<area shape="rect" id="node3" href="$class_unit_frame.html" title=" " alt="" coords="90,80,173,107"/>
+</map>

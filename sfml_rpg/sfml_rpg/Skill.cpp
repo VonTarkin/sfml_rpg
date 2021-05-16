@@ -1,5 +1,11 @@
 #include "Skill.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy Skill
+*
+* Plik Definicyjny klasy Skill.
+*/
 
 Skill::Skill()
 {

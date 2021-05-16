@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_bleed_attack" kind="class" language="C++" prot="public">
+    <compoundname>BleedAttack</compoundname>
+    <basecompoundref refid="class_skill" prot="public" virt="non-virtual">Skill</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bleed_attack_1a2381b6abd10774889e54cb12f02aa928" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BleedAttack::dmgDec</definition>
+        <argsstring></argsstring>
+        <name>dmgDec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BleedAttack.h" line="17" column="5" bodyfile="BleedAttack.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bleed_attack_1a327ac9ac9d3d40dfddbd02cb206086bc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BleedAttack::bleedDMG</definition>
+        <argsstring></argsstring>
+        <name>bleedDMG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BleedAttack.h" line="18" column="5" bodyfile="BleedAttack.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bleed_attack_1ab5134c5ed16cf55fe13442d33f0d9b95" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BleedAttack::bleedDur</definition>
+        <argsstring></argsstring>
+        <name>bleedDur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BleedAttack.h" line="19" column="5" bodyfile="BleedAttack.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bleed_attack_1aa8df4391c1f15b4153403f289379280a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BleedAttack::BleedAttack</definition>
+        <argsstring>()</argsstring>
+        <name>BleedAttack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BleedAttack.h" line="14" column="1" bodyfile="BleedAttack.cpp" bodystart="11" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bleed_attack_1a3114473f54c92f765b6f6508166be348" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void BleedAttack::Function</definition>
+        <argsstring>(Entity *target, Entity *attacker, Random *random) override</argsstring>
+        <name>Function</name>
+        <reimplements refid="class_skill_1ada47b675d0667db0363626d0dc627d6c">Function</reimplements>
+        <param>
+          <type><ref refid="class_entity" kindref="compound">Entity</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type><ref refid="class_entity" kindref="compound">Entity</ref> *</type>
+          <declname>attacker</declname>
+        </param>
+        <param>
+          <type><ref refid="class_random" kindref="compound">Random</ref> *</type>
+          <declname>random</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BleedAttack.h" line="15" column="14" bodyfile="BleedAttack.cpp" bodystart="25" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BleedAttack</label>
+        <link refid="class_bleed_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Skill</label>
+        <link refid="class_skill"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BleedAttack</label>
+        <link refid="class_bleed_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Skill</label>
+        <link refid="class_skill"/>
+      </node>
+    </collaborationgraph>
+    <location file="BleedAttack.h" line="12" column="1" bodyfile="BleedAttack.h" bodystart="11" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_bleed_attack_1aa8df4391c1f15b4153403f289379280a" prot="public" virt="non-virtual"><scope>BleedAttack</scope><name>BleedAttack</name></member>
+      <member refid="class_bleed_attack_1a327ac9ac9d3d40dfddbd02cb206086bc" prot="private" virt="non-virtual"><scope>BleedAttack</scope><name>bleedDMG</name></member>
+      <member refid="class_bleed_attack_1ab5134c5ed16cf55fe13442d33f0d9b95" prot="private" virt="non-virtual"><scope>BleedAttack</scope><name>bleedDur</name></member>
+      <member refid="class_skill_1a06af60c23102fbb9dba9e5792c2f1991" prot="public" virt="non-virtual"><scope>BleedAttack</scope><name>cooldown</name></member>
+      <member refid="class_bleed_attack_1a2381b6abd10774889e54cb12f02aa928" prot="private" virt="non-virtual"><scope>BleedAttack</scope><name>dmgDec</name></member>
+      <member refid="class_bleed_attack_1a3114473f54c92f765b6f6508166be348" prot="public" virt="virtual"><scope>BleedAttack</scope><name>Function</name></member>
+      <member refid="class_skill_1a1271744546e69259d6ac31013900c49e" prot="public" virt="non-virtual"><scope>BleedAttack</scope><name>name</name></member>
+      <member refid="class_skill_1a09c4e7e78e10ea5bc4b4c0af85b4aa0a" prot="public" virt="non-virtual"><scope>BleedAttack</scope><name>Skill</name></member>
+      <member refid="class_skill_1ad3043527ea3fdfdd2ac88c12ef49ee2b" prot="public" virt="non-virtual"><scope>BleedAttack</scope><name>soundBuffer</name></member>
+      <member refid="class_skill_1a6525c1f0b7299ff447ee14f36b55967a" prot="public" virt="virtual"><scope>BleedAttack</scope><name>~Skill</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

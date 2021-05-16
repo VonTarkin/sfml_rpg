@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_unit_frame_8cpp" kind="file" language="C++">
+    <compoundname>UnitFrame.cpp</compoundname>
+    <includes refid="_unit_frame_8h" local="yes">UnitFrame.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>UnitFrame.cpp</label>
+        <link refid="_unit_frame_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>SFML/Graphics.hpp</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="10">
+        <label>SFML/Audio.hpp</label>
+      </node>
+      <node id="3">
+        <label>enums.h</label>
+        <link refid="enums_8h"/>
+      </node>
+      <node id="8">
+        <label>SFML/Window.hpp</label>
+      </node>
+      <node id="2">
+        <label>UnitFrame.h</label>
+        <link refid="_unit_frame_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Clickable.h</label>
+        <link refid="_clickable_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>iostream</label>
+      </node>
+      <node id="7">
+        <label>SFML/System.hpp</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para>Plik definicyjny klasy <ref refid="class_unit_frame" kindref="compound">UnitFrame</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Plik definicyjny klasy <ref refid="class_unit_frame" kindref="compound">UnitFrame</ref>. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_unit_frame_8h" kindref="compound">UnitFrame.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">UnitFrame::UnitFrame(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/>std::string<sp/>charSpritePath)<sp/>:<sp/><ref refid="class_clickable" kindref="compound">Clickable</ref>(x<sp/>,<sp/>y)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>normalTexture.loadFromFile(</highlight><highlight class="stringliteral">&quot;./assets/UnitFrame.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>triggeredTexture.loadFromFile(</highlight><highlight class="stringliteral">&quot;./assets/UnitFrameTriggered.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>characterTexture.loadFromFile(charSpritePath);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;characterSprite.setPosition(x,<sp/>y);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;characterSprite.setTexture(characterTexture);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">UnitFrame::~UnitFrame()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UnitFrame::Render(sf::RenderTarget*<sp/>target)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>Clickable::Render(target);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>target-&gt;draw(this-&gt;characterSprite);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="UnitFrame.cpp"/>
+  </compounddef>
+</doxygen>

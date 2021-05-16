@@ -6,6 +6,14 @@
 #include"SFML/Window.hpp"
 #include"SFML/Graphics.hpp"
 #include "SFML/Audio.hpp"
+
+/*!
+* \file
+* \brief Plik naglowkowy klasy Clickable
+*
+* Plik naglowkowy klasy Clickable.
+*/
+
 class Clickable
 {
 

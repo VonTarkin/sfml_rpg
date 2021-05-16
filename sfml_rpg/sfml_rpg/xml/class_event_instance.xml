@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_event_instance" kind="class" language="C++" prot="public">
+    <compoundname>EventInstance</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_event_instance_1a46af53c29d7e6e95af36fed0a5c90f11" prot="private" static="no" mutable="no">
+        <type><ref refid="class_event" kindref="compound">Event</ref> *</type>
+        <definition>Event* EventInstance::event</definition>
+        <argsstring></argsstring>
+        <name>event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventInstance.h" line="23" column="7" bodyfile="EventInstance.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_instance_1a9ca4d18c99664a84d99aafa0261a12f7" prot="private" static="no" mutable="no">
+        <type>sf::Sound</type>
+        <definition>sf::Sound EventInstance::sound</definition>
+        <argsstring></argsstring>
+        <name>sound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventInstance.h" line="24" column="11" bodyfile="EventInstance.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_instance_1a668e740e9f55c3781fe6979ef3d603bb" prot="private" static="no" mutable="no">
+        <type>sf::RenderWindow &amp;</type>
+        <definition>sf::RenderWindow&amp; EventInstance::window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventInstance.h" line="25" column="18" bodyfile="EventInstance.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_instance_1a1d996fb26ebe38284426ab70e700d0c5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player" kindref="compound">Player</ref> *</type>
+        <definition>Player* EventInstance::player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventInstance.h" line="26" column="8" bodyfile="EventInstance.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_instance_1a047ef99d356a820ff20f54ecb5852973" prot="private" static="no" mutable="no">
+        <type><ref refid="class_random" kindref="compound">Random</ref> *</type>
+        <definition>Random* EventInstance::random</definition>
+        <argsstring></argsstring>
+        <name>random</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventInstance.h" line="27" column="8" bodyfile="EventInstance.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_event_instance_1af5d1de9702071f8cd92b1f99e4992b75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EventInstance::EventInstance</definition>
+        <argsstring>(sf::RenderWindow &amp;window, Player *player, Random *random)</argsstring>
+        <name>EventInstance</name>
+        <param>
+          <type>sf::RenderWindow &amp;</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref> *</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type><ref refid="class_random" kindref="compound">Random</ref> *</type>
+          <declname>random</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventInstance.h" line="16" column="1" bodyfile="EventInstance.cpp" bodystart="11" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_event_instance_1ad084b8ccf870b9321e29e8df4a1f9ba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EventInstance::~EventInstance</definition>
+        <argsstring>()</argsstring>
+        <name>~EventInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventInstance.h" line="17" column="1" bodyfile="EventInstance.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_event_instance_1a2eedc9efdc6262041ac100cec0b307aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventInstance::GenerateNewEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateNewEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventInstance.h" line="18" column="6" bodyfile="EventInstance.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_event_instance_1adaf6ea00e9e6de95be9e369d03b87d3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventInstance::Render</definition>
+        <argsstring>()</argsstring>
+        <name>Render</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Aktualizacja Eventu </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventInstance.h" line="19" column="6" bodyfile="EventInstance.cpp" bodystart="67" bodyend="74"/>
+        <referencedby refid="class_event_instance_1ad027785d582f4a9a1ff44c874c80c90a" compoundref="_event_instance_8cpp" startline="30" endline="54">ProcessEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_event_instance_1a07578770d3b3b741f8a232399993bb54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventInstance::Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Obs³uga Eventu </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventInstance.h" line="20" column="6" bodyfile="EventInstance.cpp" bodystart="59" bodyend="63"/>
+        <referencedby refid="class_event_instance_1ad027785d582f4a9a1ff44c874c80c90a" compoundref="_event_instance_8cpp" startline="30" endline="54">ProcessEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_event_instance_1ad027785d582f4a9a1ff44c874c80c90a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventInstance::ProcessEvent</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generacja nowego Eventu </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventInstance.h" line="21" column="6" bodyfile="EventInstance.cpp" bodystart="30" bodyend="54"/>
+        <references refid="class_event_instance_1adaf6ea00e9e6de95be9e369d03b87d3f" compoundref="_event_instance_8cpp" startline="67" endline="74">Render</references>
+        <references refid="class_event_instance_1a07578770d3b3b741f8a232399993bb54" compoundref="_event_instance_8cpp" startline="59" endline="63">Update</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="EventInstance.h" line="14" column="1" bodyfile="EventInstance.h" bodystart="13" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_event_instance_1a46af53c29d7e6e95af36fed0a5c90f11" prot="private" virt="non-virtual"><scope>EventInstance</scope><name>event</name></member>
+      <member refid="class_event_instance_1af5d1de9702071f8cd92b1f99e4992b75" prot="public" virt="non-virtual"><scope>EventInstance</scope><name>EventInstance</name></member>
+      <member refid="class_event_instance_1a2eedc9efdc6262041ac100cec0b307aa" prot="public" virt="non-virtual"><scope>EventInstance</scope><name>GenerateNewEvent</name></member>
+      <member refid="class_event_instance_1a1d996fb26ebe38284426ab70e700d0c5" prot="private" virt="non-virtual"><scope>EventInstance</scope><name>player</name></member>
+      <member refid="class_event_instance_1ad027785d582f4a9a1ff44c874c80c90a" prot="public" virt="non-virtual"><scope>EventInstance</scope><name>ProcessEvent</name></member>
+      <member refid="class_event_instance_1a047ef99d356a820ff20f54ecb5852973" prot="private" virt="non-virtual"><scope>EventInstance</scope><name>random</name></member>
+      <member refid="class_event_instance_1adaf6ea00e9e6de95be9e369d03b87d3f" prot="public" virt="non-virtual"><scope>EventInstance</scope><name>Render</name></member>
+      <member refid="class_event_instance_1a9ca4d18c99664a84d99aafa0261a12f7" prot="private" virt="non-virtual"><scope>EventInstance</scope><name>sound</name></member>
+      <member refid="class_event_instance_1a07578770d3b3b741f8a232399993bb54" prot="public" virt="non-virtual"><scope>EventInstance</scope><name>Update</name></member>
+      <member refid="class_event_instance_1a668e740e9f55c3781fe6979ef3d603bb" prot="private" virt="non-virtual"><scope>EventInstance</scope><name>window</name></member>
+      <member refid="class_event_instance_1ad084b8ccf870b9321e29e8df4a1f9ba9" prot="public" virt="non-virtual"><scope>EventInstance</scope><name>~EventInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

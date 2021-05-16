@@ -1,6 +1,13 @@
 #pragma once
 #include <string>
 
+/*!
+* \file
+* \brief Struktura opisujaca statystyki.
+*
+* Struktura opisujaca statystyki.
+*/
+
 typedef struct Stats
 {
 	std::string Name;

@@ -5,6 +5,15 @@
 #include "MeleeAttack.h"
 #include "VampireAttack.h"
 #include "BleedAttack.h"
+
+
+/*!
+* \file
+* \brief Plik naglowkowy klasy Player
+*
+* Plik naglowkowy klasy Player.
+*/
+
 class Player : public Entity
 {
 public:

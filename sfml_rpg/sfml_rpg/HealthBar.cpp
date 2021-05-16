@@ -1,5 +1,13 @@
 #include "HealthBar.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy Healthbar
+*
+* Plik definicyjny klasy Healthbar.
+*/
+
+
 HealthBar::HealthBar(float x, float y)
 {
 	barTexture.loadFromFile(path + healthBar);

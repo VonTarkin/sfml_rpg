@@ -3,6 +3,14 @@
 #include <cstdlib>
 #include <ctime>
 #include "Random.h"
+
+/*!
+* \file
+* \brief Plik naglowkowy klasy Skill
+*
+* Plik naglowkowy klasy Skill.
+*/
+ 
 class Skill
 {
 public:  

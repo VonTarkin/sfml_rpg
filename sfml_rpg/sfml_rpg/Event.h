@@ -6,6 +6,14 @@
 #include"SFML/Window.hpp"
 #include"SFML/Graphics.hpp"
 #include "SFML/Audio.hpp"
+
+/*!
+* \file
+* \brief Plik naglowkowy klasy Event.
+*
+* Plik naglowkowy klasy Event.
+*/
+
 class Event
 {
 public: 

@@ -2,6 +2,14 @@
 #include "GenDMGUpgrade.h"
 #include "Player.h"
 #include "Random.h"
+
+/*!
+* \file
+* \brief Plik naglowkowy klasy EventInstance.
+*
+* Plik naglowkowy klasy EventInstance.
+*/
+
 class EventInstance
 {
 public:

@@ -1,5 +1,12 @@
 #include "FightInstance.h"
 
+/*!
+* \file
+* \brief Plik naglowkowy klasy FightInstance.
+*
+* Plik naglowkowy klasy FightInstance.
+*/
+
 FightInstance::FightInstance(sf::RenderWindow& _window, Player* player, Random* random) : window(_window)
 {
 	this->random = random;
@@ -84,6 +91,8 @@ void FightInstance::GenerateEnemy()
 	}
 	entities[1] = enemy;
 }
+/** Generacja nowego przeciwnika
+*/
 
 void FightInstance::Update()
 {
@@ -94,6 +103,8 @@ void FightInstance::Update()
 		enemy->Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
 	attackButton->Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
 }
+/** Aktualizacja Ekranu Walki
+ */
 
 void FightInstance::Render()
 {
@@ -110,6 +121,8 @@ void FightInstance::Render()
 	}
 	window.display();
 }
+/** Rysowanie Ekranu
+*/
 
 void FightInstance::UpdateEntities()
 {
@@ -141,6 +154,8 @@ void FightInstance::UpdateEntities()
 		}
 	}
 }
+/** Aktualizacja jednostek
+*/
 
 void FightInstance::OnPressedAttackButton()
 {
@@ -177,6 +192,8 @@ void FightInstance::OnPressedAttackButton()
 	}
 	attackButton->SetButtonState(false);
 }
+/** Wykonanie Ataku
+*/
 
 void FightInstance::CounterAttack()
 {
@@ -185,6 +202,8 @@ void FightInstance::CounterAttack()
 		std::cout << "ENEMYEND" << std::endl;
 
 }
+/** Kontratak przeciwnika
+*/
 
 bool FightInstance::CheckIfFinished()
 {
@@ -195,6 +214,8 @@ bool FightInstance::CheckIfFinished()
 	return false;
 
 }
+/** Sprawdzenie czy walka zostala zakonczona
+*/
 void FightInstance::Fight()
 {
 	while (window.isOpen())
@@ -222,3 +243,5 @@ void FightInstance::Fight()
 		}
 	}
 }
+/** Wykonanie petli walki
+*/

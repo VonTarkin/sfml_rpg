@@ -1,7 +1,12 @@
 #pragma once
 #include "Clickable.h"
 
-
+/*!
+* \file
+* \brief Plik naglowkowy klasy Button
+*
+* Plik naglowkowy klasy Button.
+*/
 
 
 class Button : public Clickable

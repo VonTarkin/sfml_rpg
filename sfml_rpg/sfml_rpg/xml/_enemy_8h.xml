@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_enemy_8h" kind="file" language="C++">
+    <compoundname>Enemy.h</compoundname>
+    <includes refid="_entity_8h" local="yes">Entity.h</includes>
+    <includes refid="_melee_attack_8h" local="yes">MeleeAttack.h</includes>
+    <includes refid="_vampire_attack_8h" local="yes">VampireAttack.h</includes>
+    <includes refid="_bleed_attack_8h" local="yes">BleedAttack.h</includes>
+    <includedby refid="_enemy_8cpp" local="yes">Enemy.cpp</includedby>
+    <includedby refid="_fight_instance_8h" local="yes">FightInstance.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>Stats.h</label>
+        <link refid="_stats_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>SFML/Graphics.hpp</label>
+      </node>
+      <node id="19">
+        <label>MeleeAttack.h</label>
+        <link refid="_melee_attack_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Entity.h</label>
+        <link refid="_entity_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Enemy.h</label>
+        <link refid="_enemy_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>Skill.h</label>
+        <link refid="_skill_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="13">
+        <label>SFML/Audio.hpp</label>
+      </node>
+      <node id="14">
+        <label>fstream</label>
+      </node>
+      <node id="23">
+        <label>Random.h</label>
+        <link refid="_random_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>enums.h</label>
+        <link refid="enums_8h"/>
+      </node>
+      <node id="24">
+        <label>random</label>
+      </node>
+      <node id="25">
+        <label>VampireAttack.h</label>
+        <link refid="_vampire_attack_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>SFML/Window.hpp</label>
+      </node>
+      <node id="22">
+        <label>ctime</label>
+      </node>
+      <node id="15">
+        <label>Button.h</label>
+        <link refid="_button_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>vector</label>
+      </node>
+      <node id="26">
+        <label>BleedAttack.h</label>
+        <link refid="_bleed_attack_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>UnitFrame.h</label>
+        <link refid="_unit_frame_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Clickable.h</label>
+        <link refid="_clickable_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>cstdlib</label>
+      </node>
+      <node id="9">
+        <label>iostream</label>
+      </node>
+      <node id="17">
+        <label>Status.h</label>
+        <link refid="_status_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>algorithm</label>
+      </node>
+      <node id="16">
+        <label>HealthBar.h</label>
+        <link refid="_health_bar_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>SFML/System.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>FightInstance.cpp</label>
+        <link refid="_fight_instance_8cpp"/>
+      </node>
+      <node id="1">
+        <label>Enemy.h</label>
+        <link refid="_enemy_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FightInstance.h</label>
+        <link refid="_fight_instance_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Enemy.cpp</label>
+        <link refid="_enemy_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_enemy" prot="public">Enemy</innerclass>
+    <briefdescription>
+<para>Plik naglowkowy klasy <ref refid="class_enemy" kindref="compound">Enemy</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Plik naglowkowy klasy <ref refid="class_enemy" kindref="compound">Enemy</ref>. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_entity_8h" kindref="compound">Entity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_melee_attack_8h" kindref="compound">MeleeAttack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_vampire_attack_8h" kindref="compound">VampireAttack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_bleed_attack_8h" kindref="compound">BleedAttack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_enemy" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_enemy" kindref="compound">Enemy</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_entity" kindref="compound">Entity</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_enemy" kindref="compound">Enemy</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/>std::string<sp/>name);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="class_enemy" kindref="compound">Enemy</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Render(sf::RenderTarget*<sp/>renderTarget);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Update(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Vector2f<sp/>mousePos);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>InitializeSkill();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;Skill&gt;<sp/>skill;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Skill*<sp/>skill;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Enemy.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_gen_d_m_g_upgrade" kind="class" language="C++" prot="public">
+    <compoundname>GenDMGUpgrade</compoundname>
+    <basecompoundref refid="class_event" prot="public" virt="non-virtual">Event</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gen_d_m_g_upgrade_1a1f63fcc725d6829ea7553019bf747e47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GenDMGUpgrade::GenDMGUpgrade</definition>
+        <argsstring>()</argsstring>
+        <name>GenDMGUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GenDMGUpgrade.h" line="14" column="1" bodyfile="GenDMGUpgrade.cpp" bodystart="10" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gen_d_m_g_upgrade_1accc949dd597c977c856d10bd9602912b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GenDMGUpgrade::~GenDMGUpgrade</definition>
+        <argsstring>()</argsstring>
+        <name>~GenDMGUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GenDMGUpgrade.h" line="15" column="1" bodyfile="GenDMGUpgrade.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gen_d_m_g_upgrade_1a9082463b9990d2207063abffff233eca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void GenDMGUpgrade::Render</definition>
+        <argsstring>(sf::RenderTarget *target) override</argsstring>
+        <name>Render</name>
+        <reimplements refid="class_event_1a582195eb49741c586d455abc421e7d8d">Render</reimplements>
+        <param>
+          <type>sf::RenderTarget *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GenDMGUpgrade.h" line="16" column="14" bodyfile="GenDMGUpgrade.cpp" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gen_d_m_g_upgrade_1a732931fc17e1f4ccaf3628ff397e1a9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void GenDMGUpgrade::Update</definition>
+        <argsstring>(const sf::Vector2f mousePos) override</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_event_1a8423f92a33027e80dab845cd9c9e8043">Update</reimplements>
+        <param>
+          <type>const sf::Vector2f</type>
+          <declname>mousePos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GenDMGUpgrade.h" line="17" column="14" bodyfile="GenDMGUpgrade.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gen_d_m_g_upgrade_1a6480763a5988a8ceb3cb2721021218a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void GenDMGUpgrade::Option1</definition>
+        <argsstring>(Player *player) override</argsstring>
+        <name>Option1</name>
+        <reimplements refid="class_event_1a52fc5fe79933ef725385032c48ddba57">Option1</reimplements>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref> *</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GenDMGUpgrade.h" line="18" column="14" bodyfile="GenDMGUpgrade.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Event</label>
+        <link refid="class_event"/>
+      </node>
+      <node id="1">
+        <label>GenDMGUpgrade</label>
+        <link refid="class_gen_d_m_g_upgrade"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Event</label>
+        <link refid="class_event"/>
+      </node>
+      <node id="1">
+        <label>GenDMGUpgrade</label>
+        <link refid="class_gen_d_m_g_upgrade"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="GenDMGUpgrade.h" line="12" column="1" bodyfile="GenDMGUpgrade.h" bodystart="11" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_event_1a0421c2749ea60f651152a0a65a5a76e0" prot="public" virt="non-virtual"><scope>GenDMGUpgrade</scope><name>bFirst</name></member>
+      <member refid="class_event_1a5a40dd4708297f7031e29b39e039ae10" prot="public" virt="non-virtual"><scope>GenDMGUpgrade</scope><name>Event</name></member>
+      <member refid="class_event_1aa2c79386fa627af2ef8ac97e826d1aab" prot="protected" virt="non-virtual"><scope>GenDMGUpgrade</scope><name>font</name></member>
+      <member refid="class_gen_d_m_g_upgrade_1a1f63fcc725d6829ea7553019bf747e47" prot="public" virt="non-virtual"><scope>GenDMGUpgrade</scope><name>GenDMGUpgrade</name></member>
+      <member refid="class_gen_d_m_g_upgrade_1a6480763a5988a8ceb3cb2721021218a1" prot="public" virt="virtual"><scope>GenDMGUpgrade</scope><name>Option1</name></member>
+      <member refid="class_gen_d_m_g_upgrade_1a9082463b9990d2207063abffff233eca" prot="public" virt="virtual"><scope>GenDMGUpgrade</scope><name>Render</name></member>
+      <member refid="class_event_1ac6b6b6372881bcbb863be7c9562e80d7" prot="public" virt="non-virtual"><scope>GenDMGUpgrade</scope><name>text</name></member>
+      <member refid="class_gen_d_m_g_upgrade_1a732931fc17e1f4ccaf3628ff397e1a9d" prot="public" virt="virtual"><scope>GenDMGUpgrade</scope><name>Update</name></member>
+      <member refid="class_gen_d_m_g_upgrade_1accc949dd597c977c856d10bd9602912b" prot="public" virt="non-virtual"><scope>GenDMGUpgrade</scope><name>~GenDMGUpgrade</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

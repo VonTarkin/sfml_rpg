@@ -1,8 +1,6 @@
 #include <SFML/Graphics.hpp>
-#include "gameFunctions.h"
 #include "FightInstance.h"
 #include "EventInstance.h"
-#include "Timer.h"
 #include <iostream>
 #include <thread>
 #include <chrono>
@@ -10,9 +8,6 @@
 #include <conio.h>
 
 
-//FIRST: ENTITY (Player/Enemy)
-//SECOND: Display fight screen test
-/**/
 namespace ch = std::chrono;
 namespace tt = std::this_thread;
 

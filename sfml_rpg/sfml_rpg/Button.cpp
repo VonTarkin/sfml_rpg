@@ -1,5 +1,11 @@
 #include "Button.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy Button
+*
+* Plik definicyjny klasy Button.
+*/
 
 Button::Button(float x, float y, std::string type) : Clickable(x, y)
 {

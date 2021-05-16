@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_unit_frame" kind="class" language="C++" prot="public">
+    <compoundname>UnitFrame</compoundname>
+    <basecompoundref refid="class_clickable" prot="public" virt="non-virtual">Clickable</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unit_frame_1a1106297a8396fe394a423c61b0c50884" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnitFrame::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <initializer>= 171</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitFrame.h" line="20" column="5" bodyfile="UnitFrame.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unit_frame_1af1289c350f1f0b699a058510bc3a031c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnitFrame::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <initializer>= 384</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitFrame.h" line="21" column="5" bodyfile="UnitFrame.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_unit_frame_1a20214fb2e4d7a83686fe1b72adc61087" prot="protected" static="no" mutable="no">
+        <type>sf::Sprite</type>
+        <definition>sf::Sprite UnitFrame::characterSprite</definition>
+        <argsstring></argsstring>
+        <name>characterSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitFrame.h" line="24" column="12" bodyfile="UnitFrame.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unit_frame_1ad522e58ce43e3383ce25c149fba04ed2" prot="protected" static="no" mutable="no">
+        <type>sf::Texture</type>
+        <definition>sf::Texture UnitFrame::characterTexture</definition>
+        <argsstring></argsstring>
+        <name>characterTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitFrame.h" line="25" column="13" bodyfile="UnitFrame.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unit_frame_1a900a4c9ee6809c8c14da9cff1c46502e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnitFrame::Render</definition>
+        <argsstring>(sf::RenderTarget *target)</argsstring>
+        <name>Render</name>
+        <param>
+          <type>sf::RenderTarget *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitFrame.h" line="16" column="6" bodyfile="UnitFrame.cpp" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_frame_1afcbf2a8873bfe74f6ce3f9ddd8f3842e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UnitFrame::UnitFrame</definition>
+        <argsstring>(float x, float y, std::string charSpritePath)</argsstring>
+        <name>UnitFrame</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>charSpritePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitFrame.h" line="17" column="1" bodyfile="UnitFrame.cpp" bodystart="10" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_frame_1a57a6d0e97a8a08e9067931b115edad49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UnitFrame::UnitFrame</definition>
+        <argsstring>()</argsstring>
+        <name>UnitFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitFrame.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_frame_1a35e248d4d5928030d501822063958fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UnitFrame::~UnitFrame</definition>
+        <argsstring>()</argsstring>
+        <name>~UnitFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UnitFrame.h" line="19" column="1" bodyfile="UnitFrame.cpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>UnitFrame</label>
+        <link refid="class_unit_frame"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Clickable</label>
+        <link refid="class_clickable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>UnitFrame</label>
+        <link refid="class_unit_frame"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Clickable</label>
+        <link refid="class_clickable"/>
+      </node>
+    </collaborationgraph>
+    <location file="UnitFrame.h" line="14" column="1" bodyfile="UnitFrame.h" bodystart="13" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_clickable_1ab69f9472269b07adbee24221bc802c7b" prot="protected" virt="non-virtual"><scope>UnitFrame</scope><name>buttonState</name></member>
+      <member refid="class_unit_frame_1a20214fb2e4d7a83686fe1b72adc61087" prot="protected" virt="non-virtual"><scope>UnitFrame</scope><name>characterSprite</name></member>
+      <member refid="class_unit_frame_1ad522e58ce43e3383ce25c149fba04ed2" prot="protected" virt="non-virtual"><scope>UnitFrame</scope><name>characterTexture</name></member>
+      <member refid="class_clickable_1a34f738d7e6a6d4597de8a25b218a7fc4" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>Clickable</name></member>
+      <member refid="class_clickable_1a4c49e35ff57a3d6c4589a2ac3e0a24de" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>Clickable</name></member>
+      <member refid="class_unit_frame_1af1289c350f1f0b699a058510bc3a031c" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>height</name></member>
+      <member refid="class_clickable_1ad4a599b5010ed06483205f38968847bf" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>isPressed</name></member>
+      <member refid="class_clickable_1a17af546e75857531106da4d834cb26db" prot="protected" virt="non-virtual"><scope>UnitFrame</scope><name>normalTexture</name></member>
+      <member refid="class_clickable_1a821bae51842bb4339b6908e1ea826799" prot="protected" virt="non-virtual"><scope>UnitFrame</scope><name>pngSuffix</name></member>
+      <member refid="class_unit_frame_1a900a4c9ee6809c8c14da9cff1c46502e" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>Render</name></member>
+      <member refid="class_clickable_1aeffc36d9dd6a510e96c1d67152981b06" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>SetButtonState</name></member>
+      <member refid="class_clickable_1a0d53574fc4e27a1be0ff295ab7e55eaa" prot="protected" virt="non-virtual"><scope>UnitFrame</scope><name>sprite</name></member>
+      <member refid="class_clickable_1ae3715ef83f2511e9b97dd035c69b139c" prot="protected" virt="non-virtual"><scope>UnitFrame</scope><name>triggeredTexture</name></member>
+      <member refid="class_unit_frame_1afcbf2a8873bfe74f6ce3f9ddd8f3842e" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>UnitFrame</name></member>
+      <member refid="class_unit_frame_1a57a6d0e97a8a08e9067931b115edad49" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>UnitFrame</name></member>
+      <member refid="class_clickable_1a97a113afed40efb7cb9ec5ee5cc8b968" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>Update</name></member>
+      <member refid="class_unit_frame_1a1106297a8396fe394a423c61b0c50884" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>width</name></member>
+      <member refid="class_clickable_1ac534e76857fc4ff6dc079b0185ee076c" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>~Clickable</name></member>
+      <member refid="class_unit_frame_1a35e248d4d5928030d501822063958fab" prot="public" virt="non-virtual"><scope>UnitFrame</scope><name>~UnitFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

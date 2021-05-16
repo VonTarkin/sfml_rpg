@@ -1,0 +1,6 @@
+<map id="Enemy.h" name="Enemy.h">
+<area shape="rect" id="node1" title="Plik naglowkowy klasy Enemy." alt="" coords="73,5,148,32"/>
+<area shape="rect" id="node2" href="$_enemy_8cpp.html" title="Plik definicyjny klasy Enemy." alt="" coords="5,80,93,107"/>
+<area shape="rect" id="node3" href="$_fight_instance_8h.html" title="Plik naglowkowy klasy FightInstance." alt="" coords="118,80,229,107"/>
+<area shape="rect" id="node4" href="$_fight_instance_8cpp.html" title="Plik naglowkowy klasy FightInstance." alt="" coords="111,155,236,181"/>
+</map>

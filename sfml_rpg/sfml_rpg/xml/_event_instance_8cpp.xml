@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_event_instance_8cpp" kind="file" language="C++">
+    <compoundname>EventInstance.cpp</compoundname>
+    <includes refid="_event_instance_8h" local="yes">EventInstance.h</includes>
+    <incdepgraph>
+      <node id="17">
+        <label>Stats.h</label>
+        <link refid="_stats_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>SFML/Graphics.hpp</label>
+      </node>
+      <node id="1">
+        <label>EventInstance.cpp</label>
+        <link refid="_event_instance_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EventInstance.h</label>
+        <link refid="_event_instance_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MeleeAttack.h</label>
+        <link refid="_melee_attack_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Entity.h</label>
+        <link refid="_entity_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>Skill.h</label>
+        <link refid="_skill_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>string</label>
+      </node>
+      <node id="13">
+        <label>SFML/Audio.hpp</label>
+      </node>
+      <node id="4">
+        <label>Event.h</label>
+        <link refid="_event_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>fstream</label>
+      </node>
+      <node id="28">
+        <label>Random.h</label>
+        <link refid="_random_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>enums.h</label>
+        <link refid="enums_8h"/>
+      </node>
+      <node id="3">
+        <label>GenDMGUpgrade.h</label>
+        <link refid="_gen_d_m_g_upgrade_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>random</label>
+      </node>
+      <node id="30">
+        <label>VampireAttack.h</label>
+        <link refid="_vampire_attack_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>SFML/Window.hpp</label>
+      </node>
+      <node id="27">
+        <label>ctime</label>
+      </node>
+      <node id="5">
+        <label>Button.h</label>
+        <link refid="_button_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>vector</label>
+      </node>
+      <node id="31">
+        <label>BleedAttack.h</label>
+        <link refid="_bleed_attack_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>array</label>
+      </node>
+      <node id="18">
+        <label>UnitFrame.h</label>
+        <link refid="_unit_frame_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Clickable.h</label>
+        <link refid="_clickable_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>cstdlib</label>
+      </node>
+      <node id="9">
+        <label>iostream</label>
+      </node>
+      <node id="21">
+        <label>Status.h</label>
+        <link refid="_status_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>algorithm</label>
+      </node>
+      <node id="14">
+        <label>Player.h</label>
+        <link refid="_player_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>HealthBar.h</label>
+        <link refid="_health_bar_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>SFML/System.hpp</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para>Plik definicyjny klasy <ref refid="class_event_instance" kindref="compound">EventInstance</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Plik definicyjny klasy <ref refid="class_event_instance" kindref="compound">EventInstance</ref>. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_event_instance_8h" kindref="compound">EventInstance.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">EventInstance::EventInstance(sf::RenderWindow&amp;<sp/>_window,<sp/><ref refid="class_player" kindref="compound">Player</ref>*<sp/>player,<sp/><ref refid="class_random" kindref="compound">Random</ref>*<sp/>random)<sp/>:<sp/>window(_window)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;player<sp/>=<sp/>player;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;random<sp/>=<sp/>random;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;GenerateNewEvent();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">EventInstance::~EventInstance()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>event;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EventInstance::GenerateNewEvent()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;</highlight><highlight class="keyword">event</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_gen_d_m_g_upgrade" kindref="compound">GenDMGUpgrade</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30" refid="class_event_instance_1ad027785d582f4a9a1ff44c874c80c90a" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_event_instance_1ad027785d582f4a9a1ff44c874c80c90a" kindref="member">EventInstance::ProcessEvent</ref>()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(window.isOpen())</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sf::Event<sp/>event;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(window.pollEvent(event))</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(event.type<sp/>==<sp/>sf::Event::Closed)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>window.close();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>window.clear(sf::Color::White);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_event_instance_1a07578770d3b3b741f8a232399993bb54" kindref="member">Update</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_event_instance_1adaf6ea00e9e6de95be9e369d03b87d3f" kindref="member">Render</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;event-&gt;bFirst-&gt;isPressed())</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>player-&gt;stats.minDMG<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;</highlight><highlight class="keyword">event</highlight><highlight class="normal">-&gt;Option1(player);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>player-&gt;stats.minDMG<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59" refid="class_event_instance_1a07578770d3b3b741f8a232399993bb54" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_event_instance_1a07578770d3b3b741f8a232399993bb54" kindref="member">EventInstance::Update</ref>()</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>MousePos<sp/>=<sp/>sf::Mouse::getPosition(window);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;</highlight><highlight class="keyword">event</highlight><highlight class="normal">-&gt;Update({<sp/>static_cast&lt;float&gt;(MousePos.x),<sp/>static_cast&lt;float&gt;(MousePos.y)<sp/>});</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67" refid="class_event_instance_1adaf6ea00e9e6de95be9e369d03b87d3f" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_event_instance_1adaf6ea00e9e6de95be9e369d03b87d3f" kindref="member">EventInstance::Render</ref>()</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;</highlight><highlight class="keyword">event</highlight><highlight class="normal">-&gt;Render(&amp;window);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>window.draw(event-&gt;text);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>window.display();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="EventInstance.cpp"/>
+  </compounddef>
+</doxygen>

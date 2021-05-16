@@ -1,5 +1,12 @@
 #include "GenDMGUpgrade.h"
 
+/*!
+* \file
+* \brief Plik naglowkowy klasy GenDMGUpgrade.
+*
+* Plik naglowkowy klasy GenDMGUpgrade.
+*/
+
 GenDMGUpgrade::GenDMGUpgrade()
 {
 

@@ -1,5 +1,12 @@
 #include "Event.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy Event.
+*
+* Plik definicyjny klasy Event.
+*/
+
 Event::Event()
 {
 

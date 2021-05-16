@@ -2,6 +2,14 @@
 #include "enums.h"
 #include "Clickable.h"
 
+
+/*!
+* \file
+* \brief Plik naglowkowy klasy Unitframe.
+*
+* Plik naglowkowy klasy UnitFrame.
+*/
+
 class UnitFrame : public Clickable
 {
 public:

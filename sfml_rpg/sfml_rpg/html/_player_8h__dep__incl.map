@@ -1,0 +1,12 @@
+<map id="Player.h" name="Player.h">
+<area shape="rect" id="node1" title="Plik naglowkowy klasy Player." alt="" coords="292,5,363,32"/>
+<area shape="rect" id="node2" href="$_event_8h.html" title="Plik naglowkowy klasy Event." alt="" coords="143,80,208,107"/>
+<area shape="rect" id="node5" href="$_event_instance_8h.html" title="Plik naglowkowy klasy EventInstance." alt="" coords="223,229,338,256"/>
+<area shape="rect" id="node8" href="$_fight_instance_8h.html" title="Plik naglowkowy klasy FightInstance." alt="" coords="319,80,429,107"/>
+<area shape="rect" id="node10" href="$_player_8cpp.html" title="Plik definicyjny klasy Player." alt="" coords="453,80,537,107"/>
+<area shape="rect" id="node3" href="$_event_8cpp.html" title="Plik definicyjny klasy Event." alt="" coords="5,155,84,181"/>
+<area shape="rect" id="node4" href="$_gen_d_m_g_upgrade_8h.html" title="Plik naglowkowy klasy GenDMGUpgrade." alt="" coords="108,155,243,181"/>
+<area shape="rect" id="node7" href="$_gen_d_m_g_upgrade_8cpp.html" title="Plik naglowkowy klasy GenDMGUpgrade." alt="" coords="50,229,199,256"/>
+<area shape="rect" id="node6" href="$_event_instance_8cpp.html" title="Plik definicyjny klasy EventInstance." alt="" coords="217,304,345,331"/>
+<area shape="rect" id="node9" href="$_fight_instance_8cpp.html" title="Plik naglowkowy klasy FightInstance." alt="" coords="318,155,443,181"/>
+</map>

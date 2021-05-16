@@ -1,5 +1,12 @@
 #include "VampireAttack.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy VampireAttack
+*
+* Plik Definicyjny klasy VampireAttack.
+*/
+
 VampireAttack::VampireAttack()
 {
 	this->name = "SkillVampireAttack";

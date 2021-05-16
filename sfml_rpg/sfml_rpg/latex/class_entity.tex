@@ -1,0 +1,86 @@
+\doxysection{Entity Class Reference}
+\label{class_entity}\index{Entity@{Entity}}
+
+
+Inheritance diagram for Entity\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{class_entity__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Entity\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=126pt]{class_entity__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_entity_a5f6d8fd08f6f3b986596cb03bb8aff69}} 
+{\bfseries Entity} (float x, float y, std\+::string name)
+\item 
+\mbox{\label{class_entity_a891de5927b1e7162d16455ae54eddcdc}} 
+void {\bfseries Render} (sf\+::\+Render\+Target $\ast$render\+Target)
+\item 
+\mbox{\label{class_entity_a4a050d111fe6aaa2abdb44c69e590f5c}} 
+void {\bfseries Update} (const sf\+::\+Vector2f mouse\+Pos)
+\item 
+\mbox{\label{class_entity_adc93b033c0288577093dfd22409276d6}} 
+void {\bfseries Process\+Statuses} ()
+\item 
+\mbox{\label{class_entity_a82901193b748378f23068d9eec33a635}} 
+void {\bfseries Add\+Status} (int dmg, int duration, std\+::string type)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_entity_ac55207fbce55a8f293d60e13d1d430de}} 
+std\+::unique\+\_\+ptr$<$ \textbf{ Unit\+Frame} $>$ {\bfseries unit\+Frame}
+\item 
+\mbox{\label{class_entity_a4e9dc860dcbe0720fb166c0883eccb21}} 
+std\+::unique\+\_\+ptr$<$ \textbf{ Health\+Bar} $>$ {\bfseries health\+Bar}
+\item 
+\mbox{\label{class_entity_a679100a4f20bbf0fba4dfcbb40406d88}} 
+\textbf{ Stats} {\bfseries stats}
+\item 
+\mbox{\label{class_entity_a6a73557f6e60a641079aaf13e5b33068}} 
+std\+::vector$<$ \textbf{ Status} $>$ {\bfseries statuses}
+\item 
+\mbox{\label{class_entity_a72abfd5a9bd0565b88e8dace82827ed5}} 
+sf\+::\+Text {\bfseries stats\+Text}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_entity_aa759a084ff899832a137d553b3efb2b0}} 
+int {\bfseries text\+OffsetY}
+\item 
+\mbox{\label{class_entity_a122969ceace30ccb36c601162df2163c}} 
+int {\bfseries text\+OffsetX}
+\item 
+\mbox{\label{class_entity_adee6a5fa59238d4161b8bc13653cfe0f}} 
+sf\+::\+Font {\bfseries font}
+\item 
+\mbox{\label{class_entity_ad6793ea736ae934804cc7ddf03936d6f}} 
+std\+::string {\bfseries path} = \char`\"{}./assets/\char`\"{}
+\item 
+\mbox{\label{class_entity_a0c18cdc4d706547ba44c90c3e0757183}} 
+std\+::string {\bfseries text\+Suffix} = \char`\"{}Stats.\+txt\char`\"{}
+\item 
+\mbox{\label{class_entity_aafe41cc85026601cf9de89c841343b0d}} 
+std\+::fstream {\bfseries file}
+\item 
+\mbox{\label{class_entity_a52b10db5d6b2f437fcdde6a3573da90b}} 
+std\+::string {\bfseries sprite\+Suffix} = \char`\"{}Trans.\+png\char`\"{}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Entity.\+h}\item 
+\textbf{ Entity.\+cpp}\end{DoxyCompactItemize}

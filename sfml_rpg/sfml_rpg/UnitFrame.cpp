@@ -1,5 +1,12 @@
 #include "UnitFrame.h"
 
+/*!
+* \file
+* \brief Plik definicyjny klasy UnitFrame
+*
+* Plik definicyjny klasy UnitFrame.
+*/
+
 UnitFrame::UnitFrame(float x, float y, std::string charSpritePath) : Clickable(x , y)
 {
 	normalTexture.loadFromFile("./assets/UnitFrame.png");

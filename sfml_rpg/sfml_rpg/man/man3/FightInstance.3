@@ -1,0 +1,62 @@
+.TH "FightInstance" 3 "Sun May 16 2021" "SFML_RPG" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FightInstance
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBFightInstance\fP (sf::RenderWindow &window, \fBPlayer\fP *player, \fBRandom\fP *random)"
+.br
+.ti -1c
+.RI "void \fBUpdate\fP ()"
+.br
+.ti -1c
+.RI "void \fBRender\fP ()"
+.br
+.ti -1c
+.RI "void \fBFight\fP ()"
+.br
+.ti -1c
+.RI "void \fBUpdateEntities\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnPressedAttackButton\fP ()"
+.br
+.ti -1c
+.RI "void \fBCounterAttack\fP ()"
+.br
+.ti -1c
+.RI "bool \fBCheckIfFinished\fP ()"
+.br
+.ti -1c
+.RI "void \fBGenerateEnemy\fP ()"
+.br
+.ti -1c
+.RI "void \fBInitializeText\fP ()"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "bool FightInstance::CheckIfFinished ()"
+Kontratak przeciwnika 
+.SS "void FightInstance::CounterAttack ()"
+Wykonanie Ataku 
+.SS "void FightInstance::Fight ()"
+Sprawdzenie czy walka zostala zakonczona 
+.SS "void FightInstance::OnPressedAttackButton ()"
+Aktualizacja jednostek 
+.SS "void FightInstance::Render ()"
+Aktualizacja Ekranu Walki 
+.SS "void FightInstance::Update ()"
+Generacja nowego przeciwnika 
+.SS "void FightInstance::UpdateEntities ()"
+Rysowanie Ekranu 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SFML_RPG from the source code\&.

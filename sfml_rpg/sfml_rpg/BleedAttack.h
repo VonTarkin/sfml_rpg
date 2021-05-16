@@ -1,5 +1,13 @@
 #pragma once
 #include "Skill.h"
+
+/*!
+* \file
+* \brief Plik naglowkowy klasy BleedAttack
+*
+* Plik naglowkowy klasy BleedAttack.
+*/
+
 class BleedAttack : public Skill
 {
 public:

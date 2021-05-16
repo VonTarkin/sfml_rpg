@@ -1,0 +1,66 @@
+\doxysection{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+
+
+Inheritance diagram for Player\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=124pt]{class_player__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Player\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=127pt]{class_player__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_player_ada2363fd3244e33f48c711fbc6514a43}} 
+{\bfseries Player} (float x, float y, std\+::string name)
+\item 
+\mbox{\label{class_player_a516cc1ee38b6a635fa11ef6b04a19ffc}} 
+void {\bfseries Render} (sf\+::\+Render\+Target $\ast$render\+Target)
+\item 
+\mbox{\label{class_player_a7dd205244b259e2a32d437892430e7be}} 
+void {\bfseries Update} (const sf\+::\+Vector2f mouse\+Pos)
+\item 
+\mbox{\label{class_player_a60e3f5032d9a59f7fe8d75ed9e434c46}} 
+void {\bfseries Update\+Buttons} ()
+\item 
+\mbox{\label{class_player_add4fbda5e3c850174499829c268306c4}} 
+void {\bfseries initialize\+Skills} ()
+\item 
+\mbox{\label{class_player_a6d3cf20a23a434091e84980f5083c147}} 
+int {\bfseries Check\+Cooldown} (int index)
+\item 
+\mbox{\label{class_player_a03be12299c0096e1d825d02cbebf8c39}} 
+void {\bfseries Decrement\+Cooldowns} ()
+\item 
+\mbox{\label{class_player_a0c5b1666c925fd8f15a154b4eb694ac9}} 
+void {\bfseries Set\+Cooldown} (int index, int cooldown)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_player_aadecb1e23deaa3bb6ce55911ac12884c}} 
+int {\bfseries active\+Button\+Index}
+\item 
+\mbox{\label{class_player_af937022c0ae2f1e2b3131c74df3720eb}} 
+std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \textbf{ Skill} $>$ $>$ {\bfseries skills}
+\item 
+\mbox{\label{class_player_a06406dc7ea256d367bb4049afcf7d1cc}} 
+std\+::vector$<$ int $>$ {\bfseries cooldowns}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Player.\+h}\item 
+\textbf{ Player.\+cpp}\end{DoxyCompactItemize}

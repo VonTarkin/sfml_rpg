@@ -1,0 +1,14 @@
+<map id="HealthBar.h" name="HealthBar.h">
+<area shape="rect" id="node1" title="Plik naglowkowy klasy Healthbar." alt="" coords="89,5,180,32"/>
+<area shape="rect" id="node2" href="$_stats_8h.html" title="Struktura opisujaca statystyki." alt="" coords="5,155,69,181"/>
+<area shape="rect" id="node4" href="$_unit_frame_8h.html" title="Plik naglowkowy klasy Unitframe." alt="" coords="88,80,181,107"/>
+<area shape="rect" id="node12" href="$_button_8h.html" title="Plik naglowkowy klasy Button." alt="" coords="210,80,281,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="7,229,62,256"/>
+<area shape="rect" id="node5" href="$enums_8h.html" title="Plik z Enumem opisujacy Stan przyciskow." alt="" coords="87,229,159,256"/>
+<area shape="rect" id="node6" href="$_clickable_8h.html" title="Plik naglowkowy klasy Clickable." alt="" coords="205,155,291,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="801,229,873,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="183,229,313,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="338,229,470,256"/>
+<area shape="rect" id="node10" title=" " alt="" coords="495,229,633,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="658,229,777,256"/>
+</map>

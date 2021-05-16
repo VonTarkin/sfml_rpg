@@ -1,0 +1,19 @@
+<map id="Entity.h" name="Entity.h">
+<area shape="rect" id="node1" title="Plik naglowkowy klasy Entity." alt="" coords="593,5,660,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="340,80,415,107"/>
+<area shape="rect" id="node3" href="$_stats_8h.html" title="Struktura opisujaca statystyki." alt="" coords="617,155,681,181"/>
+<area shape="rect" id="node5" href="$_unit_frame_8h.html" title="Plik naglowkowy klasy Unitframe." alt="" coords="377,155,471,181"/>
+<area shape="rect" id="node13" title=" " alt="" coords="757,80,822,107"/>
+<area shape="rect" id="node14" href="$_button_8h.html" title="Plik naglowkowy klasy Button." alt="" coords="495,155,566,181"/>
+<area shape="rect" id="node15" href="$_health_bar_8h.html" title="Plik naglowkowy klasy Healthbar." alt="" coords="540,80,631,107"/>
+<area shape="rect" id="node16" href="$_status_8h.html" title="Struktura opisujaca statusy." alt="" coords="791,229,862,256"/>
+<area shape="rect" id="node17" title=" " alt="" coords="847,80,903,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="817,304,871,331"/>
+<area shape="rect" id="node6" href="$enums_8h.html" title="Plik z Enumem opisujacy Stan przyciskow." alt="" coords="5,304,77,331"/>
+<area shape="rect" id="node7" href="$_clickable_8h.html" title="Plik naglowkowy klasy Clickable." alt="" coords="381,229,467,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="245,304,317,331"/>
+<area shape="rect" id="node9" title=" " alt="" coords="341,304,472,331"/>
+<area shape="rect" id="node10" title=" " alt="" coords="497,304,629,331"/>
+<area shape="rect" id="node11" title=" " alt="" coords="653,304,792,331"/>
+<area shape="rect" id="node12" title=" " alt="" coords="102,304,221,331"/>
+</map>

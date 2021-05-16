@@ -1,5 +1,13 @@
 #include "EventInstance.h"
 
+
+/*!
+* \file
+* \brief Plik definicyjny klasy EventInstance.
+*
+* Plik definicyjny klasy EventInstance.
+*/
+
 EventInstance::EventInstance(sf::RenderWindow& _window, Player* player, Random* random) : window(_window)
 {
 	this->player = player;
@@ -16,6 +24,8 @@ void EventInstance::GenerateNewEvent()
 {
 	this->event = new GenDMGUpgrade();
 }
+/** Generacja nowego Eventu
+*/
 
 void EventInstance::ProcessEvent()
 {
@@ -42,6 +52,8 @@ void EventInstance::ProcessEvent()
 		}
 	}
 }
+/** Obs³uga Eventu
+*/
 
 
 void EventInstance::Update()
@@ -49,6 +61,8 @@ void EventInstance::Update()
 	auto MousePos = sf::Mouse::getPosition(window);
 	this->event->Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
 }
+/** Aktualizacja Eventu
+*/
 
 void EventInstance::Render()
 {
@@ -58,3 +72,5 @@ void EventInstance::Render()
 	window.display();
 
 }
+/** Rysowanie Eventu
+*/

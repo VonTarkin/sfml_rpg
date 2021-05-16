@@ -1,6 +1,13 @@
 #include "Clickable.h"
 
 
+/*!
+* \file
+* \brief Plik definicyjny klasy Clickable
+*
+* Plik definicyjny klasy Clickable.
+*/
+
 Clickable::Clickable(float x, float y)
 {
 	this->buttonState = BTN_IDLE;

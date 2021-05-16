@@ -1,5 +1,13 @@
 #pragma once
 #include "Event.h"
+
+/*!
+* \file
+* \brief Plik naglowkowy klasy GenDMGUpgrade.
+*
+* Plik naglowkowy klasy genDMGUpgrade.
+*/
+
 class GenDMGUpgrade : public Event
 {
 public:

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_melee_bleed_atttack_8h" kind="file" language="C++">
+    <compoundname>MeleeBleedAtttack.h</compoundname>
+    <includes refid="_skill_8h" local="yes">Skill.h</includes>
+    <includedby refid="_melee_bleed_atttack_8cpp" local="yes">MeleeBleedAtttack.cpp</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>Stats.h</label>
+        <link refid="_stats_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>SFML/Graphics.hpp</label>
+      </node>
+      <node id="3">
+        <label>Entity.h</label>
+        <link refid="_entity_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Skill.h</label>
+        <link refid="_skill_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="14">
+        <label>SFML/Audio.hpp</label>
+      </node>
+      <node id="15">
+        <label>fstream</label>
+      </node>
+      <node id="22">
+        <label>Random.h</label>
+        <link refid="_random_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>enums.h</label>
+        <link refid="enums_8h"/>
+      </node>
+      <node id="23">
+        <label>random</label>
+      </node>
+      <node id="12">
+        <label>SFML/Window.hpp</label>
+      </node>
+      <node id="21">
+        <label>ctime</label>
+      </node>
+      <node id="16">
+        <label>Button.h</label>
+        <link refid="_button_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>vector</label>
+      </node>
+      <node id="7">
+        <label>UnitFrame.h</label>
+        <link refid="_unit_frame_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Clickable.h</label>
+        <link refid="_clickable_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>cstdlib</label>
+      </node>
+      <node id="10">
+        <label>iostream</label>
+      </node>
+      <node id="18">
+        <label>Status.h</label>
+        <link refid="_status_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MeleeBleedAtttack.h</label>
+        <link refid="_melee_bleed_atttack_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>algorithm</label>
+      </node>
+      <node id="17">
+        <label>HealthBar.h</label>
+        <link refid="_health_bar_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>SFML/System.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_melee_bleed_atttack" prot="public">MeleeBleedAtttack</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_skill_8h" kindref="compound">Skill.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_melee_bleed_atttack" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_melee_bleed_atttack" kindref="compound">MeleeBleedAtttack</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_skill" kindref="compound">Skill</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Function(<ref refid="class_entity" kindref="compound">Entity</ref>*<sp/>target,<sp/><ref refid="class_entity" kindref="compound">Entity</ref>*<sp/>attacker,<sp/><ref refid="class_random" kindref="compound">Random</ref>*<sp/>random)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="MeleeBleedAtttack.h"/>
+  </compounddef>
+</doxygen>

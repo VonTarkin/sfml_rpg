@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_random" kind="class" language="C++" prot="public">
+    <compoundname>Random</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_random_1a9cdb0e541ae1db2d2bd86a872c1ebb22" prot="private" static="no" mutable="no">
+        <type>std::random_device</type>
+        <definition>std::random_device Random::rand</definition>
+        <argsstring></argsstring>
+        <name>rand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Random.h" line="19" column="20" bodyfile="Random.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_random_1acb76b49c3903a3c4fb67fd216341f08d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Random::Random</definition>
+        <argsstring>()</argsstring>
+        <name>Random</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Random.h" line="15" column="1" bodyfile="Random.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_random_1a3244be058a331c4e0b90387d7808c32e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Random::RandomInt</definition>
+        <argsstring>(int min, int ma)</argsstring>
+        <name>RandomInt</name>
+        <param>
+          <type>int</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Random.h" line="16" column="5" bodyfile="Random.cpp" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_random_1a941c1bab82a5517183a9dce7e65e2f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Random::IfHitLanded</definition>
+        <argsstring>(int effectiveAcc)</argsstring>
+        <name>IfHitLanded</name>
+        <param>
+          <type>int</type>
+          <declname>effectiveAcc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Random.h" line="17" column="6" bodyfile="Random.cpp" bodystart="22" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Random.h" line="13" column="1" bodyfile="Random.h" bodystart="12" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_random_1a941c1bab82a5517183a9dce7e65e2f06" prot="public" virt="non-virtual"><scope>Random</scope><name>IfHitLanded</name></member>
+      <member refid="class_random_1a9cdb0e541ae1db2d2bd86a872c1ebb22" prot="private" virt="non-virtual"><scope>Random</scope><name>rand</name></member>
+      <member refid="class_random_1acb76b49c3903a3c4fb67fd216341f08d" prot="public" virt="non-virtual"><scope>Random</scope><name>Random</name></member>
+      <member refid="class_random_1a3244be058a331c4e0b90387d7808c32e" prot="public" virt="non-virtual"><scope>Random</scope><name>RandomInt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

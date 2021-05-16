@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="struct_stats" kind="struct" language="C++" prot="public">
+    <compoundname>Stats</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_stats_1a26a21034c629650154081b004014f277" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Stats::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Stats.h" line="13" column="13" bodyfile="Stats.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stats_1a26301ce8db5c4a08e973234c5595fc4e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stats::health</definition>
+        <argsstring></argsstring>
+        <name>health</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Stats.h" line="14" column="5" bodyfile="Stats.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stats_1ae94ce850be50f946a67fabf9808bdd34" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stats::maxHealth</definition>
+        <argsstring></argsstring>
+        <name>maxHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Stats.h" line="15" column="5" bodyfile="Stats.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stats_1a3b652c3b2dc7cedbf088fdbf586280a0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stats::minDMG</definition>
+        <argsstring></argsstring>
+        <name>minDMG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Stats.h" line="16" column="5" bodyfile="Stats.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stats_1a6ef7ca24f916f630ab663ab52246276c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stats::maxDMG</definition>
+        <argsstring></argsstring>
+        <name>maxDMG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Stats.h" line="17" column="5" bodyfile="Stats.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stats_1a22cf493c4ad603879f160ab456ae8c0a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stats::dodge</definition>
+        <argsstring></argsstring>
+        <name>dodge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Stats.h" line="18" column="5" bodyfile="Stats.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stats_1a0cf50225e4238d1997be3717b1e28764" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stats::accuracy</definition>
+        <argsstring></argsstring>
+        <name>accuracy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Stats.h" line="19" column="5" bodyfile="Stats.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Stats.h" line="12" column="1" bodyfile="Stats.h" bodystart="11" bodyend="20"/>
+    <listofallmembers>
+      <member refid="struct_stats_1a0cf50225e4238d1997be3717b1e28764" prot="public" virt="non-virtual"><scope>Stats</scope><name>accuracy</name></member>
+      <member refid="struct_stats_1a22cf493c4ad603879f160ab456ae8c0a" prot="public" virt="non-virtual"><scope>Stats</scope><name>dodge</name></member>
+      <member refid="struct_stats_1a26301ce8db5c4a08e973234c5595fc4e" prot="public" virt="non-virtual"><scope>Stats</scope><name>health</name></member>
+      <member refid="struct_stats_1a6ef7ca24f916f630ab663ab52246276c" prot="public" virt="non-virtual"><scope>Stats</scope><name>maxDMG</name></member>
+      <member refid="struct_stats_1ae94ce850be50f946a67fabf9808bdd34" prot="public" virt="non-virtual"><scope>Stats</scope><name>maxHealth</name></member>
+      <member refid="struct_stats_1a3b652c3b2dc7cedbf088fdbf586280a0" prot="public" virt="non-virtual"><scope>Stats</scope><name>minDMG</name></member>
+      <member refid="struct_stats_1a26a21034c629650154081b004014f277" prot="public" virt="non-virtual"><scope>Stats</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

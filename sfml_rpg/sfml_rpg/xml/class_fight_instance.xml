@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_fight_instance" kind="class" language="C++" prot="public">
+    <compoundname>FightInstance</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_fight_instance_1a44560d9af443d898daa44d12cb4b12b1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_enemy" kindref="compound">Enemy</ref> *</type>
+        <definition>Enemy* FightInstance::enemy</definition>
+        <argsstring></argsstring>
+        <name>enemy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="30" column="7" bodyfile="FightInstance.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1a87ff5d5dca88f5e26383c7c623e3629c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FightInstance::enemyAmount</definition>
+        <argsstring></argsstring>
+        <name>enemyAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="32" column="5" bodyfile="FightInstance.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1aadde87800c638470c81d3cc3892c3095" prot="private" static="no" mutable="no">
+        <type>sf::Sound</type>
+        <definition>sf::Sound FightInstance::sound</definition>
+        <argsstring></argsstring>
+        <name>sound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="33" column="11" bodyfile="FightInstance.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1a04d3127c251fa022b8c86c0f3f9f048a" prot="private" static="no" mutable="no">
+        <type>sf::RenderWindow &amp;</type>
+        <definition>sf::RenderWindow&amp; FightInstance::window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="34" column="18" bodyfile="FightInstance.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1a91a4fa9e072b56da72954ea3a1e4f2df" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player" kindref="compound">Player</ref> *</type>
+        <definition>Player* FightInstance::player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="35" column="8" bodyfile="FightInstance.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1a4a0d7420d83ad583916f1974a7db6dec" prot="private" static="no" mutable="no">
+        <type><ref refid="class_random" kindref="compound">Random</ref> *</type>
+        <definition>Random* FightInstance::random</definition>
+        <argsstring></argsstring>
+        <name>random</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="36" column="8" bodyfile="FightInstance.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1a6031b43b85cb62fa4a77b9e5557808a3" prot="private" static="no" mutable="no">
+        <type>sf::Clock</type>
+        <definition>sf::Clock FightInstance::clock</definition>
+        <argsstring></argsstring>
+        <name>clock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="37" column="11" bodyfile="FightInstance.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1aebf54950c2ef747cc88ae0b35a9cfe72" prot="private" static="no" mutable="no">
+        <type>sf::Time</type>
+        <definition>sf::Time FightInstance::attackCooldown</definition>
+        <argsstring></argsstring>
+        <name>attackCooldown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="38" column="10" bodyfile="FightInstance.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1a4f6b65a349df794981eb34ba413ac671" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FightInstance::turn</definition>
+        <argsstring></argsstring>
+        <name>turn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="39" column="5" bodyfile="FightInstance.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1a8d54d7609fbc0bc6d2535cf0691f1bdb" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_button" kindref="compound">Button</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Button&gt; FightInstance::attackButton</definition>
+        <argsstring></argsstring>
+        <name>attackButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="40" column="17" bodyfile="FightInstance.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1a25147e64350be9d71cb752ed56d4675a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FightInstance::activeTargetIndex</definition>
+        <argsstring></argsstring>
+        <name>activeTargetIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="42" column="5" bodyfile="FightInstance.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1a39e482ce183ff45e7cdba374002bd317" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FightInstance::enemiesAmount</definition>
+        <argsstring></argsstring>
+        <name>enemiesAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="43" column="5" bodyfile="FightInstance.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1a1a3027553a2439d93fb0a56ee27b75f4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_entity" kindref="compound">Entity</ref> **</type>
+        <definition>Entity** FightInstance::entities</definition>
+        <argsstring></argsstring>
+        <name>entities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="45" column="8" bodyfile="FightInstance.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1aec715748e39dba4d594d986a23312d6e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; FightInstance::prevPressed</definition>
+        <argsstring></argsstring>
+        <name>prevPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="46" column="13" bodyfile="FightInstance.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1ab208957bcbece5b65a458b8aa3490a45" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; FightInstance::nowPressed</definition>
+        <argsstring></argsstring>
+        <name>nowPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="47" column="13" bodyfile="FightInstance.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1aed808b1d0db440123865bacbc486de2c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FightInstance::changed</definition>
+        <argsstring></argsstring>
+        <name>changed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="50" column="6" bodyfile="FightInstance.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1aafa550d517a3b4bff8b51513f2f8af40" prot="private" static="no" mutable="no">
+        <type>sf::Font</type>
+        <definition>sf::Font FightInstance::font</definition>
+        <argsstring></argsstring>
+        <name>font</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="51" column="10" bodyfile="FightInstance.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1a437f6d6c0f6038b3dd82fb76cabdc6a1" prot="private" static="no" mutable="no">
+        <type>sf::Text</type>
+        <definition>sf::Text FightInstance::text1</definition>
+        <argsstring></argsstring>
+        <name>text1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="52" column="10" bodyfile="FightInstance.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1afc31a404dca6d33e374f9bc90caf9a61" prot="private" static="no" mutable="no">
+        <type>sf::Text</type>
+        <definition>sf::Text FightInstance::text2</definition>
+        <argsstring></argsstring>
+        <name>text2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="53" column="10" bodyfile="FightInstance.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1aa2e3e6f9f66f591b27418dcd4a3e13fa" prot="private" static="no" mutable="no">
+        <type>sf::Text</type>
+        <definition>sf::Text FightInstance::text3</definition>
+        <argsstring></argsstring>
+        <name>text3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="54" column="10" bodyfile="FightInstance.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fight_instance_1af369c466fc1c994e786ac20e8750e192" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; sf::Text &gt;</type>
+        <definition>std::vector&lt;sf::Text&gt; FightInstance::texts</definition>
+        <argsstring></argsstring>
+        <name>texts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="55" column="13" bodyfile="FightInstance.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_fight_instance_1a315c42b6755bf949bc1ec994dfd2f2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FightInstance::FightInstance</definition>
+        <argsstring>(sf::RenderWindow &amp;window, Player *player, Random *random)</argsstring>
+        <name>FightInstance</name>
+        <param>
+          <type>sf::RenderWindow &amp;</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref> *</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type><ref refid="class_random" kindref="compound">Random</ref> *</type>
+          <declname>random</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="18" column="2" bodyfile="FightInstance.cpp" bodystart="10" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fight_instance_1ac48e696ae0b888ec21832f50bd18238e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FightInstance::~FightInstance</definition>
+        <argsstring>()</argsstring>
+        <name>~FightInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="19" column="2" bodyfile="FightInstance.cpp" bodystart="66" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fight_instance_1a679a565f34107eeae802c19e55f1ced0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FightInstance::Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generacja nowego przeciwnika </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="20" column="7" bodyfile="FightInstance.cpp" bodystart="97" bodyend="105"/>
+        <referencedby refid="class_fight_instance_1af3b5c3c97d239be0d2633cc00228dbae" compoundref="_fight_instance_8cpp" startline="219" endline="245">Fight</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fight_instance_1a697fa05b5d176ffd44666a955b86708a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FightInstance::Render</definition>
+        <argsstring>()</argsstring>
+        <name>Render</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Aktualizacja Ekranu Walki </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="21" column="7" bodyfile="FightInstance.cpp" bodystart="109" bodyend="123"/>
+        <referencedby refid="class_fight_instance_1af3b5c3c97d239be0d2633cc00228dbae" compoundref="_fight_instance_8cpp" startline="219" endline="245">Fight</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fight_instance_1af3b5c3c97d239be0d2633cc00228dbae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FightInstance::Fight</definition>
+        <argsstring>()</argsstring>
+        <name>Fight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sprawdzenie czy walka zostala zakonczona </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="22" column="7" bodyfile="FightInstance.cpp" bodystart="219" bodyend="245"/>
+        <references refid="class_fight_instance_1a5911b3ff1e1e3c4094629c8c1da59242" compoundref="_fight_instance_8cpp" startline="208" endline="216">CheckIfFinished</references>
+        <references refid="class_fight_instance_1a9e74c4857430c27eebf80229b084c18f" compoundref="_fight_instance_8cpp" startline="160" endline="194">OnPressedAttackButton</references>
+        <references refid="class_fight_instance_1a697fa05b5d176ffd44666a955b86708a" compoundref="_fight_instance_8cpp" startline="109" endline="123">Render</references>
+        <references refid="class_fight_instance_1a679a565f34107eeae802c19e55f1ced0" compoundref="_fight_instance_8cpp" startline="97" endline="105">Update</references>
+        <references refid="class_fight_instance_1a901067b7ca48e7e98ece53ae444a07bb" compoundref="_fight_instance_8cpp" startline="127" endline="156">UpdateEntities</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fight_instance_1a901067b7ca48e7e98ece53ae444a07bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FightInstance::UpdateEntities</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateEntities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rysowanie Ekranu </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="23" column="7" bodyfile="FightInstance.cpp" bodystart="127" bodyend="156"/>
+        <referencedby refid="class_fight_instance_1af3b5c3c97d239be0d2633cc00228dbae" compoundref="_fight_instance_8cpp" startline="219" endline="245">Fight</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fight_instance_1a9e74c4857430c27eebf80229b084c18f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FightInstance::OnPressedAttackButton</definition>
+        <argsstring>()</argsstring>
+        <name>OnPressedAttackButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Aktualizacja jednostek </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="24" column="7" bodyfile="FightInstance.cpp" bodystart="160" bodyend="194"/>
+        <references refid="class_fight_instance_1ab48b31a4f9d18fa974063868552a0727" compoundref="_fight_instance_8cpp" startline="198" endline="204">CounterAttack</references>
+        <referencedby refid="class_fight_instance_1af3b5c3c97d239be0d2633cc00228dbae" compoundref="_fight_instance_8cpp" startline="219" endline="245">Fight</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fight_instance_1ab48b31a4f9d18fa974063868552a0727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FightInstance::CounterAttack</definition>
+        <argsstring>()</argsstring>
+        <name>CounterAttack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wykonanie Ataku </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="25" column="7" bodyfile="FightInstance.cpp" bodystart="198" bodyend="204"/>
+        <referencedby refid="class_fight_instance_1a9e74c4857430c27eebf80229b084c18f" compoundref="_fight_instance_8cpp" startline="160" endline="194">OnPressedAttackButton</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fight_instance_1a5911b3ff1e1e3c4094629c8c1da59242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FightInstance::CheckIfFinished</definition>
+        <argsstring>()</argsstring>
+        <name>CheckIfFinished</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Kontratak przeciwnika </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="26" column="7" bodyfile="FightInstance.cpp" bodystart="208" bodyend="216"/>
+        <referencedby refid="class_fight_instance_1af3b5c3c97d239be0d2633cc00228dbae" compoundref="_fight_instance_8cpp" startline="219" endline="245">Fight</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_fight_instance_1ab82a424191100e08001821393a4fc203" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FightInstance::GenerateEnemy</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateEnemy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="27" column="7" bodyfile="FightInstance.cpp" bodystart="76" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fight_instance_1a79f2270966e1fb27d7181f6efdab3b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FightInstance::InitializeText</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FightInstance.h" line="28" column="7" bodyfile="FightInstance.cpp" bodystart="37" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FightInstance.h" line="15" column="1" bodyfile="FightInstance.h" bodystart="14" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_fight_instance_1a25147e64350be9d71cb752ed56d4675a" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>activeTargetIndex</name></member>
+      <member refid="class_fight_instance_1a8d54d7609fbc0bc6d2535cf0691f1bdb" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>attackButton</name></member>
+      <member refid="class_fight_instance_1aebf54950c2ef747cc88ae0b35a9cfe72" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>attackCooldown</name></member>
+      <member refid="class_fight_instance_1aed808b1d0db440123865bacbc486de2c" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>changed</name></member>
+      <member refid="class_fight_instance_1a5911b3ff1e1e3c4094629c8c1da59242" prot="public" virt="non-virtual"><scope>FightInstance</scope><name>CheckIfFinished</name></member>
+      <member refid="class_fight_instance_1a6031b43b85cb62fa4a77b9e5557808a3" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>clock</name></member>
+      <member refid="class_fight_instance_1ab48b31a4f9d18fa974063868552a0727" prot="public" virt="non-virtual"><scope>FightInstance</scope><name>CounterAttack</name></member>
+      <member refid="class_fight_instance_1a39e482ce183ff45e7cdba374002bd317" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>enemiesAmount</name></member>
+      <member refid="class_fight_instance_1a44560d9af443d898daa44d12cb4b12b1" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>enemy</name></member>
+      <member refid="class_fight_instance_1a87ff5d5dca88f5e26383c7c623e3629c" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>enemyAmount</name></member>
+      <member refid="class_fight_instance_1a1a3027553a2439d93fb0a56ee27b75f4" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>entities</name></member>
+      <member refid="class_fight_instance_1af3b5c3c97d239be0d2633cc00228dbae" prot="public" virt="non-virtual"><scope>FightInstance</scope><name>Fight</name></member>
+      <member refid="class_fight_instance_1a315c42b6755bf949bc1ec994dfd2f2bd" prot="public" virt="non-virtual"><scope>FightInstance</scope><name>FightInstance</name></member>
+      <member refid="class_fight_instance_1aafa550d517a3b4bff8b51513f2f8af40" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>font</name></member>
+      <member refid="class_fight_instance_1ab82a424191100e08001821393a4fc203" prot="public" virt="non-virtual"><scope>FightInstance</scope><name>GenerateEnemy</name></member>
+      <member refid="class_fight_instance_1a79f2270966e1fb27d7181f6efdab3b0e" prot="public" virt="non-virtual"><scope>FightInstance</scope><name>InitializeText</name></member>
+      <member refid="class_fight_instance_1ab208957bcbece5b65a458b8aa3490a45" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>nowPressed</name></member>
+      <member refid="class_fight_instance_1a9e74c4857430c27eebf80229b084c18f" prot="public" virt="non-virtual"><scope>FightInstance</scope><name>OnPressedAttackButton</name></member>
+      <member refid="class_fight_instance_1a91a4fa9e072b56da72954ea3a1e4f2df" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>player</name></member>
+      <member refid="class_fight_instance_1aec715748e39dba4d594d986a23312d6e" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>prevPressed</name></member>
+      <member refid="class_fight_instance_1a4a0d7420d83ad583916f1974a7db6dec" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>random</name></member>
+      <member refid="class_fight_instance_1a697fa05b5d176ffd44666a955b86708a" prot="public" virt="non-virtual"><scope>FightInstance</scope><name>Render</name></member>
+      <member refid="class_fight_instance_1aadde87800c638470c81d3cc3892c3095" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>sound</name></member>
+      <member refid="class_fight_instance_1a437f6d6c0f6038b3dd82fb76cabdc6a1" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>text1</name></member>
+      <member refid="class_fight_instance_1afc31a404dca6d33e374f9bc90caf9a61" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>text2</name></member>
+      <member refid="class_fight_instance_1aa2e3e6f9f66f591b27418dcd4a3e13fa" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>text3</name></member>
+      <member refid="class_fight_instance_1af369c466fc1c994e786ac20e8750e192" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>texts</name></member>
+      <member refid="class_fight_instance_1a4f6b65a349df794981eb34ba413ac671" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>turn</name></member>
+      <member refid="class_fight_instance_1a679a565f34107eeae802c19e55f1ced0" prot="public" virt="non-virtual"><scope>FightInstance</scope><name>Update</name></member>
+      <member refid="class_fight_instance_1a901067b7ca48e7e98ece53ae444a07bb" prot="public" virt="non-virtual"><scope>FightInstance</scope><name>UpdateEntities</name></member>
+      <member refid="class_fight_instance_1a04d3127c251fa022b8c86c0f3f9f048a" prot="private" virt="non-virtual"><scope>FightInstance</scope><name>window</name></member>
+      <member refid="class_fight_instance_1ac48e696ae0b888ec21832f50bd18238e" prot="public" virt="non-virtual"><scope>FightInstance</scope><name>~FightInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
