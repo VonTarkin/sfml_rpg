@@ -27,12 +27,8 @@ public:
 	 ~Entity();
 	 std::unique_ptr<UnitFrame> unitFrame;
 	 std::unique_ptr<HealthBar> healthBar;
-	// UnitFrame* unitFrame;
-	// HealthBar* healthBar;
 	 Stats stats;
 	 std::vector <Status> statuses;
-
-
 	 void Render(sf::RenderTarget* renderTarget);
 	 void Update(const sf::Vector2f mousePos);
 	 void ProcessStatuses();
@@ -41,9 +37,7 @@ public:
 protected:
 	int textOffsetY, textOffsetX;
 	sf::Font font;
-	std::string path = "./assets/";
-	std::string textSuffix = "Stats.txt";
+
 	std::fstream file;
-	std::string spriteSuffix = "Trans.png";
 };
 

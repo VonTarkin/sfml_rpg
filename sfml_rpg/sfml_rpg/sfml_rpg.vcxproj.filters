@@ -155,5 +155,8 @@
     <ClInclude Include="EventInstance.h">
       <Filter>Pliki nagłówkowe\Instances</Filter>
     </ClInclude>
+    <ClInclude Include="LoadPaths.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

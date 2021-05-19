@@ -27,7 +27,5 @@ private:
 	sf::Texture backgroundTexture;
 	float offset = 10;
 
-	std::string path = "./assets/";
-	std::string healthBar = "HealthBar.png";
-	std::string healthBackground = "HealthBarBackground.png";
+
 };

@@ -20,7 +20,6 @@ public:
 	void Update(const sf::Vector2f mousePos);
 	void InitializeSkill();
 	std::unique_ptr<Skill> skill;
-	//Skill* skill;
 private:
 
 };

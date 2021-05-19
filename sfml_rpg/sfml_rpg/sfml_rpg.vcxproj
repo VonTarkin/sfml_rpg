@@ -161,6 +161,7 @@
     <ClInclude Include="FightInstance.h" />
     <ClInclude Include="GenDMGUpgrade.h" />
     <ClInclude Include="HealthBar.h" />
+    <ClInclude Include="LoadPaths.h" />
     <ClInclude Include="MeleeAttack.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Random.h" />

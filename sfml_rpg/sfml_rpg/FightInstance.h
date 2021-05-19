@@ -28,7 +28,7 @@ public:
 	 void InitializeText();
 private:
 	Enemy* enemy;
-	//std::unique_ptr<Enemy> enemy;
+
 	int enemyAmount;
 	sf::Sound sound;
 	sf::RenderWindow& window;
@@ -38,15 +38,12 @@ private:
 	sf::Time attackCooldown;
 	int turn;
 	std::unique_ptr<Button> attackButton;
-	//Button* attackButton;
+
 	int activeTargetIndex;
 	int enemiesAmount;
-	//std::vector<std::unique_ptr<Entity>> entities;
 	Entity** entities;
 	std::vector<bool> prevPressed;
 	std::vector<bool> nowPressed;
-	//bool* prevPressed;
-	//bool* nowPressed;
 	bool changed;
 	sf::Font font;
 	sf::Text text1;

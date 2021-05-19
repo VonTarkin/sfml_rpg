@@ -10,7 +10,7 @@
 GenDMGUpgrade::GenDMGUpgrade()
 {
 
-	if(!font.loadFromFile("./assets/arcade.ttf"))
+	if(!font.loadFromFile(l_font))
 	{
 		std::cout << "FONT LOAD ERROR" << std::endl;
 	}

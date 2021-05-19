@@ -10,17 +10,13 @@
 Player::Player(float x, float y, std::string name) : Entity(x, y, name)
 {
 	buttonsAmount = 3;
-	//prevPressed = new bool[buttonsAmount];
-	//nowPressed = new bool[buttonsAmount];
-	//cooldowns = new int[buttonsAmount];
+
 	for (int i = 0; i < buttonsAmount; i++)
 	{
 		std::unique_ptr<Button> button(new Button(this->unitFrame->width + x + buttonOffset * i, y, "skill"));
 		buttons.push_back(std::move(button));
-		//this->buttons[i] = new Button(this->unitFrame->width + x + buttonOffset * i, y, "skill");
 		prevPressed.push_back(false);
 		nowPressed.push_back(false);
-		//cooldowns[i] = 0;
 		cooldowns.push_back(0);
 	}
 	this->initializeSkills();
@@ -30,16 +26,6 @@ Player::Player(float x, float y, std::string name) : Entity(x, y, name)
 
 Player::~Player()
 {
-	//delete[] prevPressed;
-	//delete[] nowPressed;
-//	for (int i = 0; i < this->buttonsAmount; i++)
-//	{
-		//delete this->buttons[i];
-		//delete this->skills[i];
-//	}
-	//delete[] buttons;
-	//delete[] skills;
-	//delete skills;
 }
 
 void Player::initializeSkills()
@@ -47,7 +33,6 @@ void Player::initializeSkills()
 	std::unique_ptr<Skill> skill1(new MeleeAttack);
 	std::unique_ptr<Skill> skill2(new VampireAttack);
 	std::unique_ptr<Skill> skill3(new BleedAttack);
-	//this->skills = new Skill*[buttonsAmount];
 	skills.push_back(std::move(skill1));
 	this->buttons[0]->SetAdditionalTexture(this->skills[0]->name);
 	skills.push_back(std::move(skill2));
@@ -59,8 +44,7 @@ void Player::initializeSkills()
 void Player::Render(sf::RenderTarget* renderTarget)
 {
 	Entity::Render(renderTarget);
-//	for (int i = 0; i < buttonsAmount; i++)
-//		buttons[i]->Render(renderTarget);
+
 	for (std::vector<std::unique_ptr<Button>>::iterator it = buttons.begin(); it != buttons.end(); ++it)
 	{
 		(*it)->Render(renderTarget);
@@ -70,11 +54,6 @@ void Player::Render(sf::RenderTarget* renderTarget)
 void Player::Update(const sf::Vector2f mousePos)
 {
 	Entity::Update(mousePos);
-	/*for (int i = 0; i < buttonsAmount; i++)
-		buttons[i]->Update(mousePos);
-	for (int i = 0; i < buttonsAmount; i++)
-		nowPressed[i] = buttons[i]->isPressed();
-	*/
 
 	for (std::vector<std::unique_ptr<Button>>::iterator it = buttons.begin(); it != buttons.end(); ++it)
 	{

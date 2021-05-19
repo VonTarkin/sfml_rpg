@@ -13,17 +13,17 @@ Button::Button(float x, float y, std::string type) : Clickable(x, y)
 	offset = 0;
 	if (type == "skill")
 	{
-		if (!normalTexture.loadFromFile("./assets/SkillSquare.png"))
+		if (!normalTexture.loadFromFile(l_skillSquare))
 			std::cout << "SkillSquare texture load error!" << std::endl;
-		if (!triggeredTexture.loadFromFile("./assets/SkillSquareTriggered.png"))
+		if (!triggeredTexture.loadFromFile(l_skillSquareTriggered))
 			std::cout << "SkillSquare texture load error!" << std::endl;
 		this->offset = 6;
 	}
 	else if (type == "function")
 	{
-		if (!normalTexture.loadFromFile("./assets/FunctionButton.png"))
+		if (!normalTexture.loadFromFile(l_functionButton))
 			std::cout << "SkillSquare texture load error!" << std::endl;
-		if (!triggeredTexture.loadFromFile("./assets/FunctionButtonTriggered.png"))
+		if (!triggeredTexture.loadFromFile(l_functionButtonTriggered))
 			std::cout << "SkillSquare texture load error!" << std::endl;
 		this->offset = 0;
 	}
@@ -47,7 +47,7 @@ void Button::Render(sf::RenderTarget* target)
 void Button::SetAdditionalTexture(std::string name)
 {
 	sf::Vector2f pos = this->sprite.getPosition();
-	if (!additionalTexture.loadFromFile("./assets/" + name + pngSuffix))
+	if (!additionalTexture.loadFromFile(l_folderPath + name + l_pngSuffix))
 	{
 		std::cout << name << " additionalTexture load error!" << std::endl;
 	}

@@ -1,6 +1,6 @@
 #pragma once
 #include "enums.h"
-#include <string>
+#include "LoadPaths.h"
 #include <iostream>
 #include"SFML/System.hpp"
 #include"SFML/Window.hpp"
@@ -28,8 +28,7 @@ class Clickable
 	~Clickable();
 
 
-	protected:
-	std::string pngSuffix = ".png";
+
 	short unsigned buttonState;
 	sf::Sprite sprite;	
 	sf::Texture normalTexture;

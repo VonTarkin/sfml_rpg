@@ -9,8 +9,8 @@
 
 UnitFrame::UnitFrame(float x, float y, std::string charSpritePath) : Clickable(x , y)
 {
-	normalTexture.loadFromFile("./assets/UnitFrame.png");
-	triggeredTexture.loadFromFile("./assets/UnitFrameTriggered.png");
+	normalTexture.loadFromFile(l_unitFrame);
+	triggeredTexture.loadFromFile(l_unitFrameTriggered);
 
 	characterTexture.loadFromFile(charSpritePath);
 

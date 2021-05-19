@@ -10,8 +10,8 @@
 
 HealthBar::HealthBar(float x, float y)
 {
-	barTexture.loadFromFile(path + healthBar);
-	backgroundTexture.loadFromFile(path + healthBackground);
+	barTexture.loadFromFile(l_folderPath + l_healthBar);
+	backgroundTexture.loadFromFile(l_folderPath + l_healthBackground);
 
 	this->barSprite.setTexture(barTexture);
 	this->backgroundSprite.setTexture(backgroundTexture);

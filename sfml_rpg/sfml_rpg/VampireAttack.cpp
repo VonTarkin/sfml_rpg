@@ -13,7 +13,7 @@ VampireAttack::VampireAttack()
 	this->cooldown = 2;
 	this->dmgDec = 2;
 
-	if (!this->soundBuffer.loadFromFile("./assets/" + name + ".wav"))
+	if (!this->soundBuffer.loadFromFile(l_folderPath + name + l_wavFormat))
 	{
 		std::cout << "VAMPIRE SOUND ATTACK LOAD ERROR" << std::endl;
 	}

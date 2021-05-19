@@ -16,7 +16,7 @@ BleedAttack::BleedAttack()
 	this->bleedDMG = 3;
 	this->bleedDur = 3;
 
-	if (!this->soundBuffer.loadFromFile("./assets/" + name + ".wav"))
+	if (!this->soundBuffer.loadFromFile(l_folderPath + name + l_wavFormat))
 	{
 		std::cout << "BLEED SOUND ATTACK LOAD ERROR" << std::endl;
 	}

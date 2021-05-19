@@ -10,7 +10,7 @@ MeleeAttack::MeleeAttack()
 {
 	this->cooldown = 0;
 	this->name = "SkillMeleeAttack";
-	if (!this->soundBuffer.loadFromFile("./assets/" + name + ".wav"))
+	if (!this->soundBuffer.loadFromFile(l_folderPath + name + l_wavFormat))
 	{
 		std::cout << "MELEE SOUND ATTACK LOAD ERROR" << std::endl;
 	}

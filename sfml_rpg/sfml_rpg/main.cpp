@@ -45,7 +45,6 @@ int main()
 		EventInstance* eventInstance = new EventInstance(window, testP, random);
 		eventInstance->ProcessEvent();
 		if (!window.isOpen())
-			//return 0;
 			break;
 		delete eventInstance;
 		FightInstance* fightInstance = new FightInstance(window, testP, random);
@@ -53,12 +52,10 @@ int main()
 		delete fightInstance;
 		if (testP->stats.health <= 0)
 		{
-			//return 0;
 			break;
 		}
 
 		if (!window.isOpen())
-			//return 0;
 			break;
 
 
@@ -73,28 +70,6 @@ int main()
 
 	std::cout << "Game ended in " << secondsPassed << " seconds!";
 	char a = _getch();
-
-
-	/*while (window.isOpen())
-	{
-		sf::Event event;
-		while (window.pollEvent(event))
-		{
-			if (event.type == sf::Event::Closed)
-				window.close();-
-		}
-
-		window.clear(sf::Color::White);
-		auto MousePos = sf::Mouse::getPosition(window);
-
-		testP->Update({static_cast<float>(MousePos.x), static_cast<float>(MousePos.y)});
-		testP->Render(&window);
-		testE->Update({ static_cast<float>(MousePos.x), static_cast<float>(MousePos.y) });
-		testE->Render(&window);
-
-		window.display();
-
-	} */
 
 	return 0;
 }
